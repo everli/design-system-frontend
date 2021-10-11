@@ -1,2 +1,2 @@
 # design-system-frontend
-Design System for backend
+Design System for the frontend

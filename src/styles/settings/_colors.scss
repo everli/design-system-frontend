@@ -1,0 +1,52 @@
+:root {
+  --white: #ffffff;
+  --gray-10: #f8f7f8;
+  --gray-40: #e3dfe3;
+  --gray-80: #9e8f9e;
+  --gray-100: #756075;
+  --black-100: #302030;
+  --red-20: #ffcedc;
+  --red-100: #dc325f;
+  --violet-100: #8a3264;
+  --teal-20: #daf4f4;
+  --teal-100: #46c6c6;
+  --blue-100: #007e91;
+  --green-10: #d6ffc2;
+  --green-100: #64c828;
+  --green-110: #3ca000;
+  --yellow-20: #fff6dc;
+  --yellow-100: #ffd050;
+  --link-100: #1a73e8;
+}
+
+// PALETTE
+$c-white: #ffffff;
+$c-gray-10: #f8f7f8;
+$c-gray-40: #e3dfe3;
+$c-gray-80: #9e8f9e;
+$c-gray-100: #756075;
+$c-black-100: #302030;
+$c-red-20: #ffcedc;
+$c-red-100: #dc325f;
+$c-violet-100: #8a3264;
+$c-teal-20: #daf4f4;
+$c-teal-100: #46c6c6;
+$c-blue-100: #007e91;
+$c-green-10: #d6ffc2;
+$c-green-100: #64c828;
+$c-green-110: #3ca000;
+$c-yellow-20: #fff6dc;
+$c-yellow-100: #ffd050;
+$c-link-100: #1a73e8;
+
+// MAPPING TO DESIGN SYSTEM NAMES
+$c-walter-white: $c-white;
+$c-violet-black: $c-black-100;
+$c-red-hot: $c-red-100;
+$c-purple-rain: $c-violet-100;
+$c-teal-waves: $c-teal-100;
+$c-blue-plus: $c-blue-100;
+$c-everli-green: $c-green-100;
+$c-deep-green: $c-green-110;
+$c-yellow-sun: $c-yellow-100;
+$c-link: $c-link-100;
