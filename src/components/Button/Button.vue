@@ -7,7 +7,7 @@
     :type="buttonType"
     :style="buttonStyle"
     :target="anchorTarget"
-    class="vader-button"
+    class="everli-button"
     @click="handleClick"
   >
     <span v-if="iconClass" class="icon-wrapper">
@@ -145,7 +145,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.vader-button {
-  color: #eee;
+.everli-button {
+  color: $c-green-100;
 }
 </style>

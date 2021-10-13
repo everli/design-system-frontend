@@ -6,8 +6,8 @@
     "build": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/build/everli ./src/components/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006",
     "version": "node ./scripts/version.js"
   },
   "main": "./dist/build/everli/everli.common.js",
@@ -37,7 +37,9 @@
     "prettier": "^2.2.1",
     "sass-loader": "^8.0.2",
     "simple-git": "^2.46.0",
+    "style-resources-loader": "^1.4.1",
     "typescript": "~3.9.3",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5",
     "vue-jest": "^5.0.0-0",
     "vue-loader": "^16.8.1"
   }
