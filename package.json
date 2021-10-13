@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/build/everli ./src/components/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "version": "node ./scripts/version.js"
   },
+  "main": "./dist/build/everli/everli.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
