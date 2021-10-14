@@ -39,14 +39,23 @@ $c-yellow-20: #fff6dc;
 $c-yellow-100: #ffd050;
 $c-link-100: #1a73e8;
 
-// MAPPING TO DESIGN SYSTEM NAMES
-$c-walter-white: $c-white;
-$c-violet-black: $c-black-100;
-$c-red-hot: $c-red-100;
-$c-purple-rain: $c-violet-100;
-$c-teal-waves: $c-teal-100;
-$c-blue-plus: $c-blue-100;
-$c-everli-green: $c-green-100;
-$c-deep-green: $c-green-110;
-$c-yellow-sun: $c-yellow-100;
-$c-link: $c-link-100;
+$uiColors: (
+  "deep-green": $c-green-110,
+  "everli-green": $c-green-100,
+  "green-10": $c-green-10,
+  "violet-black": $c-black-100,
+  "gray-100": $c-gray-100,
+  "link": $c-link-100,
+  "gray-80": $c-gray-80,
+  "gray-40": $c-gray-40,
+  "gray-10": $c-gray-10,
+  "walter-white": $c-white,
+  "blue-plus": $c-blue-100,
+  "purple-rain": $c-violet-100,
+  "red-hot": $c-red-100,
+  "teal-waves": $c-teal-100,
+  "yellow-sun": $c-yellow-100,
+  "red-20": $c-red-20,
+  "teal-20": $c-teal-20,
+  "yellow-20": $c-yellow-20
+);
