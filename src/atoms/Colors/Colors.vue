@@ -35,14 +35,14 @@
         <div class="bg-gray-100" />
         <p>
           Gray 100 <br />
-          (#302030)
+          (#756075)
         </p>
       </div>
       <div class="color-box">
         <div class="bg-link" />
         <p>
           Link <br />
-          (#302030)
+          (#1a73e8)
         </p>
       </div>
     </div>
@@ -51,28 +51,88 @@
         <div class="bg-gray-80" />
         <p>
           Gray 80 <br />
-          (#302030)
+          (#9e8f9e)
         </p>
       </div>
       <div class="color-box">
         <div class="bg-gray-40" />
         <p>
           Gray 40 <br />
-          (#302030)
+          (#e3dfe3)
         </p>
       </div>
       <div class="color-box">
         <div class="bg-gray-10" />
         <p>
           Gray 10 <br />
-          (#302030)
+          (#f8f7f8)
         </p>
       </div>
       <div class="color-box">
         <div class="bg-walter-white" />
         <p>
           Walter white <br />
-          (#302030)
+          (#ffffff)
+        </p>
+      </div>
+    </div>
+    <div class="everli-colors">
+      <div class="color-box">
+        <div class="bg-blue-plus" />
+        <p>
+          Blue Plus <br />
+          (#007e91)
+        </p>
+      </div>
+      <div class="color-box">
+        <div class="bg-purple-rain" />
+        <p>
+          Purple rain <br />
+          (#8a3264)
+        </p>
+      </div>
+      <div class="color-box">
+        <div class="bg-red-hot" />
+        <p>
+          Red hot <br />
+          (#dc325f)
+        </p>
+      </div>
+      <div class="color-box">
+        <div class="bg-teal-waves" />
+        <p>
+          Teal waves <br />
+          (#46c6c6)
+        </p>
+      </div>
+    </div>
+    <div class="everli-colors">
+      <div class="color-box">
+        <div class="bg-yellow-sun" />
+        <p>
+          Yellow sun <br />
+          (#ffd050)
+        </p>
+      </div>
+      <div class="color-box">
+        <div class="bg-red-20" />
+        <p>
+          Red 20 <br />
+          (#ffcedc)
+        </p>
+      </div>
+      <div class="color-box">
+        <div class="bg-teal-20" />
+        <p>
+          Teal 20 <br />
+          (#daf4f4)
+        </p>
+      </div>
+      <div class="color-box">
+        <div class="bg-yellow-20" />
+        <p>
+          Yellow 20 <br />
+          (#fff6dc)
         </p>
       </div>
     </div>
@@ -87,6 +147,7 @@ export default {
 
 <style scoped lang="scss">
 .everli-colors {
+  font-family: "Fira Sans";
   display: flex;
   margin-bottom: 20px;
 
