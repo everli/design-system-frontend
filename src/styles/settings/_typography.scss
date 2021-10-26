@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap&subset=latin-ext');
+
+$f-family-primary: "'Fira Sans', sans-serif";
+$f-weight-light: 300;
+$f-weight-regular: 400;
+$f-weight-medium: 500;
+$f-weight-semi: 600;
+$f-weight-bold: 700;
+
+$typography: (
+  'large-title': (
+    'font-size': 6rem,
+    'font-weight': $f-weight-light,
+    'line-height': 6rem,
+    'letter-spacing': -.015625em,
+    'font-family': $f-family-primary
+  ),
+  'title-1': (
+    'font-size': 3.75rem,
+    'font-weight': $f-weight-light,
+    'line-height': 3.75rem,
+    'letter-spacing': -.0083333333em,
+    'font-family': $f-family-primary
+  ),
+  'title-2': (
+    'font-size': 3rem,
+    'font-weight': $f-weight-regular,
+    'line-height': 3.125rem,
+    'letter-spacing': normal,
+    'font-family': $f-family-primary
+  ),
+  'title-3': (
+    'font-size': 2.125rem,
+    'font-weight': $f-weight-regular,
+    'line-height': 2.5rem,
+    'letter-spacing': .0073529412em,
+    'font-family': $f-family-primary
+  ),
+  'headline': (
+    'font-size': 1.5rem,
+    'font-weight': $f-weight-regular,
+    'line-height': 2rem,
+    'letter-spacing': normal,
+    'font-family': $f-family-primary
+  ),
+  'body': (
+    'font-size': 1.25rem,
+    'font-weight': 500,
+    'line-height': 2rem,
+    'letter-spacing': .0125em,
+    'font-family': $f-family-primary
+  ),
+  'subhead': (
+    'font-size': 1rem,
+    'font-weight': normal,
+    'line-height': 1.75rem,
+    'letter-spacing': .009375em,
+    'font-family': $f-family-primary
+  ),
+  'footnote': (
+    'font-size': .875rem,
+    'font-weight': 500,
+    'line-height': 1.375rem,
+    'letter-spacing': .0071428571em,
+    'font-family': $f-family-primary
+  ),
+  'caption': (
+    'font-size': 1rem,
+    'font-weight': $f-weight-regular,
+    'line-height': 1.5rem,
+    'letter-spacing': .03125em,
+    'font-family': $f-family-primary
+  )
+);
