@@ -3,17 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/build/everli ./src/components/index.js",
+    "build": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/ ./src/components/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
     "version": "node ./scripts/version.js"
   },
-  "style": "dist/build/everli/everli.css",
-  "main": "./dist/build/everli/everli.common.js",
-  "browser": "./dist/build/everli/everli.common.js",
-  "files": ["*"],
+  "files": [
+      "dist/*",
+      "src/components/**/*.vue"
+  ],
+  "style": "dist/everli.css",
+  "main": "./dist/everli.common.js",
+  "browser": "./dist/everli.common.js",
   "dependencies": {
     "@storybook/preset-scss": "^1.0.3",
     "core-js": "^3.6.5",
