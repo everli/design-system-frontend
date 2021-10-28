@@ -10,7 +10,10 @@
     "storybook": "start-storybook -p 6006",
     "version": "node ./scripts/version.js"
   },
+  "style": "dist/build/everli/everli.css",
   "main": "./dist/build/everli/everli.common.js",
+  "browser": "./dist/build/everli/everli.common.js",
+  "files": ["*"],
   "dependencies": {
     "@storybook/preset-scss": "^1.0.3",
     "core-js": "^3.6.5",
