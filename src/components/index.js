@@ -1,8 +1,8 @@
 import Vue from "vue"
-import Button from "@/components/Button/Button.vue"
+import EverliButton from "@/components/Button/Button.vue"
 
 const EverliDesignSystem = {
-  Button,
+  EverliButton,
 }
 
 const requireComponent = require.context("./", true, /[A-Z]\w+\.(vue)$/)
@@ -23,4 +23,4 @@ if (typeof window !== "undefined" && window.Vue) {
 
 export default EverliDesignSystem
 
-export { Button }
+export { EverliButton }
