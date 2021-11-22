@@ -2514,7 +2514,7 @@ EverliDesignSystem.install = function () {
 
 
 if (typeof window !== "undefined" && window.Vue) {
-  window.Vue.use(EverliDesignSystem, window.EverliDesignSystemConfig);
+  window.Vue.use(EverliDesignSystem);
 }
 
 /* harmony default export */ var components = (EverliDesignSystem);

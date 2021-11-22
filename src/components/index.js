@@ -18,7 +18,7 @@ EverliDesignSystem.install = () =>
 
 // Automatically install Keen UI if Vue is available globally
 if (typeof window !== "undefined" && window.Vue) {
-  window.Vue.use(EverliDesignSystem, window.EverliDesignSystemConfig)
+  window.Vue.use(EverliDesignSystem)
 }
 
 export default EverliDesignSystem
