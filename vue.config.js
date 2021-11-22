@@ -8,6 +8,9 @@ module.exports = {
       libraryExport: "default",
     },
   },
+  css: {
+    extract: false,
+  },
   pluginOptions: {
     "style-resources-loader": {
       preProcessor: "scss",
