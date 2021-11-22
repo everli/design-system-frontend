@@ -16,7 +16,6 @@
   ],
   "style": "dist/everli.css",
   "main": "./dist/everli.common.js",
-  "browser": "./dist/everli.common.js",
   "dependencies": {
     "@storybook/preset-scss": "^1.0.3",
     "core-js": "^3.6.5",
