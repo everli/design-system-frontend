@@ -1,5 +1,5 @@
 <template>
-  <button class="everli-button">Hello from button</button>
+  <div class="everli-button">Hello from button</div>
 </template>
 
 <script>
