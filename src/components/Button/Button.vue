@@ -3,6 +3,7 @@
 </template>
 
 <script>
+alert("I am from library!")
 export default {
   name: "EverliButton",
 }
