@@ -795,7 +795,7 @@ module.exports = function (V, P) {
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "EverliButton", function() { return /* reexport */ components_Button; });
+__webpack_require__.d(__webpack_exports__, "evButton", function() { return /* reexport */ components_Button; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -880,7 +880,7 @@ const __exports__ = /*#__PURE__*/exportHelper_default()(Buttonvue_type_script_la
 /* harmony default export */ var components_Button = (function (Vue) {
   Vue.component(Button.name, Button);
 });
-// CONCATENATED MODULE: ./src/index.js
+// CONCATENATED MODULE: ./src/components/index.js
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
 
