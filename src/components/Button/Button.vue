@@ -1,20 +1,10 @@
 <template>
-  <button class="everli-button" @click="handleClick">
-    <slot />
-  </button>
+  <button class="everli-button">Hello from button</button>
 </template>
 
 <script>
 export default {
   name: "EverliButton",
-  methods: {
-    /**
-     * @description
-     */
-    handleClick() {
-      this.$emit("click")
-    },
-  },
 }
 </script>
 
