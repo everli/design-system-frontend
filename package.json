@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/ ./src/components/index.js",
+    "build": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/ ./src/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build-storybook": "build-storybook",
