@@ -804,7 +804,7 @@ module.exports = function (V, P) {
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "evButton", function() { return /* reexport */ components_Button; });
+__webpack_require__.d(__webpack_exports__, "EverliButton", function() { return /* reexport */ components_Button; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
