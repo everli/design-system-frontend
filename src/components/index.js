@@ -1,1 +1,1 @@
-export { default as EverliButton } from "./Button"
+export { default as EverliButton } from "./Button/Button.vue"
