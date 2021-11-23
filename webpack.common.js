@@ -23,7 +23,7 @@ module.exports = {
     extensions: [".js", ".vue"],
     modules: [path.join(__dirname, "node_modules")],
     alias: {
-      vue$: "vue/dist/vue.common.js",
+      vue: "@vue/runtime-dom",
     },
   },
   resolveLoader: {
