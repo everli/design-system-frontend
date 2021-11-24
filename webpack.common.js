@@ -2,6 +2,7 @@ const path = require("path")
 const webpack = require("webpack")
 const npmCfg = require("./package.json")
 const projectRoot = path.resolve(__dirname, "./")
+var MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 const { VueLoaderPlugin } = require("vue-loader")
 
@@ -14,7 +15,10 @@ const banner = [
 module.exports = {
   entry: ["./src/components/"],
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(
+      __dirname,
+      process.env.MODE ? "./dist/package" : "./dist/library"
+    ),
     filename: "everli-design-system.js",
     library: "EverliDesignSystem",
     libraryTarget: "umd",
@@ -55,7 +59,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          "vue-style-loader",
+          process.env.MODE ? MiniCssExtractPlugin.loader : "vue-style-loader",
           "css-loader",
           {
             loader: "sass-loader",
@@ -70,5 +74,11 @@ module.exports = {
       },
     ],
   },
-  plugins: [new webpack.BannerPlugin(banner), new VueLoaderPlugin()],
+  plugins: [
+    new webpack.BannerPlugin(banner),
+    new VueLoaderPlugin(),
+    new MiniCssExtractPlugin({
+      filename: "everli-design-system.css",
+    }),
+  ],
 }
