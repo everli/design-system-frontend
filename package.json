@@ -47,7 +47,7 @@
     "typescript": "~3.9.3",
     "vue-cli-plugin-style-resources-loader": "~0.1.5",
     "vue-jest": "^5.0.0-0",
-    "vue-loader": "^16.3.0",
+    "vue-loader": "^15.9.7",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.14"
   }
