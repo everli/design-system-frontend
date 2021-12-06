@@ -19,3 +19,9 @@ export default {
   name: "EverliTypography",
 }
 </script>
+
+<style scoped lang="scss">
+.everli-typography {
+  background: #fff;
+}
+</style>

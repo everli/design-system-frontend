@@ -1,7 +1,7 @@
 <template>
-  <component :is="tag" class="everli-button" @click="handleClick">
-    <slot />
-  </component>
+  <button class="everli-button c-black-100" @click="handleClick">
+    <slot /> Hello
+  </button>
 </template>
 
 <script>

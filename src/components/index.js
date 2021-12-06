@@ -1,16 +1,12 @@
-import Vue from "vue"
+// @ts-nocheck
+import EverliButton from "./Button/Button.vue"
 
-const VaderComponents = {}
+const install = function (Vue) {
+  Vue.component("everli-button", EverliButton)
+}
 
-const requireComponent = require.context("./", true, /[A-Z]\w+\.(vue|js)$/)
+export default {
+  install,
+}
 
-requireComponent.keys().forEach((fileName) => {
-  const componentConfig = requireComponent(fileName)
-  const component = componentConfig.default || componentConfig
-
-  VaderComponents[component.name] = component
-
-  Vue.component(component.name, component)
-})
-
-export default VaderComponents
+export { EverliButton }
