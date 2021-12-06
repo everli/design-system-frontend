@@ -1,74 +1,237 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap&subset=latin-ext');
 
-$f-family-primary: "'Fira Sans', sans-serif";
-$f-weight-light: 300;
+@font-face {
+  font-family: 'Isidora';
+  font-weight: 600;
+  src: url('../../static/fonts/isidora/isidora-soft-semibold.eot'); /* IE9 Compat Modes */
+  src: url('../../static/fonts/isidora/isidora-soft-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../static/fonts/isidora/isidora-soft-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../static/fonts/isidora/isidora-soft-semibold.woff') format('woff') /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Isidora';
+  font-weight: 700;
+  src: url('../../static/fonts/isidora/isidora-soft-bold.eot'); /* IE9 Compat Modes */
+  src: url('../../static/fonts/isidora/isidora-soft-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../static/fonts/isidora/isidora-soft-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../static/fonts/isidora/isidora-soft-bold.woff') format('woff') /* Pretty Modern Browsers */
+}
+
+$f-family-primary: 'Fira Sans', sans-serif;
+$f-family-brand: 'Isidora';
 $f-weight-regular: 400;
-$f-weight-medium: 500;
 $f-weight-semi: 600;
 $f-weight-bold: 700;
 
+@mixin t-title-1-bold {
+  font-family: $f-family-brand;
+  font-size: 48px;
+  font-weight: $f-weight-bold;
+  line-height: 68px
+}
+
+@mixin t-title-2-bold {
+  font-family: $f-family-brand;
+  font-size: 37px;
+  font-weight: $f-weight-bold;
+  line-height: 52px;
+}
+
+@mixin t-title-2-semibold {
+  @include t-title-2-bold();
+  font-family: $f-family-primary;
+  font-size: 36px;
+  font-weight: $f-weight-semi;
+}
+
+@mixin t-title-3-bold {
+  font-family: $f-family-brand;
+  font-size: 29px;
+  font-weight: $f-weight-bold;
+  line-height: 40px;
+}
+
+@mixin t-title-3-semibold {
+  @include t-title-3-bold();
+  font-family: $f-family-primary;
+  font-size: 28px;
+  font-weight: $f-weight-semi;
+}
+
+@mixin t-title-4-bold {
+  font-family: $f-family-brand;
+  font-size: 23px;
+  font-weight: $f-weight-bold;
+  line-height: 32px;
+}
+
+@mixin t-title-4-semibold {
+  @include t-title-4-bold();
+  font-family: $f-family-primary;
+  font-size: 22px;
+  font-weight: $f-weight-semibold;
+}
+
+@mixin t-title-4-regular {
+  @include t-title-4-bold();
+  font-family: $f-family-primary;
+  font-size: 22px;
+  font-weight: $f-weight-regular;
+}
+
+@mixin t-subtitle-semibold {
+  font-family: $f-family-primary;
+  font-size: 18px;
+  font-weight: $f-weight-semi;
+  line-height: 28px;
+}
+
+
+@mixin t-subtitle-regular {
+  font-family: $f-family-primary;
+  font-size: 18px;
+  font-weight: $f-weight-regular;
+  line-height: 28px;
+}
+
+@mixin t-body-semibold {
+  font-family: $f-family-primary;
+  font-size: 16px;
+  font-weight: $f-weight-semi;
+  line-height: 24px;
+}
+
+@mixin t-body-regular {
+  font-family: $f-family-primary;
+  font-size: 16px;
+  font-weight: $f-weight-regular;
+  line-height: 24px;
+}
+
+@mixin t-body-small-semibold {
+  font-family: $f-family-primary;
+  font-size: 14px;
+  font-weight: $f-weight-semi;
+  line-height: 22px;
+}
+
+@mixin t-body-small-regular {
+  font-family: $f-family-primary;
+  font-size: 14px;
+  font-weight: $f-weight-regular;
+  line-height: 22px;
+}
+
+@mixin t-caption-semibold {
+  font-family: $f-family-primary;
+  font-size: 12px;
+  font-weight: $f-weight-semi;
+  line-height: 18px;
+}
+
+@mixin t-caption-regular {
+  font-family: $f-family-primary;
+  font-size: 12px;
+  font-weight: $f-weight-regular;
+  line-height: 18px;
+}
+
 $typography: (
-  'large-title': (
-    'font-size': 6rem,
-    'font-weight': $f-weight-light,
-    'line-height': 6rem,
-    'letter-spacing': -.015625em,
-    'font-family': $f-family-primary
+  'title-1-bold': (
+    'font-family': $f-family-brand,
+    'font-size': 48px,
+    'font-weight': $f-weight-bold,
+    'line-height': 68px
   ),
-  'title-1': (
-    'font-size': 3.75rem,
-    'font-weight': $f-weight-light,
-    'line-height': 3.75rem,
-    'letter-spacing': -.0083333333em,
-    'font-family': $f-family-primary
+  'title-2-bold': (
+    'font-family': $f-family-brand,
+    'font-size': 37px,
+    'font-weight': $f-weight-bold,
+    'line-height': 52px
   ),
-  'title-2': (
-    'font-size': 3rem,
+  'title-2-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 36px,
+    'font-weight': $f-weight-bold,
+    'line-height': 52px
+  ),
+  'title-3-bold': (
+    'font-family': $f-family-brand,
+    'font-size': 29px,
+    'font-weight': $f-weight-bold,
+    'line-height': 40px
+  ),
+  'title-3-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 28px,
+    'font-weight': $f-weight-semi,
+    'line-height': 40px
+  ),
+  'title-4-bold': (
+    'font-family': $f-family-brand,
+    'font-size': 23px,
+    'font-weight': $f-weight-bold,
+    'line-height': 32px
+  ),
+  'title-4-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 22px,
+    'font-weight': $f-weight-semi,
+    'line-height': 32px
+  ),
+  'title-4-regular': (
+    'font-family': $f-family-primary,
+    'font-size': 22px,
     'font-weight': $f-weight-regular,
-    'line-height': 3.125rem,
-    'letter-spacing': normal,
-    'font-family': $f-family-primary
+    'line-height': 32px
   ),
-  'title-3': (
-    'font-size': 2.125rem,
+  'subtitle-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 18px,
+    'font-weight': $f-weight-semi,
+    'line-height': 28px,
+  ),
+  'subtitle-regular': (
+    'font-family': $f-family-primary,
+    'font-size': 18px,
     'font-weight': $f-weight-regular,
-    'line-height': 2.5rem,
-    'letter-spacing': .0073529412em,
-    'font-family': $f-family-primary
+    'line-height': 28px,
   ),
-  'headline': (
-    'font-size': 1.5rem,
+  'body-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 16px,
+    'font-weight': $f-weight-semi,
+    'line-height': 24px,
+  ),
+  'body-regular': (
+    'font-family': $f-family-primary,
+    'font-size': 16px,
     'font-weight': $f-weight-regular,
-    'line-height': 2rem,
-    'letter-spacing': normal,
-    'font-family': $f-family-primary
+    'line-height': 24px,
   ),
-  'body': (
-    'font-size': 1.25rem,
-    'font-weight': 500,
-    'line-height': 2rem,
-    'letter-spacing': .0125em,
-    'font-family': $f-family-primary
+  'body-small-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 14px,
+    'font-weight': $f-weight-semi,
+    'line-height': 22px,
   ),
-  'subhead': (
-    'font-size': 1rem,
-    'font-weight': normal,
-    'line-height': 1.75rem,
-    'letter-spacing': .009375em,
-    'font-family': $f-family-primary
-  ),
-  'footnote': (
-    'font-size': .875rem,
-    'font-weight': 500,
-    'line-height': 1.375rem,
-    'letter-spacing': .0071428571em,
-    'font-family': $f-family-primary
-  ),
-  'caption': (
-    'font-size': 1rem,
+  'body-small-regular': (
+    'font-family': $f-family-primary,
+    'font-size': 14px,
     'font-weight': $f-weight-regular,
-    'line-height': 1.5rem,
-    'letter-spacing': .03125em,
-    'font-family': $f-family-primary
+    'line-height': 22px,
+  ),
+  'caption-semibold': (
+    'font-family': $f-family-primary,
+    'font-size': 12px,
+    'font-weight': $f-weight-semi,
+    'line-height': 18px,
+  ),
+  'caption-regular': (
+    'font-family': $f-family-primary,
+    'font-size': 12px,
+    'font-weight': $f-weight-regular,
+    'line-height': 18px,
   )
 );
