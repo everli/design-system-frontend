@@ -1,6 +1,7 @@
 :root {
   --white: #ffffff;
   --gray-10: #f8f7f8;
+  --gray-15: #EBE7EB;
   --gray-40: #e3dfe3;
   --gray-80: #9e8f9e;
   --gray-100: #756075;
@@ -22,6 +23,7 @@
 // PALETTE
 $c-white: #ffffff;
 $c-gray-10: #f8f7f8;
+$c-gray-15: #EBE7EB;
 $c-gray-40: #e3dfe3;
 $c-gray-80: #9e8f9e;
 $c-gray-100: #756075;
@@ -48,6 +50,7 @@ $uiColors: (
   "link": $c-link-100,
   "gray-80": $c-gray-80,
   "gray-40": $c-gray-40,
+  "gray-15": $c-gray-15,
   "gray-10": $c-gray-10,
   "walter-white": $c-white,
   "blue-plus": $c-blue-100,
