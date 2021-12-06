@@ -1,29 +1,29 @@
 <template>
   <div>
     <div class="everli-typography">
-      <p class="t-title-1 c-everli-green">Title 1 Bold Brand</p>
+      <p class="t-title-1-bold c-everli-green">Title 1 Bold Brand</p>
       <hr />
-      <p class="t-title-2">Title 2 Bold Brand</p>
-      <p class="t-title-2 t-semibold">Title 2 Semibold</p>
+      <p class="t-title-2-bold">Title 2 Bold Brand</p>
+      <p class="t-title-2-semibold">Title 2 Semibold</p>
       <hr />
-      <p class="t-title-3">Title 3 Bold Brand</p>
-      <p class="t-title-3 t-semibold">Title 3 Semibold</p>
+      <p class="t-title-3-bold">Title 3 Bold Brand</p>
+      <p class="t-title-3-semibold">Title 3 Semibold</p>
       <hr />
-      <p class="t-title-4">Title 4 Bold Brand</p>
-      <p class="t-title-4 t-semibold">Title 4 Semibold</p>
-      <p class="t-title-4 t-regular">Title 4 Regular</p>
+      <p class="t-title-4-bold">Title 4 Bold Brand</p>
+      <p class="t-title-4-semibold">Title 4 Semibold</p>
+      <p class="t-title-4-regular">Title 4 Regular</p>
       <hr />
-      <p class="t-subtitle">Subtitle Semibold</p>
-      <p class="t-subtitle t-regular">Subtitle Regular</p>
+      <p class="t-subtitle-semibold">Subtitle Semibold</p>
+      <p class="t-subtitle-regular">Subtitle Regular</p>
       <hr />
-      <p class="t-body">Body</p>
-      <p class="t-body t-regular">Body Regular</p>
+      <p class="t-body-semibold">Body semibold</p>
+      <p class="t-body-regular">Body Regular</p>
       <hr />
-      <p class="t-body-small">Body small</p>
-      <p class="t-body-small t-regular">Body small regular</p>
+      <p class="t-body-small-semibold">Body small semibold</p>
+      <p class="t-body-small-regular">Body small regular</p>
       <hr />
-      <p class="t-caption">Caption</p>
-      <p class="t-caption t-regular">Caption regular</p>
+      <p class="t-caption-semibold">Caption semibold</p>
+      <p class="t-caption-regular">Caption regular</p>
     </div>
   </div>
 </template>
