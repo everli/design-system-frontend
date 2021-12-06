@@ -16,14 +16,14 @@
       <p class="t-subtitle-semibold">Subtitle Semibold</p>
       <p class="t-subtitle-regular">Subtitle Regular</p>
       <hr />
-      <p class="t-body-semibold">Body semibold</p>
+      <p class="t-body-semibold">Body Semibold</p>
       <p class="t-body-regular">Body Regular</p>
       <hr />
-      <p class="t-body-small-semibold">Body small semibold</p>
-      <p class="t-body-small-regular">Body small regular</p>
+      <p class="t-body-small-semibold">Body small Semibold</p>
+      <p class="t-body-small-regular">Body small Regular</p>
       <hr />
-      <p class="t-caption-semibold">Caption semibold</p>
-      <p class="t-caption-regular">Caption regular</p>
+      <p class="t-caption-semibold">Caption Semibold</p>
+      <p class="t-caption-regular">Caption Regular</p>
     </div>
   </div>
 </template>
