@@ -1,0 +1,7 @@
+@each $type, $values in $typography {
+  .t-#{$type} {
+    @each $value, $i in $values {
+      #{$value}: $i;
+    }
+  };
+};
