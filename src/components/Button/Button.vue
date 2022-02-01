@@ -118,6 +118,7 @@ export default {
 .everli-button {
   background: $button-primary-background;
   border-radius: $button-radius;
+  box-sizing: border-box;
   color: $button-primary-color;
   display: block;
   font-family: $f-family-primary;
@@ -176,6 +177,7 @@ export default {
   }
 
   &.full {
+    max-width: 100%;
     width: 100%;
   }
 }

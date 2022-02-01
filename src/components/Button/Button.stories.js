@@ -13,5 +13,6 @@ export const Default = () => ({
   <Button style="margin: 16px 0" disabled>Disabled</Button>
   <Button style="margin: 16px 0" class="secondary">Secondary</Button>
   <Button style="margin: 16px 0" class="ghost">Ghost</Button>
+  <Button style="margin: 16px 0" class="full">Full width</Button>
   </div>`,
 })
