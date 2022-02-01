@@ -43,16 +43,12 @@ export default {
     /**
      * @description Returns button class name
      *
-     * @returns {Object}
+     * @returns {Array}
      */
     buttonClass() {
       let styleClass = (this.data && this.data.style) || ""
 
-      return [
-        { "is-disabled": this.isDisabled },
-        { "with-icon": this.iconClass },
-        styleClass,
-      ]
+      return [styleClass]
     },
     /**
      * @description Returns href link
@@ -100,7 +96,7 @@ export default {
      * @returns {Boolean}
      */
     isButtonElement() {
-      return !this.buttonHref || (this.data && this.data.modal_trigger)
+      return !this.buttonHref
     },
   },
   methods: {
