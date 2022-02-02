@@ -13,19 +13,19 @@ $button-size-large: 48px;
 // primary
 $button-primary-background: map-get($uiColors, "everli-green");
 $button-primary-color: map-get($uiColors, "walter-white");
-$button-primary-hover-background: map-get($uiColors, "deep-green");
+$button-primary-background-hover: map-get($uiColors, "deep-green");
 
 // disabled
-$button-primary-disabled-background: map-get($uiColors, "gray-15");
-$button-primary-disabled-color: map-get($uiColors, "gray-100");
+$button-primary-background-disabled: map-get($uiColors, "gray-15");
+$button-primary-color-disabled: map-get($uiColors, "gray-100");
 
 // secondary
 $button-secondary-background: transparent;
 $button-secondary-color: map-get($uiColors, "everli-green");
 $button-secondary-border: map-get($uiColors, "everli-green");
-$button-secondary-hover-background: map-get($uiColors, "green-10");
+$button-secondary-background-hover: map-get($uiColors, "green-10");
 
 // ghost
 $button-ghost-background: transparent;
 $button-ghost-color: map-get($uiColors, "everli-green");;
-$button-ghost-hover-background: map-get($uiColors, "gray-10");
+$button-ghost-background-hover: map-get($uiColors, "gray-10");

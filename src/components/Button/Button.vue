@@ -1,17 +1,14 @@
 <template>
   <component
     :is="tag"
-    :href="buttonHref"
-    :disabled="disabled"
+    :href="link"
+    :disabled="!enabled"
     :class="buttonClass"
-    :type="buttonType"
-    :style="buttonStyle"
-    :target="anchorTarget"
     class="everli-button"
     @click="handleClick"
   >
-    <template v-if="buttonText">
-      {{ buttonText }}
+    <template v-if="text">
+      {{ text }}
     </template>
 
     <slot v-else-if="$slots.default" />
@@ -22,19 +19,23 @@
 export default {
   name: "EverliButton",
   props: {
-    data: {
-      type: Object,
-      default: () => {},
-    },
-    type: {
-      type: String,
-      default: "button",
-    },
-    disabled: {
+    enabled: {
       type: Boolean,
-      default: false,
+      default: true,
     },
-    href: {
+    text: {
+      type: String,
+      default: "",
+    },
+    variant: {
+      type: String,
+      default: "",
+    },
+    style: {
+      type: String,
+      default: "",
+    },
+    link: {
       type: String,
       default: null,
     },
@@ -46,41 +47,7 @@ export default {
      * @returns {Array}
      */
     buttonClass() {
-      let styleClass = (this.data && this.data.style) || ""
-
-      return [styleClass]
-    },
-    /**
-     * @description Returns href link
-     *
-     * @returns {String}
-     */
-    buttonHref() {
-      return this.data && this.data.link ? this.data.link : this.href
-    },
-    /**
-     * @description Get the anchor target.
-     *
-     * @returns {String}
-     */
-    anchorTarget() {
-      return this.data?.anchor_target || "_self"
-    },
-    /**
-     * @description Returns button type based on the button tag
-     *
-     * @returns {String}
-     */
-    buttonType() {
-      return !this.buttonHref ? this.type : ""
-    },
-    /**
-     * @description Returns button text (from props or slot)
-     *
-     * @returns {String}
-     */
-    buttonText() {
-      return this.data && this.data.button ? this.data.button : ""
+      return [this.variant, this.style, { link: this.link }]
     },
     /**
      * @description Returns button tag
@@ -88,20 +55,12 @@ export default {
      * @returns {String}
      */
     tag() {
-      return this.isButtonElement ? "button" : "a"
-    },
-    /**
-     * @description Returns if rendered element is a button
-     *
-     * @returns {Boolean}
-     */
-    isButtonElement() {
-      return !this.buttonHref
+      return this.link ? "a" : "button"
     },
   },
   methods: {
     /**
-     * @description
+     * @description Emit click event
      */
     handleClick() {
       this.$emit("click")
@@ -131,13 +90,20 @@ export default {
   transition: all 0.3s;
 
   &:hover {
-    background: $button-primary-hover-background;
+    background: $button-primary-background-hover;
+  }
+
+  &.link {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
   }
 
   &.disabled,
   &[disabled] {
-    background: $button-primary-disabled-background;
-    color: $button-primary-disabled-color;
+    background: $button-primary-background-disabled;
+    color: $button-primary-color-disabled;
     cursor: default;
   }
 
@@ -159,7 +125,7 @@ export default {
     color: $button-secondary-color;
 
     &:hover {
-      background: $button-secondary-hover-background;
+      background: $button-secondary-background-hover;
     }
   }
 
@@ -168,7 +134,7 @@ export default {
     color: $button-ghost-color;
 
     &:hover {
-      background: $button-ghost-hover-background;
+      background: $button-ghost-background-hover;
     }
   }
 
