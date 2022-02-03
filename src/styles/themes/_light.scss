@@ -1,0 +1,31 @@
+/* ==========  Components  ========== */
+
+/* ==========  Button  ========== */
+// global button settings
+$button-radius: 8px;
+$button-padding: 0 16px;
+
+// buttons sizes
+$button-size-small: 36px;
+$button-size-default: 44px;
+$button-size-large: 48px;
+
+// primary
+$button-primary-background: map-get($uiColors, "everli-green");
+$button-primary-color: map-get($uiColors, "walter-white");
+$button-primary-background-hover: map-get($uiColors, "deep-green");
+
+// disabled
+$button-primary-background-disabled: map-get($uiColors, "gray-15");
+$button-primary-color-disabled: map-get($uiColors, "gray-100");
+
+// secondary
+$button-secondary-background: transparent;
+$button-secondary-color: map-get($uiColors, "everli-green");
+$button-secondary-border: map-get($uiColors, "everli-green");
+$button-secondary-background-hover: map-get($uiColors, "green-10");
+
+// ghost
+$button-ghost-background: transparent;
+$button-ghost-color: map-get($uiColors, "everli-green");
+$button-ghost-background-hover: map-get($uiColors, "gray-10");
