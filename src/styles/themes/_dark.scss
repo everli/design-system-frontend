@@ -1,0 +1,13 @@
+/* Dark mode file contains only color/background changes
+that are needed to properly renders the dark mode */
+
+/* GLOBAL TOKENS */
+$dark-text-color-secondary: $c-gray-100;
+$dark-text-color-negative: $c-white;
+
+/* BUTTON COMPONENT */
+// secondary
+$dark-button-secondary-background-default: transparent;
+$dark-button-secondary-text: $dark-text-color-secondary;
+$dark-button-secondary-border: $c-gray-100;
+$dark-button-secondary-background-hover: $c-gray-100;

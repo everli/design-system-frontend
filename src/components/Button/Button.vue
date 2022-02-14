@@ -71,16 +71,14 @@ export default {
 
 <style scoped lang="scss">
 .everli-button {
-  background: $button-primary-background;
+  @include button-text-medium;
+
+  background: $button-primary-background-default;
   border-radius: $button-radius;
   box-sizing: border-box;
-  color: $button-primary-color;
+  color: $button-primary-text;
   display: block;
-  font-family: $f-family-primary;
-  font-size: 15px;
-  font-weight: $f-weight-semi;
-  height: $button-size-default;
-  line-height: 24px;
+  height: $button-size-medium;
   min-width: 112px;
   outline: none;
   padding: $button-padding;
@@ -103,26 +101,26 @@ export default {
   &.disabled,
   &[disabled] {
     background: $button-primary-background-disabled;
-    color: $button-primary-color-disabled;
+    color: $button-primary-text-disabled;
     cursor: default;
   }
 
   &.small {
-    font-size: 14px;
+    @include button-text-small;
+
     height: $button-size-small;
-    line-height: 22px;
   }
 
   &.large {
-    font-size: 23px;
+    @include button-text-large;
+
     height: $button-size-large;
-    line-height: 32px;
   }
 
   &.secondary {
-    background: $button-secondary-background;
+    background: $button-secondary-background-default;
     border: 1px solid $button-secondary-border;
-    color: $button-secondary-color;
+    color: $button-secondary-text;
 
     &:hover {
       background: $button-secondary-background-hover;
@@ -130,8 +128,8 @@ export default {
   }
 
   &.ghost {
-    background: $button-ghost-background;
-    color: $button-ghost-color;
+    background: $button-ghost-background-default;
+    color: $button-ghost-text;
 
     &:hover {
       background: $button-ghost-background-hover;
@@ -141,6 +139,22 @@ export default {
   &.full {
     max-width: 100%;
     width: 100%;
+  }
+}
+</style>
+
+<style lang="scss">
+.everli-dark-mode {
+  .everli-button {
+    &.secondary {
+      background: $dark-button-secondary-background-default;
+      border-color: $dark-button-secondary-border;
+      color: $dark-button-secondary-text;
+
+      &:hover {
+        background: $dark-button-secondary-background-hover;
+      }
+    }
   }
 }
 </style>

@@ -1,31 +1,45 @@
-/* ==========  Components  ========== */
+/* GLOBAL TOKENS */
 
-/* ==========  Button  ========== */
+// radius
+$radius-medium: 8px;
+
+// text color
+$text-color-secondary: $c-gray-100;
+$text-color-negative: $c-white;
+
+
+/* BUTTON COMPONENT */
+
 // global button settings
-$button-radius: 8px;
+$button-radius: $radius-medium;
 $button-padding: 0 16px;
 
 // buttons sizes
 $button-size-small: 36px;
-$button-size-default: 44px;
+$button-size-medium: 44px;
 $button-size-large: 48px;
 
-// primary
-$button-primary-background: map-get($uiColors, "everli-green");
-$button-primary-color: map-get($uiColors, "walter-white");
-$button-primary-background-hover: map-get($uiColors, "deep-green");
+// buttons text sizes
+@mixin button-text-small { @include t-body-small-semibold };
+@mixin button-text-medium { @include t-body-semibold };
+@mixin button-text-large { @include t-subtitle-semibold };
+
+// variant primary
+$button-primary-background-default: $c-green-100;
+$button-primary-text: $text-color-negative;
+$button-primary-background-hover: $c-green-110;
+
+// variant secondary
+$button-secondary-background-default: transparent;
+$button-secondary-text: $c-green-100;
+$button-secondary-border: $c-green-100;
+$button-secondary-background-hover: $c-green-10;
+
+// variant ghost
+$button-ghost-background-default: transparent;
+$button-ghost-text: $c-green-100;
+$button-ghost-background-hover: $c-gray-10;
 
 // disabled
-$button-primary-background-disabled: map-get($uiColors, "gray-15");
-$button-primary-color-disabled: map-get($uiColors, "gray-100");
-
-// secondary
-$button-secondary-background: transparent;
-$button-secondary-color: map-get($uiColors, "everli-green");
-$button-secondary-border: map-get($uiColors, "everli-green");
-$button-secondary-background-hover: map-get($uiColors, "green-10");
-
-// ghost
-$button-ghost-background: transparent;
-$button-ghost-color: map-get($uiColors, "everli-green");
-$button-ghost-background-hover: map-get($uiColors, "gray-10");
+$button-primary-background-disabled: $c-gray-15;
+$button-primary-text-disabled: $text-color-secondary;
