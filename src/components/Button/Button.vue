@@ -5,8 +5,17 @@
     :disabled="!enabled"
     :class="buttonClass"
     class="everli-button"
-    @click="handleClick"
+    @click.stop="handleClick"
   >
+    <template v-if="iconName">
+      <span class="icon-wrapper">
+        <SvgSprite />
+        <svg class="everli-icon" style="fill: #ffffff">
+          <use :xlink:href="`#${iconName}`"></use>
+        </svg>
+      </span>
+    </template>
+
     <template v-if="text">
       {{ text }}
     </template>
@@ -16,8 +25,13 @@
 </template>
 
 <script>
+import SvgSprite from "@/components/SvgSprite/symbol/svg/sprite.symbol.vue"
+
 export default {
   name: "EverliButton",
+  components: {
+    SvgSprite,
+  },
   props: {
     enabled: {
       type: Boolean,
@@ -39,6 +53,14 @@ export default {
       type: String,
       default: null,
     },
+    iconName: {
+      type: String,
+      default: null,
+    },
+    iconPosition: {
+      type: String,
+      default: "left",
+    },
   },
   computed: {
     /**
@@ -47,7 +69,12 @@ export default {
      * @returns {Array}
      */
     buttonClass() {
-      return [this.variant, this.style, { link: this.link }]
+      return [
+        this.variant,
+        this.style,
+        { link: this.link },
+        { "with-icon": this.iconName },
+      ]
     },
     /**
      * @description Returns button tag
@@ -98,6 +125,20 @@ export default {
     float: left;
   }
 
+  &.with-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    .icon-wrapper {
+      display: block;
+      height: 24px;
+      margin-right: 8px;
+      width: 24px;
+    }
+  }
+
   &.disabled,
   &[disabled] {
     background: $button-primary-background-disabled;
@@ -140,10 +181,19 @@ export default {
     max-width: 100%;
     width: 100%;
   }
+
+  .everli-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 </style>
 
 <style lang="scss">
+.everli-icon {
+  fill: currentColor;
+}
+
 .everli-dark-mode {
   .everli-button {
     &.secondary {
