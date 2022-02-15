@@ -90,7 +90,7 @@ export default {
       return this.link ? "a" : "button"
     },
     designSystemIcon() {
-      return this.icon.indexOf("ico") > -1
+      return this.icon.indexOf("ico-") > -1
     },
   },
   methods: {
