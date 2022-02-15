@@ -7,12 +7,17 @@
     class="everli-button"
     @click.stop="handleClick"
   >
-    <template v-if="iconName">
+    <template v-if="icon">
       <span class="icon-wrapper">
-        <SvgSprite v-once />
-        <svg class="everli-icon">
-          <use :xlink:href="`#${iconName}`"></use>
-        </svg>
+        <template v-if="designSystemIcon">
+          <SvgSprite />
+          <svg class="everli-icon">
+            <use :xlink:href="`#${icon}`"></use>
+          </svg>
+        </template>
+        <template v-else>
+          <span class="icon" :class="icon" />
+        </template>
       </span>
     </template>
 
@@ -57,6 +62,10 @@ export default {
       type: String,
       default: null,
     },
+    contentDescription: {
+      type: String,
+      default: "",
+    },
   },
   computed: {
     /**
@@ -79,6 +88,9 @@ export default {
      */
     tag() {
       return this.link ? "a" : "button"
+    },
+    designSystemIcon() {
+      return this.icon.indexOf("ico") > -1
     },
   },
   methods: {
