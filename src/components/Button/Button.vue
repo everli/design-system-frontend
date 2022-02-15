@@ -9,8 +9,8 @@
   >
     <template v-if="iconName">
       <span class="icon-wrapper">
-        <SvgSprite />
-        <svg class="everli-icon" style="fill: #ffffff">
+        <SvgSprite v-once />
+        <svg class="everli-icon">
           <use :xlink:href="`#${iconName}`"></use>
         </svg>
       </span>
