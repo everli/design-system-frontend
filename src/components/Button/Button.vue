@@ -53,13 +53,9 @@ export default {
       type: String,
       default: null,
     },
-    iconName: {
+    icon: {
       type: String,
       default: null,
-    },
-    iconPosition: {
-      type: String,
-      default: "left",
     },
   },
   computed: {
@@ -73,7 +69,7 @@ export default {
         this.variant,
         this.size,
         { link: this.link },
-        { "with-icon": this.iconName },
+        { "with-icon": this.icon },
       ]
     },
     /**
