@@ -25,7 +25,7 @@ $button-size-large: 48px;
 @mixin button-text-large { @include t-subtitle-semibold };
 
 // variant primary
-$button-primary-background-default: $c-green-100;
+$button-primary-background-default: $c-green-100 !default;
 $button-primary-text: $text-color-negative;
 $button-primary-background-hover: $c-green-110;
 
