@@ -1,23 +1,23 @@
 /* GLOBAL TOKENS */
 
 // radius
-$radius-medium: 8px;
+$radius-medium: 8px !default;
 
 // text color
-$text-color-secondary: $c-gray-100;
-$text-color-negative: $c-white;
+$text-color-secondary: $c-gray-100 !default;
+$text-color-negative: $c-white !default;
 
 
 /* BUTTON COMPONENT */
 
 // global button settings
-$button-radius: $radius-medium;
-$button-padding: 0 16px;
+$button-radius: $radius-medium !default;
+$button-padding: 0 16px !default;
 
 // buttons sizes
-$button-size-small: 36px;
-$button-size-medium: 44px;
-$button-size-large: 48px;
+$button-size-small: 36px !default;
+$button-size-medium: 44px !default;
+$button-size-large: 48px !default;
 
 // buttons text sizes
 @mixin button-text-small { @include t-body-small-semibold };
@@ -26,20 +26,20 @@ $button-size-large: 48px;
 
 // variant primary
 $button-primary-background-default: $c-green-100 !default;
-$button-primary-text: $text-color-negative;
-$button-primary-background-hover: $c-green-110;
+$button-primary-text: $text-color-negative !default;
+$button-primary-background-hover: $c-green-110 !default;
 
 // variant secondary
-$button-secondary-background-default: transparent;
-$button-secondary-text: $c-green-100;
-$button-secondary-border: $c-green-100;
-$button-secondary-background-hover: $c-green-10;
+$button-secondary-background-default: transparent !default;
+$button-secondary-text: $c-green-100 !default;
+$button-secondary-border: $c-green-100 !default;
+$button-secondary-background-hover: $c-green-10 !default;
 
 // variant ghost
-$button-ghost-background-default: transparent;
-$button-ghost-text: $c-green-100;
-$button-ghost-background-hover: $c-gray-10;
+$button-ghost-background-default: transparent !default;
+$button-ghost-text: $c-green-100 !default;
+$button-ghost-background-hover: $c-gray-10 !default;
 
 // disabled
-$button-primary-background-disabled: $c-gray-15;
-$button-primary-text-disabled: $text-color-secondary;
+$button-primary-background-disabled: $c-gray-15 !default;
+$button-primary-text-disabled: $text-color-secondary !default;
