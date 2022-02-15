@@ -45,7 +45,7 @@ export default {
       type: String,
       default: "",
     },
-    style: {
+    size: {
       type: String,
       default: "",
     },
@@ -71,7 +71,7 @@ export default {
     buttonClass() {
       return [
         this.variant,
-        this.style,
+        this.size,
         { link: this.link },
         { "with-icon": this.iconName },
       ]
@@ -90,7 +90,7 @@ export default {
      * @description Emit click event
      */
     handleClick() {
-      this.$emit("click")
+      this.$emit("click", this.link)
     },
   },
 }
@@ -122,7 +122,6 @@ export default {
     align-content: center;
     align-items: center;
     display: flex;
-    float: left;
   }
 
   &.with-icon {
