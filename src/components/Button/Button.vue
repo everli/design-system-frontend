@@ -136,7 +136,6 @@ export default {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
 
     .icon-wrapper {
       display: block;
