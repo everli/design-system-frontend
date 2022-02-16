@@ -1,7 +1,7 @@
 import EverliButton from "./Button.vue"
 
 export default {
-  title: "Atoms/Button",
+  title: "Components/Button",
   parameters: {
     layout: "fullscreen",
   },
@@ -14,7 +14,7 @@ export const LightMode = () => ({
   <EverliButton style="margin: 16px 0" class="small">Small</EverliButton>
   <EverliButton style="margin: 16px 0" class="large">Large</EverliButton>
   <EverliButton style="margin: 16px 0" disabled>Disabled</EverliButton>
-  <EverliButton icon="ico-checkmark" style="margin: 16px 0" class="secondary">Secondary</EverliButton>
+  <EverliButton style="margin: 16px 0" class="secondary">Secondary</EverliButton>
   <EverliButton style="margin: 16px 0" class="ghost">Ghost</EverliButton>
   <EverliButton icon="ico-checkmark"  style="margin: 16px 0">With icon</EverliButton>
   <EverliButton style="margin: 16px 0" class="full" type="submit">Full width</EverliButton>
