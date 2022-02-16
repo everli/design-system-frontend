@@ -130,6 +130,7 @@ export default {
     align-content: center;
     align-items: center;
     display: flex;
+    justify-content: center;
   }
 
   &.with-icon {
