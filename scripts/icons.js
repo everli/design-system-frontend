@@ -8,6 +8,9 @@ gulp.task("inline", function () {
     .src("../src/static/icons/*.svg")
     .pipe(
       svgSprite({
+        svg: {
+          namespaceClassnames: false,
+        },
         mode: {
           symbol: {
             inline: true,
