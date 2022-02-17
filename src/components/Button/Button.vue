@@ -5,8 +5,24 @@
     :disabled="!enabled"
     :class="buttonClass"
     class="everli-button"
-    @click="handleClick"
+    @click.stop="handleClick"
   >
+    <template v-if="icon">
+      <span class="icon-wrapper">
+        <template v-if="designSystemIcon">
+          <SvgSprite />
+          <svg class="everli-icon-wrapper" :aria-label="contentDescription">
+            <use :xlink:href="`#${icon}`"></use>
+          </svg>
+        </template>
+
+        <template v-else>
+          <!-- temporary fallback to handle current icon set from Everli -->
+          <span class="icon" :class="icon" :aria-label="contentDescription" />
+        </template>
+      </span>
+    </template>
+
     <template v-if="text">
       {{ text }}
     </template>
@@ -16,8 +32,13 @@
 </template>
 
 <script>
+import SvgSprite from "@/components/SvgSprite/symbol/svg/sprite.symbol.vue"
+
 export default {
   name: "EverliButton",
+  components: {
+    SvgSprite,
+  },
   props: {
     enabled: {
       type: Boolean,
@@ -31,13 +52,21 @@ export default {
       type: String,
       default: "",
     },
-    style: {
+    size: {
       type: String,
       default: "",
     },
     link: {
       type: String,
       default: null,
+    },
+    icon: {
+      type: String,
+      default: null,
+    },
+    contentDescription: {
+      type: String,
+      default: "",
     },
   },
   computed: {
@@ -47,7 +76,12 @@ export default {
      * @returns {Array}
      */
     buttonClass() {
-      return [this.variant, this.style, { link: this.link }]
+      return [
+        this.variant,
+        this.size,
+        { link: this.link },
+        { "with-icon": this.icon },
+      ]
     },
     /**
      * @description Returns button tag
@@ -57,13 +91,22 @@ export default {
     tag() {
       return this.link ? "a" : "button"
     },
+    /**
+     * @description Is the icon design-system icon?
+     * Design System icons contains ico- prefix.
+     *
+     * @returns {boolean}
+     */
+    designSystemIcon() {
+      return this.icon.indexOf("ico-") > -1
+    },
   },
   methods: {
     /**
-     * @description Emit click event
+     * @description Emit click event with link value as param
      */
     handleClick() {
-      this.$emit("click")
+      this.$emit("click", this.link)
     },
   },
 }
@@ -71,16 +114,14 @@ export default {
 
 <style scoped lang="scss">
 .everli-button {
-  background: $button-primary-background;
+  @include button-text-medium;
+
+  background: $button-primary-background-default;
   border-radius: $button-radius;
   box-sizing: border-box;
-  color: $button-primary-color;
+  color: $button-primary-text;
   display: block;
-  font-family: $f-family-primary;
-  font-size: 15px;
-  font-weight: $f-weight-semi;
-  height: $button-size-default;
-  line-height: 24px;
+  height: $button-size-medium;
   min-width: 112px;
   outline: none;
   padding: $button-padding;
@@ -97,32 +138,45 @@ export default {
     align-content: center;
     align-items: center;
     display: flex;
-    float: left;
+    justify-content: center;
+  }
+
+  &.with-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .icon-wrapper {
+      display: block;
+      height: 24px;
+      margin-right: 8px;
+      width: 24px;
+    }
   }
 
   &.disabled,
   &[disabled] {
     background: $button-primary-background-disabled;
-    color: $button-primary-color-disabled;
+    color: $button-primary-text-disabled;
     cursor: default;
   }
 
   &.small {
-    font-size: 14px;
+    @include button-text-small;
+
     height: $button-size-small;
-    line-height: 22px;
   }
 
   &.large {
-    font-size: 23px;
+    @include button-text-large;
+
     height: $button-size-large;
-    line-height: 32px;
   }
 
   &.secondary {
-    background: $button-secondary-background;
+    background: $button-secondary-background-default;
     border: 1px solid $button-secondary-border;
-    color: $button-secondary-color;
+    color: $button-secondary-text;
 
     &:hover {
       background: $button-secondary-background-hover;
@@ -130,8 +184,8 @@ export default {
   }
 
   &.ghost {
-    background: $button-ghost-background;
-    color: $button-ghost-color;
+    background: $button-ghost-background-default;
+    color: $button-ghost-text;
 
     &:hover {
       background: $button-ghost-background-hover;
@@ -141,6 +195,32 @@ export default {
   &.full {
     max-width: 100%;
     width: 100%;
+  }
+
+  .everli-icon-wrapper {
+    height: 24px;
+    width: 24px;
+  }
+
+  /deep/ .everli-icon {
+    fill: currentColor;
+  }
+}
+</style>
+
+<style lang="scss">
+// Dark MODE handling
+.everli-dark-mode {
+  .everli-button {
+    &.secondary {
+      background: $dark-button-secondary-background-default;
+      border-color: $dark-button-secondary-border;
+      color: $dark-button-secondary-text;
+
+      &:hover {
+        background: $dark-button-secondary-background-hover;
+      }
+    }
   }
 }
 </style>
