@@ -11,12 +11,14 @@
       <span class="icon-wrapper">
         <template v-if="designSystemIcon">
           <SvgSprite />
-          <svg class="everli-icon">
+          <svg class="everli-icon-wrapper" :aria-label="contentDescription">
             <use :xlink:href="`#${icon}`"></use>
           </svg>
         </template>
+
         <template v-else>
-          <span class="icon" :class="icon" />
+          <!-- temporary fallback to handle current icon set from Everli -->
+          <span class="icon" :class="icon" :aria-label="contentDescription" />
         </template>
       </span>
     </template>
@@ -89,13 +91,19 @@ export default {
     tag() {
       return this.link ? "a" : "button"
     },
+    /**
+     * @description Is the icon design-system icon?
+     * Design System icons contains ico- prefix.
+     *
+     * @returns {boolean}
+     */
     designSystemIcon() {
       return this.icon.indexOf("ico-") > -1
     },
   },
   methods: {
     /**
-     * @description Emit click event
+     * @description Emit click event with link value as param
      */
     handleClick() {
       this.$emit("click", this.link)
@@ -189,18 +197,19 @@ export default {
     width: 100%;
   }
 
-  .everli-icon {
-    width: 24px;
+  .everli-icon-wrapper {
     height: 24px;
+    width: 24px;
+  }
+
+  /deep/ .everli-icon {
+    fill: currentColor;
   }
 }
 </style>
 
 <style lang="scss">
-.everli-icon {
-  fill: currentColor;
-}
-
+// Dark MODE handling
 .everli-dark-mode {
   .everli-button {
     &.secondary {
