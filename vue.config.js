@@ -5,6 +5,7 @@ module.exports = {
     "style-resources-loader": {
       preProcessor: "scss",
       patterns: [
+        path.resolve(__dirname, "./src/styles/reset.scss"),
         path.resolve(__dirname, "./src/styles/main.scss"),
         path.resolve(__dirname, "./src/styles/settings/fonts.scss"),
       ],
