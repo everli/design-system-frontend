@@ -54,14 +54,14 @@ Design system themes supports light and dark mode. Each component includes dark-
 To be able to use design tokens you will have to manually import and build the main sass file.
 
 First, if you want to target particular component, import it directly as Vue component 
-```
+```js
 import EverliButton from 'everli-design-system-frontend/src/components/Button/Button'
 ```
 
 Import `main.scss` file as a part of the app bundler
 
 Nuxt config
-```
+```js
 styleResources: {
   scss: [
     '~assets/custom_app_variables.scss',
@@ -71,7 +71,7 @@ styleResources: {
 ```
 
 Vue cli config
-```
+```js
 pluginOptions: {
   'style-resources-loader': {
     preProcessor: 'scss',
@@ -86,7 +86,7 @@ pluginOptions: {
 ```
 
 Storybook
-```
+```js
 use: ['style-loader', 'css-loader', 'sass-loader', {
   loader: 'style-resources-loader',
   options: {
@@ -98,7 +98,7 @@ use: ['style-loader', 'css-loader', 'sass-loader', {
 ```
 
 This way, you will be able to overwrite variables values
-```
+```css
 $button-primary-background-default: blue; // all primary buttons will now how blue background color
 $button-primary-background-hover: red;
 ```
@@ -109,7 +109,7 @@ Design System contains resources (fonts) and some browser reset (reset.css) decl
 
 Fonts
 
-```
+```css
 @font-face {
   font-family: 'Isidora';
   font-weight: 600;
@@ -131,7 +131,7 @@ Fonts
 
 Reset.css
 
-```
+```css
 @import './node_modules/everli-design-system-frontend/src/styles/reset.scss'
 ```
 
