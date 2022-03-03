@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build:common": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist ./src/components/index.js",
-    "build:library": "MODE=library node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/library ./src/components/index.js",
+    "build:library": "LIBRARY=1 node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist/library ./src/components/index.js",
     "build": "npm run build:common && npm run build:library",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",

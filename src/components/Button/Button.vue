@@ -77,10 +77,10 @@ export default {
      */
     buttonClass() {
       return [
-        this.variant,
-        this.size,
-        { link: this.link },
-        { "with-icon": this.icon },
+        { "`everli-button-${this.variant}`": this.variant },
+        { "`everli-button-${this.size}`": this.size },
+        { "everli-button-link": this.link },
+        { "everli-button-icon": this.icon },
       ]
     },
     /**
@@ -112,8 +112,8 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-.everli-button {
+<style lang="scss">
+.everli-design-system .everli-button {
   @include button-text-medium;
 
   background: $button-primary-background-default;
@@ -134,14 +134,14 @@ export default {
     background: $button-primary-background-hover;
   }
 
-  &.link {
+  &.everli-button-link {
     align-content: center;
     align-items: center;
     display: flex;
     justify-content: center;
   }
 
-  &.with-icon {
+  &.everli-button-icon {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -154,26 +154,26 @@ export default {
     }
   }
 
-  &.disabled,
+  &.everli-button-disabled,
   &[disabled] {
     background: $button-primary-background-disabled;
     color: $button-primary-text-disabled;
     cursor: default;
   }
 
-  &.small {
+  &.everli-button-small {
     @include button-text-small;
 
     height: $button-size-small;
   }
 
-  &.large {
+  &.everli-button-large {
     @include button-text-large;
 
     height: $button-size-large;
   }
 
-  &.secondary {
+  &.everli-button-secondary {
     background: $button-secondary-background-default;
     border: 1px solid $button-secondary-border;
     color: $button-secondary-text;
@@ -183,7 +183,7 @@ export default {
     }
   }
 
-  &.ghost {
+  &.everli-button-ghost {
     background: $button-ghost-background-default;
     color: $button-ghost-text;
 
@@ -192,7 +192,7 @@ export default {
     }
   }
 
-  &.full {
+  &.everli-button-full {
     max-width: 100%;
     width: 100%;
   }
@@ -202,7 +202,7 @@ export default {
     width: 24px;
   }
 
-  /deep/ .everli-icon {
+  .everli-icon {
     fill: currentColor;
   }
 }
@@ -212,7 +212,7 @@ export default {
 // Dark MODE handling
 .everli-dark-mode {
   .everli-button {
-    &.secondary {
+    &.everli-button-secondary {
       background: $dark-button-secondary-background-default;
       border-color: $dark-button-secondary-border;
       color: $dark-button-secondary-text;

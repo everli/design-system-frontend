@@ -5,13 +5,15 @@ module.exports = {
     "style-resources-loader": {
       preProcessor: "scss",
       patterns: [
-        path.resolve(__dirname, "./src/styles/reset.scss"),
+        !process.env.LIBRARY
+          ? path.resolve(__dirname, "./src/styles/setup.scss")
+          : "",
         path.resolve(__dirname, "./src/styles/main.scss"),
-        path.resolve(__dirname, "./src/styles/settings/fonts.scss"),
       ],
+      resolveUrl: false,
     },
   },
   css: {
-    extract: process.env.MODE ? true : false,
+    extract: process.env.LIBRARY ? true : false,
   },
 }

@@ -1,7 +1,6 @@
 <template>
   <svg width="0" height="0" style="position: absolute">
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-action-more"
@@ -13,7 +12,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-add"
@@ -25,7 +23,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-add-circle"
@@ -37,7 +34,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-alert"
@@ -51,7 +47,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-arrow-left"
@@ -63,7 +58,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-arrow-left-circle"
@@ -77,7 +71,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-arrow-right"
@@ -89,7 +82,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-ask-question"
@@ -101,7 +93,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-cart"
@@ -113,7 +104,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-cash"
@@ -127,7 +117,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-categories"
@@ -139,7 +128,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-chat"
@@ -151,19 +139,16 @@
       />
     </symbol>
     <symbol
-      fill="none"
-      class="everli-icon"
-      viewBox="0 0 24 24"
+      viewBox="0 0 20 16"
       id="ico-checkmark"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M4.59 12.03a1.602 1.602 0 00-2.174.066 1.4 1.4 0 00.07 2.056l6.154 5.455c.66.585 1.71.507 2.267-.169l10.769-13.09c.522-.635.4-1.548-.27-2.042-.67-.493-1.637-.378-2.159.256L9.514 16.393 4.59 12.03z"
+        d="M2.59 8.03a1.602 1.602 0 00-2.174.066 1.4 1.4 0 00.07 2.056l6.154 5.455c.66.585 1.71.507 2.267-.169l10.769-13.09c.522-.634.4-1.548-.27-2.042-.67-.493-1.637-.378-2.159.256L7.514 12.393 2.59 8.03z"
         fill="#302030"
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-checkmark-circle-filled"
@@ -177,7 +162,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-checkmark-circle-outline"
@@ -189,7 +173,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-down"
@@ -201,7 +184,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-left"
@@ -213,7 +195,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-right"
@@ -225,7 +206,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-top"
@@ -237,7 +217,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-clock"
@@ -249,7 +228,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-close"
@@ -261,7 +239,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-contract"
@@ -273,7 +250,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-cookie"
@@ -285,7 +261,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-credit-card"
@@ -297,7 +272,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-delete"
@@ -311,7 +285,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-docs"
@@ -323,7 +296,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-download"
@@ -337,7 +309,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-edit"
@@ -349,7 +320,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-email"
@@ -361,7 +331,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-empty"
@@ -373,7 +342,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-error"
@@ -387,7 +355,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-favorite-filled"
@@ -399,7 +366,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-favorite-outline"
@@ -411,7 +377,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-filters"
@@ -423,7 +388,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-filters-multiple"
@@ -435,7 +399,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-flash"
@@ -447,7 +410,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-flash-circle"
@@ -461,7 +423,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-forward"
@@ -473,7 +434,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-gift"
@@ -485,7 +445,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-gift-card"
@@ -499,7 +458,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-gps"
@@ -511,7 +469,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-help"
@@ -523,7 +480,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-home"
@@ -535,7 +491,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-info"
@@ -547,7 +502,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-invoice"
@@ -561,7 +515,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-menu"
@@ -573,7 +526,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-note-product"
@@ -585,7 +537,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-note-shopper"
@@ -597,7 +548,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-notifications"
@@ -615,7 +565,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-padlock"
@@ -627,7 +576,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-pos"
@@ -641,7 +589,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-position-marker-filled"
@@ -653,7 +600,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-position-marker-outline"
@@ -673,7 +619,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-question-mark"
@@ -691,7 +636,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-remove"
@@ -700,7 +644,6 @@
       <path d="M5 11a1 1 0 000 2h14a1 1 0 000-2H5z" fill="#302030" />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-replacements"
@@ -714,7 +657,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-save"
@@ -726,7 +668,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-search"
@@ -738,7 +679,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-settings"
@@ -750,7 +690,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-shield-consents"
@@ -762,7 +701,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-shield-privacy"
@@ -774,7 +712,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-shopping-list"
@@ -786,7 +723,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-user"
@@ -800,7 +736,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-user-verified"
@@ -812,7 +747,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-wallet"
@@ -824,7 +758,6 @@
       />
     </symbol>
     <symbol
-      fill="none"
       class="everli-icon"
       viewBox="0 0 24 24"
       id="ico-zoom"
@@ -839,17 +772,6 @@
         clip-rule="evenodd"
         d="M14.948 14.447l3.997 3.996a.554.554 0 01-.783.784l-4.071-4.072a5.793 5.793 0 01-3.263 1.002A5.835 5.835 0 015 10.328 5.835 5.835 0 0110.828 4.5a5.835 5.835 0 015.828 5.828 5.81 5.81 0 01-1.708 4.119zm-4.12-8.84a4.727 4.727 0 00-4.72 4.721 4.727 4.727 0 004.72 4.722 4.694 4.694 0 002.918-1.018l.002-.002a.02.02 0 01.007-.005 4.715 4.715 0 001.794-3.696 4.727 4.727 0 00-4.72-4.721z"
         fill="#302030"
-      />
-    </symbol>
-    <symbol
-      fill="none"
-      viewBox="0 0 20 16"
-      id="ico-checkmark"
-      class="everli-icon"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M2.59 8.03a1.602 1.602 0 00-2.174.066 1.4 1.4 0 00.07 2.056l6.154 5.455c.66.585 1.71.507 2.267-.169l10.769-13.09c.522-.634.4-1.548-.27-2.042-.67-.493-1.637-.378-2.159.256L7.514 12.393 2.59 8.03z"
       />
     </symbol>
   </svg>
