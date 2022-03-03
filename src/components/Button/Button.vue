@@ -139,6 +139,11 @@ export default {
     align-items: center;
     display: flex;
     justify-content: center;
+
+    &:hover {
+      color: $button-primary-text;
+      text-decoration: none;
+    }
   }
 
   &.everli-button-icon {
