@@ -50,6 +50,10 @@ export default {
     },
     variant: {
       type: String,
+      default: "primary",
+    },
+    buttonStyle: {
+      type: String,
       default: "",
     },
     size: {
@@ -64,6 +68,10 @@ export default {
       type: String,
       default: null,
     },
+    iconAlignment: {
+      type: String,
+      default: "left",
+    },
     contentDescription: {
       type: String,
       default: "",
@@ -76,12 +84,25 @@ export default {
      * @returns {Array}
      */
     buttonClass() {
-      return [
-        { "`everli-button-${this.variant}`": this.variant },
-        { "`everli-button-${this.size}`": this.size },
-        { "everli-button-link": this.link },
-        { "everli-button-icon": this.icon },
-      ]
+      const buttonClasses = [this.buttonStyle, this.variant, this.size]
+
+      const classes = buttonClasses.map((key) => {
+        return key ? `everli-button-${key}` : null
+      })
+
+      if (this.link) {
+        classes.push("everli-button-anchor")
+      }
+
+      if (this.icon) {
+        classes.push("everli-button-icon")
+      }
+
+      if (!this.text && !this.$slots.default) {
+        classes.push("everli-button-icon-content")
+      }
+
+      return classes
     },
     /**
      * @description Returns button tag
@@ -116,8 +137,7 @@ export default {
 .everli-design-system .everli-button {
   @include button-text-medium;
 
-  background: $button-primary-background-default;
-  border-radius: $button-radius;
+  border-radius: $radius-medium;
   box-sizing: border-box;
   color: $button-primary-text;
   display: block;
@@ -130,11 +150,173 @@ export default {
   text-decoration: none;
   transition: all 0.3s;
 
-  &:hover {
-    background: $button-primary-background-hover;
+  &.everli-button-primary {
+    background: $button-primary-fill-background-default;
+
+    &:hover {
+      background: $button-primary-fill-background-hover;
+    }
+
+    &.everli-button-fill {
+      background: $button-primary-fill-background-default;
+
+      &:hover {
+        background: $button-primary-fill-background-hover;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        background: $button-color-fill-background-disabled;
+      }
+    }
+
+    &.everli-button-outline {
+      background: $button-primary-outline-background-default;
+      border: 1px solid $button-primary-outline-border-default;
+      color: $text-color-primary;
+
+      &:hover {
+        background: $button-primary-outline-background-hover;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        border-color: $button-color-outline-border-disabled;
+        color: $button-text-color-disabled;
+
+        &:hover {
+          background: $button-primary-outline-background-default;
+        }
+      }
+    }
+
+    &.everli-button-flat {
+      background: $button-color-transparent-background;
+      border: none;
+      color: $text-color-primary;
+
+      &:hover {
+        background: $button-primary-flat-background-hover;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        color: $button-text-color-disabled;
+
+        &:hover {
+          background: $button-color-transparent-background;
+        }
+      }
+    }
+  }
+
+  &.everli-button-special {
+    background: $button-special-fill-background-default;
+
+    &:hover {
+      background: $button-special-fill-background-hover;
+    }
+
+    &.everli-button-fill {
+      background: $button-special-fill-background-default;
+
+      &:hover {
+        background: $button-special-fill-background-hover;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        background: $button-color-fill-background-disabled;
+      }
+    }
+
+    &.everli-button-outline {
+      background: $button-special-outline-background-default;
+      border: 1px solid $button-special-outline-border-default;
+      color: $text-color-special;
+
+      &:hover {
+        background: $button-special-outline-background-hover;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        border-color: $button-color-outline-border-disabled;
+        color: $button-text-color-disabled;
+
+        &:hover {
+          background: $button-special-outline-background-default;
+        }
+      }
+    }
+
+    &.everli-button-flat {
+      background: $button-color-transparent-background;
+      border: none;
+      color: $text-color-special;
+
+      &:hover {
+        background: $button-special-flat-background-hover;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        color: $button-text-color-disabled;
+
+        &:hover {
+          background: $button-color-transparent-background;
+        }
+      }
+    }
   }
 
   &.everli-button-link {
+    background: none;
+    color: $button-text-color-link-default;
+    display: inline;
+    padding: 0;
+    min-width: auto;
+
+    &:hover {
+      background: none;
+      color: $button-text-color-link-hover;
+    }
+
+    &.everli-button-large {
+      @include button-text-link-large;
+    }
+
+    &.everli-button-fill {
+      background: none;
+      border: none;
+    }
+
+    &.everli-button-flat {
+      background: none;
+      border: none;
+
+      &:hover {
+        background: none;
+      }
+
+      &.everli-button-disabled,
+      &[disabled] {
+        color: $button-text-color-disabled;
+
+        &:hover {
+          background: $button-color-transparent-background;
+        }
+      }
+    }
+  }
+
+  &.everli-button-disabled,
+  &[disabled] {
+    color: $button-text-color-disabled;
+    cursor: default;
+  }
+
+  &.everli-button-anchor {
     align-content: center;
     align-items: center;
     display: flex;
@@ -151,19 +333,52 @@ export default {
     display: flex;
     justify-content: center;
 
+    .everli-icon {
+      fill: currentColor;
+    }
+
+    .everli-icon-wrapper {
+      height: 24px;
+      width: 24px;
+    }
+
     .icon-wrapper {
       display: block;
       height: 24px;
       margin-right: 8px;
       width: 24px;
     }
-  }
 
-  &.everli-button-disabled,
-  &[disabled] {
-    background: $button-primary-background-disabled;
-    color: $button-primary-text-disabled;
-    cursor: default;
+    &.everli-button-icon-content {
+      min-width: auto;
+      padding: 0;
+      width: 44px;
+      height: 44px;
+
+      &.everli-button-large {
+        width: 52px;
+        height: 52px;
+      }
+
+      &.everli-button-small {
+        height: 34px;
+        width: 34px;
+
+        .everli-icon-wrapper {
+          width: 18px;
+          height: 18px;
+        }
+
+        .icon-wrapper {
+          width: 18px;
+          height: 18px;
+        }
+      }
+
+      .icon-wrapper {
+        margin-right: 0;
+      }
+    }
   }
 
   &.everli-button-small {
@@ -178,37 +393,9 @@ export default {
     height: $button-size-large;
   }
 
-  &.everli-button-secondary {
-    background: $button-secondary-background-default;
-    border: 1px solid $button-secondary-border;
-    color: $button-secondary-text;
-
-    &:hover {
-      background: $button-secondary-background-hover;
-    }
-  }
-
-  &.everli-button-ghost {
-    background: $button-ghost-background-default;
-    color: $button-ghost-text;
-
-    &:hover {
-      background: $button-ghost-background-hover;
-    }
-  }
-
   &.everli-button-full {
     max-width: 100%;
     width: 100%;
-  }
-
-  .everli-icon-wrapper {
-    height: 24px;
-    width: 24px;
-  }
-
-  .everli-icon {
-    fill: currentColor;
   }
 }
 </style>

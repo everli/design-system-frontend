@@ -8,6 +8,7 @@
   --black-100: #302030;
   --red-20: #ffcedc;
   --red-100: #dc325f;
+  --red-110: #B71E49;
   --violet-100: #8a3264;
   --teal-20: #daf4f4;
   --teal-100: #46c6c6;
@@ -17,7 +18,8 @@
   --green-110: #3ca000;
   --yellow-20: #fff6dc;
   --yellow-100: #ffd050;
-  --link-100: #1a73e8;
+  --navy-100: #1a73e8;
+  --navy-110: #0D4A9A;
 }
 
 // PALETTE
@@ -30,6 +32,7 @@ $c-gray-100: #756075;
 $c-black-100: #302030;
 $c-red-20: #ffcedc;
 $c-red-100: #dc325f;
+$c-red-110: #B71E49;
 $c-violet-100: #8a3264;
 $c-teal-20: #daf4f4;
 $c-teal-100: #46c6c6;
@@ -39,7 +42,8 @@ $c-green-100: #64c828;
 $c-green-110: #3ca000;
 $c-yellow-20: #fff6dc;
 $c-yellow-100: #ffd050;
-$c-link-100: #1a73e8;
+$c-navy-100: #1a73e8;
+$c-navy-110: #0D4A9A;
 
 $uiColors: (
   "deep-green": $c-green-110,
@@ -47,7 +51,8 @@ $uiColors: (
   "green-10": $c-green-10,
   "violet-black": $c-black-100,
   "gray-100": $c-gray-100,
-  "link": $c-link-100,
+  "navy-100": $c-navy-100,
+  "navy-110": $c-navy-110,
   "gray-80": $c-gray-80,
   "gray-40": $c-gray-40,
   "gray-15": $c-gray-15,
@@ -56,6 +61,7 @@ $uiColors: (
   "blue-plus": $c-blue-100,
   "purple-rain": $c-violet-100,
   "red-hot": $c-red-100,
+  "red-110": $c-red-110,
   "teal-waves": $c-teal-100,
   "yellow-sun": $c-yellow-100,
   "red-20": $c-red-20,

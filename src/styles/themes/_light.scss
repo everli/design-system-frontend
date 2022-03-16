@@ -3,43 +3,60 @@
 // radius
 $radius-medium: 8px !default;
 
+// icons
+$icon-size-small: 18px !default;
+$icon-size-medium: 24px !default;
+$icon-color-white: $c-white !default;
+$icon-color-dark: $c-black-100 !default;
+
 // text color
-$text-color-secondary: $c-gray-100 !default;
 $text-color-negative: $c-white !default;
+$text-color-primary: $c-black-100 !default;
+$text-color-special: $c-red-100 !default;
 
 
 /* BUTTON COMPONENT */
 
 // global button settings
-$button-radius: $radius-medium !default;
 $button-padding: 0 16px !default;
 
 // buttons sizes
-$button-size-small: 36px !default;
+$button-size-small: 34px !default;
 $button-size-medium: 44px !default;
-$button-size-large: 48px !default;
+$button-size-large: 52px !default;
 
 // buttons text sizes
 @mixin button-text-small { @include t-body-small-semibold };
 @mixin button-text-medium { @include t-body-semibold };
 @mixin button-text-large { @include t-subtitle-semibold };
+@mixin button-text-link-large { @include t-title-4-regular };
+
+// buttons colors for disabled and flat state
+$button-text-color-disabled: $c-gray-80 !default;
+$button-icon-color-disabled: $c-gray-80 !default;
+$button-color-transparent-background: transparent !default;
+$button-color-fill-background-disabled: $c-gray-15 !default;
+$button-color-outline-border-disabled: $c-gray-40 !default;
+
 
 // variant primary
-$button-primary-background-default: $c-green-100 !default;
 $button-primary-text: $text-color-negative !default;
-$button-primary-background-hover: $c-green-110 !default;
+$button-primary-fill-background-default: $c-green-100 !default;
+$button-primary-fill-background-hover: $c-green-110 !default;
+$button-primary-outline-background-default: $c-white !default;
+$button-primary-outline-background-hover: $c-green-10 !default;
+$button-primary-outline-border-default: $c-green-100 !default;
+$button-primary-flat-background-hover: $c-green-10 !default;
 
-// variant secondary
-$button-secondary-background-default: transparent !default;
-$button-secondary-text: $c-green-100 !default;
-$button-secondary-border: $c-green-100 !default;
-$button-secondary-background-hover: $c-green-10 !default;
+// variant special
+$button-special-text: $text-color-negative !default;
+$button-special-fill-background-default: $c-red-100 !default;
+$button-special-fill-background-hover: $c-red-110 !default;
+$button-special-outline-background-default: $c-white !default;
+$button-special-outline-background-hover: $c-red-20 !default;
+$button-special-outline-border-default: $c-red-100 !default;
+$button-special-flat-background-hover: $c-red-20 !default;
 
-// variant ghost
-$button-ghost-background-default: transparent !default;
-$button-ghost-text: $c-green-100 !default;
-$button-ghost-background-hover: $c-gray-10 !default;
-
-// disabled
-$button-primary-background-disabled: $c-gray-15 !default;
-$button-primary-text-disabled: $text-color-secondary !default;
+// variant link
+$button-text-color-link-default: $c-navy-100;
+$button-text-color-link-hover: $c-navy-110;
