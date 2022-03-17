@@ -148,17 +148,23 @@ export default {
   text-decoration: none;
   transition: all 0.3s;
 
+  &:focus {
+    outline: 3px solid $c-green-10;
+  }
+
   &.everli-button-primary {
     background: $button-primary-fill-background-default;
 
-    &:hover {
+    &:hover,
+    &:active {
       background: $button-primary-fill-background-hover;
     }
 
     &.everli-button-fill {
       background: $button-primary-fill-background-default;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $button-primary-fill-background-hover;
       }
 
@@ -173,7 +179,8 @@ export default {
       border: 1px solid $button-primary-outline-border-default;
       color: $text-color-primary;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $button-primary-outline-background-hover;
       }
 
@@ -182,7 +189,8 @@ export default {
         border-color: $button-color-outline-border-disabled;
         color: $button-text-color-disabled;
 
-        &:hover {
+        &:hover,
+        &:active {
           background: $button-primary-outline-background-default;
         }
       }
@@ -193,7 +201,8 @@ export default {
       border: none;
       color: $text-color-primary;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $button-primary-flat-background-hover;
       }
 
@@ -201,7 +210,8 @@ export default {
       &[disabled] {
         color: $button-text-color-disabled;
 
-        &:hover {
+        &:hover,
+        &:active {
           background: $button-color-transparent-background;
         }
       }
@@ -211,14 +221,16 @@ export default {
   &.everli-button-special {
     background: $button-special-fill-background-default;
 
-    &:hover {
+    &:hover,
+    &:active {
       background: $button-special-fill-background-hover;
     }
 
     &.everli-button-fill {
       background: $button-special-fill-background-default;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $button-special-fill-background-hover;
       }
 
@@ -233,7 +245,8 @@ export default {
       border: 1px solid $button-special-outline-border-default;
       color: $text-color-special;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $button-special-outline-background-hover;
       }
 
@@ -242,7 +255,8 @@ export default {
         border-color: $button-color-outline-border-disabled;
         color: $button-text-color-disabled;
 
-        &:hover {
+        &:hover,
+        &:active {
           background: $button-special-outline-background-default;
         }
       }
@@ -253,7 +267,8 @@ export default {
       border: none;
       color: $text-color-special;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $button-special-flat-background-hover;
       }
 
@@ -261,7 +276,8 @@ export default {
       &[disabled] {
         color: $button-text-color-disabled;
 
-        &:hover {
+        &:hover,
+        &:active {
           background: $button-color-transparent-background;
         }
       }
@@ -275,7 +291,8 @@ export default {
     padding-right: 0;
     min-width: auto;
 
-    &:hover {
+    &:hover,
+    &:active {
       background: none;
       color: $button-text-color-link-hover;
     }
@@ -293,7 +310,8 @@ export default {
       background: none;
       border: none;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: none;
       }
 
@@ -301,7 +319,8 @@ export default {
       &[disabled] {
         color: $button-text-color-disabled;
 
-        &:hover {
+        &:hover,
+        &:active {
           background: $button-color-transparent-background;
         }
       }
@@ -320,7 +339,8 @@ export default {
     display: flex;
     justify-content: center;
 
-    &:hover {
+    &:hover,
+    &:active {
       color: $button-primary-text;
       text-decoration: none;
     }
@@ -408,7 +428,8 @@ export default {
       border-color: $dark-button-secondary-border;
       color: $dark-button-secondary-text;
 
-      &:hover {
+      &:hover,
+      &:active {
         background: $dark-button-secondary-background-hover;
       }
     }
