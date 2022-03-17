@@ -141,8 +141,6 @@ export default {
   box-sizing: border-box;
   color: $button-primary-text;
   display: block;
-  height: $button-size-medium;
-  min-width: 112px;
   outline: none;
   padding: $button-padding;
   position: relative;
@@ -273,8 +271,8 @@ export default {
   &.everli-button-link {
     background: none;
     color: $button-text-color-link-default;
-    display: inline;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     min-width: auto;
 
     &:hover {
@@ -352,17 +350,17 @@ export default {
     &.everli-button-icon-content {
       min-width: auto;
       padding: 0;
-      width: 44px;
-      height: 44px;
+      width: $button-size-medium;
+      height: $button-size-medium;
 
       &.everli-button-large {
-        width: 52px;
-        height: 52px;
+        width: $button-size-large;
+        height: $button-size-large;
       }
 
       &.everli-button-small {
-        height: 34px;
-        width: 34px;
+        height: $button-size-small;
+        width: $button-size-small;
 
         .everli-icon-wrapper {
           width: 18px;
@@ -384,13 +382,14 @@ export default {
   &.everli-button-small {
     @include button-text-small;
 
-    height: $button-size-small;
+    padding: 6px 12px;
   }
 
   &.everli-button-large {
     @include button-text-large;
 
-    height: $button-size-large;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   &.everli-button-full {

@@ -9,7 +9,7 @@ export default {
 
 export const Primary = () => ({
   components: { EverliButton },
-  template: `<div style="padding: 16px; font-family: 'Fira Sans'" class="everli-design-system">
+  template: `<div style="padding: 16px; font-family: 'Fira Sans'; max-width: 600px" class="everli-design-system">
   <h2 style="margin-bottom: 20px">Primary button</h2>
   <p>Sizes</p>
   <div style="display: flex;align-items: center">
@@ -50,7 +50,7 @@ export const Primary = () => ({
 
 export const Special = () => ({
   components: { EverliButton },
-  template: `<div style="padding: 16px; font-family: 'Fira Sans'" class="everli-design-system">
+  template: `<div style="padding: 16px; font-family: 'Fira Sans'; max-width: 600px" class="everli-design-system">
   <h2 style="margin-bottom: 20px">Special button</h2>
   <p>Sizes</p>
   <div style="display: flex;align-items: center">
@@ -91,38 +91,32 @@ export const Special = () => ({
 
 export const Link = () => ({
   components: { EverliButton },
-  template: `<div style="padding: 16px; font-family: 'Fira Sans'" class="everli-design-system">
-  <h2 style="margin-bottom: 20px">Special button</h2>
+  template: `<div style="padding: 16px; font-family: 'Fira Sans'; max-width: 600px" class="everli-design-system">
+  <h2 style="margin-bottom: 20px">Link button</h2>
   <p>Sizes</p>
   <div style="display: flex;align-items: center">
     <EverliButton style="margin: 16px 16px 16px 0" variant="link" class="everli-button-large">Large</EverliButton>
     <EverliButton style="margin: 16px 16px 16px 0" variant="link">Default</EverliButton>
     <EverliButton style="margin: 16px 16px 16px 0" variant="link" class="everli-button-small">Small</EverliButton>
   </div>
-  <p>Icon only sizes are always square</p>
+  <p>Icons</p>
   <div style="display: flex;align-items: center">
     <EverliButton icon="ico-info" style="margin: 16px 16px 16px 0" variant="link" class="everli-button-large"></EverliButton>
     <EverliButton icon="ico-invoice" style="margin: 16px 16px 16px 0" variant="link" class="everli-button-outline"></EverliButton>
     <EverliButton icon="ico-chat" style="margin: 16px 16px 16px 0" variant="link" class="everli-button-small"></EverliButton>
   </div>
   <p>Styles</p>
-  <div style="display: flex;align-items: center">
-   <p> Is this something that could be used as  <EverliButton variant="link" class="everli-button-flat">inline</EverliButton> link? </p>
+  <div style="align-items: center;margin-bottom: 16px">
+    <EverliButton variant="link">Flat</EverliButton>
   </div>
   <p>Content Variants</p>
   <div style="display: flex;align-items: center">
+  <EverliButton icon="ico-cart" variant="link"  style="margin: 16px 16px 16px 0" class="everli-button-flat">Cart</EverliButton>
   <EverliButton icon="ico-search" variant="link"  style="margin: 16px 16px 16px 0" class="everli-button-flat"></EverliButton>
   </div>
   <p>States</p>
   <div style="display: flex;align-items: center">
   <EverliButton variant="link" style="margin: 16px 16px 16px 0" class="everli-button-flat" disabled>Flat Disabled</EverliButton>
   </div>
-  </div>`,
-})
-
-export const DarkMode = () => ({
-  components: { EverliButton },
-  template: `<div style="background: #222; overflow: hidden; padding: 16px" class="everli-dark-mode">
-  <EverliButton style="margin: 16px 0" class="everli-button-secondary">Secondary</EverliButton>
   </div>`,
 })
