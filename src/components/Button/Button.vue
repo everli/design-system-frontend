@@ -149,7 +149,7 @@ export default {
   transition: all 0.3s;
 
   &:focus {
-    outline: 3px solid $c-green-10;
+    outline: 3px solid $color-border-focus;
   }
 
   &.everli-button-primary {
