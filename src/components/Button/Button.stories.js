@@ -72,7 +72,7 @@ export const Special = () => ({
   </div>
   <p>Content Variants</p>
   <div style="display: flex;align-items: center">
-  <EverliButton icon="ico-padlock" variant="special" style="margin: 16px 16px 16px 0">With icon</EverliButton>
+  <EverliButton icon="ico-padlock" variant="special" icon-alignment="right" style="margin: 16px 16px 16px 0">With icon</EverliButton>
   <EverliButton icon="ico-pos" variant="special" style="margin: 16px 16px 16px 0"></EverliButton>
   <EverliButton icon="ico-remove" variant="special"  style="margin: 16px 16px 16px 0" class="everli-button-outline"></EverliButton>
   <EverliButton icon="ico-search" variant="special"  style="margin: 16px 16px 16px 0" class="everli-button-flat"></EverliButton>

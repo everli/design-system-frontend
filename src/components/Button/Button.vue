@@ -98,6 +98,10 @@ export default {
         classes.push("everli-button-icon")
       }
 
+      if (this.iconAlignment) {
+        classes.push(`everli-icon-${this.iconAlignment}`)
+      }
+
       if (!this.text && !this.$slots.default) {
         classes.push("everli-button-icon-content")
       }
@@ -350,6 +354,19 @@ export default {
     align-items: center;
     display: flex;
     justify-content: center;
+
+    &.everli-icon-left {
+      flex-direction: row;
+    }
+
+    &.everli-icon-right {
+      flex-direction: row-reverse;
+
+      .icon-wrapper {
+        margin-left: 8px;
+        margin-right: 0;
+      }
+    }
 
     .everli-icon {
       fill: currentColor;
