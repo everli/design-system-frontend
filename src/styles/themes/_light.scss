@@ -1,32 +1,33 @@
 /* GLOBAL TOKENS */
 
 // color
-$color-border-focus: $c-green-10 !default;
+$eds-color-border-focus: $c-green-10 !default;
 
 // radius
-$radius-medium: 8px !default;
+$eds-radius-medium: 8px !default;
+$eds-radius-full: 40px !default;
 
 // icons
-$icon-size-small: 18px !default;
-$icon-size-medium: 24px !default;
-$icon-color-white: $c-white !default;
-$icon-color-dark: $c-black-100 !default;
+$eds-icon-size-small: 18px !default;
+$eds-icon-size-medium: 24px !default;
+$eds-icon-color-white: $c-white !default;
+$eds-icon-color-dark: $c-black-100 !default;
 
 // text color
-$text-color-negative: $c-white !default;
-$text-color-primary: $c-black-100 !default;
-$text-color-special: $c-red-100 !default;
+$eds-text-color-negative: $c-white !default;
+$eds-text-color-primary: $c-black-100 !default;
+$eds-text-color-special: $c-red-100 !default;
 
 
 /* BUTTON COMPONENT */
 
 // global button settings
-$button-padding: 10px 16px !default;
+$eds-button-padding: 10px 16px !default;
 
 // buttons sizes
-$button-size-small: 34px !default;
-$button-size-medium: 44px !default;
-$button-size-large: 52px !default;
+$eds-button-size-small: 34px !default;
+$eds-button-size-medium: 44px !default;
+$eds-button-size-large: 52px !default;
 
 // buttons text sizes
 @mixin button-text-small { @include t-body-small-semibold };
@@ -35,31 +36,45 @@ $button-size-large: 52px !default;
 @mixin button-text-link-large { @include t-title-4-regular };
 
 // buttons colors for disabled and flat state
-$button-text-color-disabled: $c-gray-80 !default;
-$button-icon-color-disabled: $c-gray-80 !default;
-$button-color-transparent-background: transparent !default;
-$button-color-fill-background-disabled: $c-gray-15 !default;
-$button-color-outline-border-disabled: $c-gray-40 !default;
+$eds-button-text-color-disabled: $c-gray-80 !default;
+$eds-button-icon-color-disabled: $c-gray-80 !default;
+$eds-button-color-transparent-background: transparent !default;
+$eds-button-color-fill-background-disabled: $c-gray-15 !default;
+$eds-button-color-outline-border-disabled: $c-gray-40 !default;
 
 
 // variant primary
-$button-primary-text: $text-color-negative !default;
-$button-primary-fill-background-default: $c-green-100 !default;
-$button-primary-fill-background-hover: $c-green-110 !default;
-$button-primary-outline-background-default: $c-white !default;
-$button-primary-outline-background-hover: $c-green-10 !default;
-$button-primary-outline-border-default: $c-green-100 !default;
-$button-primary-flat-background-hover: $c-green-10 !default;
+$eds-button-primary-text: $eds-text-color-negative !default;
+$eds-button-primary-fill-background-default: $c-green-100 !default;
+$eds-button-primary-fill-background-hover: $c-green-110 !default;
+$eds-button-primary-outline-background-default: $c-white !default;
+$eds-button-primary-outline-background-hover: $c-green-10 !default;
+$eds-button-primary-outline-border-default: $c-green-100 !default;
+$eds-button-primary-flat-background-hover: $c-green-10 !default;
 
 // variant special
-$button-special-text: $text-color-negative !default;
-$button-special-fill-background-default: $c-red-100 !default;
-$button-special-fill-background-hover: $c-red-110 !default;
-$button-special-outline-background-default: $c-white !default;
-$button-special-outline-background-hover: $c-red-20 !default;
-$button-special-outline-border-default: $c-red-100 !default;
-$button-special-flat-background-hover: $c-red-20 !default;
+$eds-button-special-text: $eds-text-color-negative !default;
+$eds-button-special-fill-background-default: $c-red-100 !default;
+$eds-button-special-fill-background-hover: $c-red-110 !default;
+$eds-button-special-outline-background-default: $c-white !default;
+$eds-button-special-outline-background-hover: $c-red-20 !default;
+$eds-button-special-outline-border-default: $c-red-100 !default;
+$eds-button-special-flat-background-hover: $c-red-20 !default;
 
 // variant link
-$button-text-color-link-default: $c-navy-100;
-$button-text-color-link-hover: $c-navy-110;
+$eds-button-text-color-link-default: $c-navy-100 !default;
+$eds-button-text-color-link-hover: $c-navy-110 !default;
+
+
+/* BRAND BUTTON COMPONENT */
+
+// globals
+$eds-button-color-outline-border-dark: $c-black-100 !default;
+$eds-button-color-overlay-hover: rgba($c-white, .4);
+
+// brand buttons variants
+$eds-button-color-facebook-fill-background-default: $c-facebook !default;
+$eds-button-icon-color-facebook-outline: $c-facebook !default;
+$eds-button-color-google-fill-background-default: $c-black-100 !default;
+$eds-button-color-apple-fill-background-default: $c-black-100 !default;
+$eds-button-color-blik-fill-background-default: $c-blik !default;

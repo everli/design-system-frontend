@@ -1,7 +1,7 @@
 <template>
   <svg width="0" height="0" style="position: absolute">
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-action-more"
       xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-add"
       xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-add-circle"
       xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-alert"
       xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-arrow-left"
       xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-arrow-left-circle"
       xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-arrow-right"
       xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-ask-question"
       xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-cart"
       xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-cash"
       xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-categories"
       xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-chat"
       xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-checkmark-circle-filled"
       xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-checkmark-circle-outline"
       xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-down"
       xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-left"
       xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-right"
       xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-chevron-top"
       xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-clock"
       xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +208,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-close"
       xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-contract"
       xmlns="http://www.w3.org/2000/svg"
@@ -228,7 +228,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-cookie"
       xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +238,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-credit-card"
       xmlns="http://www.w3.org/2000/svg"
@@ -248,7 +248,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-delete"
       xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +260,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-docs"
       xmlns="http://www.w3.org/2000/svg"
@@ -270,7 +270,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-download"
       xmlns="http://www.w3.org/2000/svg"
@@ -282,7 +282,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-edit"
       xmlns="http://www.w3.org/2000/svg"
@@ -292,7 +292,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-email"
       xmlns="http://www.w3.org/2000/svg"
@@ -302,7 +302,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-empty"
       xmlns="http://www.w3.org/2000/svg"
@@ -312,7 +312,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-error"
       xmlns="http://www.w3.org/2000/svg"
@@ -324,7 +324,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-favorite-filled"
       xmlns="http://www.w3.org/2000/svg"
@@ -334,7 +334,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-favorite-outline"
       xmlns="http://www.w3.org/2000/svg"
@@ -344,7 +344,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-filters"
       xmlns="http://www.w3.org/2000/svg"
@@ -354,7 +354,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-filters-multiple"
       xmlns="http://www.w3.org/2000/svg"
@@ -364,7 +364,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-flash"
       xmlns="http://www.w3.org/2000/svg"
@@ -374,7 +374,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-flash-circle"
       xmlns="http://www.w3.org/2000/svg"
@@ -386,7 +386,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-forward"
       xmlns="http://www.w3.org/2000/svg"
@@ -396,7 +396,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-gift"
       xmlns="http://www.w3.org/2000/svg"
@@ -406,7 +406,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-gift-card"
       xmlns="http://www.w3.org/2000/svg"
@@ -418,7 +418,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-gps"
       xmlns="http://www.w3.org/2000/svg"
@@ -428,7 +428,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-help"
       xmlns="http://www.w3.org/2000/svg"
@@ -438,7 +438,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-home"
       xmlns="http://www.w3.org/2000/svg"
@@ -448,7 +448,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-info"
       xmlns="http://www.w3.org/2000/svg"
@@ -458,7 +458,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-invoice"
       xmlns="http://www.w3.org/2000/svg"
@@ -470,7 +470,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-menu"
       xmlns="http://www.w3.org/2000/svg"
@@ -480,7 +480,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-note-product"
       xmlns="http://www.w3.org/2000/svg"
@@ -490,7 +490,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-note-shopper"
       xmlns="http://www.w3.org/2000/svg"
@@ -500,7 +500,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-notifications"
       xmlns="http://www.w3.org/2000/svg"
@@ -515,7 +515,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-padlock"
       xmlns="http://www.w3.org/2000/svg"
@@ -525,7 +525,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-pos"
       xmlns="http://www.w3.org/2000/svg"
@@ -537,7 +537,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-position-marker-filled"
       xmlns="http://www.w3.org/2000/svg"
@@ -547,7 +547,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-position-marker-outline"
       xmlns="http://www.w3.org/2000/svg"
@@ -564,7 +564,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-question-mark"
       xmlns="http://www.w3.org/2000/svg"
@@ -579,7 +579,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-remove"
       xmlns="http://www.w3.org/2000/svg"
@@ -587,7 +587,7 @@
       <path d="M5 11a1 1 0 000 2h14a1 1 0 000-2H5z" />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-replacements"
       xmlns="http://www.w3.org/2000/svg"
@@ -599,7 +599,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-save"
       xmlns="http://www.w3.org/2000/svg"
@@ -609,7 +609,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-search"
       xmlns="http://www.w3.org/2000/svg"
@@ -619,7 +619,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-settings"
       xmlns="http://www.w3.org/2000/svg"
@@ -629,7 +629,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-shield-consents"
       xmlns="http://www.w3.org/2000/svg"
@@ -639,7 +639,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-shield-privacy"
       xmlns="http://www.w3.org/2000/svg"
@@ -649,7 +649,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-shopping-list"
       xmlns="http://www.w3.org/2000/svg"
@@ -659,7 +659,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-user"
       xmlns="http://www.w3.org/2000/svg"
@@ -671,7 +671,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-user-verified"
       xmlns="http://www.w3.org/2000/svg"
@@ -681,7 +681,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-wallet"
       xmlns="http://www.w3.org/2000/svg"
@@ -691,7 +691,7 @@
       />
     </symbol>
     <symbol
-      class="everli-icon"
+      class="eds-icon"
       viewBox="0 0 24 24"
       id="ico-zoom"
       xmlns="http://www.w3.org/2000/svg"
