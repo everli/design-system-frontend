@@ -2,7 +2,7 @@
 import EverliButton from "./Button/Button.vue"
 
 const install = function (Vue) {
-  Vue.component("everli-button", EverliButton)
+  Vue.component("eds-button", EverliButton)
 }
 
 export default {

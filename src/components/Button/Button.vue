@@ -4,14 +4,14 @@
     :href="link"
     :disabled="!enabled"
     :class="buttonClass"
-    class="everli-button"
+    class="eds-button"
     @click.stop="handleClick"
   >
     <template v-if="icon">
       <span class="icon-wrapper">
         <template v-if="designSystemIcon">
           <SvgSprite />
-          <svg class="everli-icon-wrapper" :aria-label="contentDescription">
+          <svg class="eds-icon-wrapper" :aria-label="contentDescription">
             <use :xlink:href="`#${icon}`"></use>
           </svg>
         </template>
@@ -54,7 +54,7 @@ export default {
     },
     buttonStyle: {
       type: String,
-      default: "",
+      default: "fill",
     },
     size: {
       type: String,
@@ -87,23 +87,23 @@ export default {
       const buttonClasses = [this.buttonStyle, this.variant, this.size]
 
       const classes = buttonClasses.map((key) => {
-        return key ? `everli-button-${key}` : null
+        return key ? `eds-button-${key}` : null
       })
 
       if (this.link) {
-        classes.push("everli-button-anchor")
+        classes.push("eds-button-anchor")
       }
 
       if (this.icon) {
-        classes.push("everli-button-icon")
+        classes.push("eds-button-icon")
       }
 
-      if (this.iconAlignment) {
-        classes.push(`everli-icon-${this.iconAlignment}`)
+      if (this.icon && this.iconAlignment) {
+        classes.push(`eds-icon-${this.iconAlignment}`)
       }
 
       if (!this.text && !this.$slots.default) {
-        classes.push("everli-button-icon-content")
+        classes.push("eds-button-icon-content")
       }
 
       return classes
@@ -123,7 +123,7 @@ export default {
      * @returns {boolean}
      */
     designSystemIcon() {
-      return this.icon.indexOf("ico-") > -1
+      return this.icon.indexOf("ico-") > -1 || this.icon.indexOf("logo-") > -1
     },
   },
   methods: {
@@ -138,159 +138,159 @@ export default {
 </script>
 
 <style lang="scss">
-.everli-design-system .everli-button {
+.eds-app .eds-button {
   @include button-text-medium;
 
-  border-radius: $radius-medium;
+  border-radius: $eds-radius-medium;
   box-sizing: border-box;
-  color: $button-primary-text;
+  color: $eds-button-primary-text;
   display: block;
   outline: none;
-  padding: $button-padding;
+  padding: $eds-button-padding;
   position: relative;
   text-align: center;
   text-decoration: none;
   transition: all 0.3s;
 
   &:focus {
-    outline: 3px solid $color-border-focus;
+    outline: 3px solid $eds-color-border-focus;
   }
 
-  &.everli-button-primary {
-    background: $button-primary-fill-background-default;
+  &.eds-button-primary {
+    background: $eds-button-primary-fill-background-default;
 
     &:hover,
     &:active {
-      background: $button-primary-fill-background-hover;
+      background: $eds-button-primary-fill-background-hover;
     }
 
-    &.everli-button-fill {
-      background: $button-primary-fill-background-default;
+    &.eds-button-fill {
+      background: $eds-button-primary-fill-background-default;
 
       &:hover,
       &:active {
-        background: $button-primary-fill-background-hover;
+        background: $eds-button-primary-fill-background-hover;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        background: $button-color-fill-background-disabled;
+        background: $eds-button-color-fill-background-disabled;
       }
     }
 
-    &.everli-button-outline {
-      background: $button-primary-outline-background-default;
-      border: 1px solid $button-primary-outline-border-default;
-      color: $text-color-primary;
+    &.eds-button-outline {
+      background: $eds-button-primary-outline-background-default;
+      border: 1px solid $eds-button-primary-outline-border-default;
+      color: $eds-text-color-primary;
 
       &:hover,
       &:active {
-        background: $button-primary-outline-background-hover;
+        background: $eds-button-primary-outline-background-hover;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        border-color: $button-color-outline-border-disabled;
-        color: $button-text-color-disabled;
+        border-color: $eds-button-color-outline-border-disabled;
+        color: $eds-button-text-color-disabled;
 
         &:hover,
         &:active {
-          background: $button-primary-outline-background-default;
+          background: $eds-button-primary-outline-background-default;
         }
       }
     }
 
-    &.everli-button-flat {
-      background: $button-color-transparent-background;
+    &.eds-button-flat {
+      background: $eds-button-color-transparent-background;
       border: none;
-      color: $text-color-primary;
+      color: $eds-text-color-primary;
 
       &:hover,
       &:active {
-        background: $button-primary-flat-background-hover;
+        background: $eds-button-primary-flat-background-hover;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        color: $button-text-color-disabled;
+        color: $eds-button-text-color-disabled;
 
         &:hover,
         &:active {
-          background: $button-color-transparent-background;
+          background: $eds-button-color-transparent-background;
         }
       }
     }
   }
 
-  &.everli-button-special {
-    background: $button-special-fill-background-default;
+  &.eds-button-special {
+    background: $eds-button-special-fill-background-default;
 
     &:hover,
     &:active {
-      background: $button-special-fill-background-hover;
+      background: $eds-button-special-fill-background-hover;
     }
 
-    &.everli-button-fill {
-      background: $button-special-fill-background-default;
+    &.eds-button-fill {
+      background: $eds-button-special-fill-background-default;
 
       &:hover,
       &:active {
-        background: $button-special-fill-background-hover;
+        background: $eds-button-special-fill-background-hover;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        background: $button-color-fill-background-disabled;
+        background: $eds-button-color-fill-background-disabled;
       }
     }
 
-    &.everli-button-outline {
-      background: $button-special-outline-background-default;
-      border: 1px solid $button-special-outline-border-default;
-      color: $text-color-special;
+    &.eds-button-outline {
+      background: $eds-button-special-outline-background-default;
+      border: 1px solid $eds-button-special-outline-border-default;
+      color: $eds-text-color-special;
 
       &:hover,
       &:active {
-        background: $button-special-outline-background-hover;
+        background: $eds-button-special-outline-background-hover;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        border-color: $button-color-outline-border-disabled;
-        color: $button-text-color-disabled;
+        border-color: $eds-button-color-outline-border-disabled;
+        color: $eds-button-text-color-disabled;
 
         &:hover,
         &:active {
-          background: $button-special-outline-background-default;
+          background: $eds-button-special-outline-background-default;
         }
       }
     }
 
-    &.everli-button-flat {
-      background: $button-color-transparent-background;
+    &.eds-button-flat {
+      background: $eds-button-color-transparent-background;
       border: none;
-      color: $text-color-special;
+      color: $eds-text-color-special;
 
       &:hover,
       &:active {
-        background: $button-special-flat-background-hover;
+        background: $eds-button-special-flat-background-hover;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        color: $button-text-color-disabled;
+        color: $eds-button-text-color-disabled;
 
         &:hover,
         &:active {
-          background: $button-color-transparent-background;
+          background: $eds-button-color-transparent-background;
         }
       }
     }
   }
 
-  &.everli-button-link {
+  &.eds-button-link {
     background: none;
-    color: $button-text-color-link-default;
+    color: $eds-button-text-color-link-default;
     padding-left: 0;
     padding-right: 0;
     min-width: auto;
@@ -298,19 +298,19 @@ export default {
     &:hover,
     &:active {
       background: none;
-      color: $button-text-color-link-hover;
+      color: $eds-button-text-color-link-hover;
     }
 
-    &.everli-button-large {
+    &.eds-button-large {
       @include button-text-link-large;
     }
 
-    &.everli-button-fill {
+    &.eds-button-fill {
       background: none;
       border: none;
     }
 
-    &.everli-button-flat {
+    &.eds-button-flat {
       background: none;
       border: none;
 
@@ -319,25 +319,25 @@ export default {
         background: none;
       }
 
-      &.everli-button-disabled,
+      &.eds-button-disabled,
       &[disabled] {
-        color: $button-text-color-disabled;
+        color: $eds-button-text-color-disabled;
 
         &:hover,
         &:active {
-          background: $button-color-transparent-background;
+          background: $eds-button-color-transparent-background;
         }
       }
     }
   }
 
-  &.everli-button-disabled,
+  &.eds-button-disabled,
   &[disabled] {
-    color: $button-text-color-disabled;
+    color: $eds-button-text-color-disabled;
     cursor: default;
   }
 
-  &.everli-button-anchor {
+  &.eds-button-anchor {
     align-content: center;
     align-items: center;
     display: flex;
@@ -345,21 +345,21 @@ export default {
 
     &:hover,
     &:active {
-      color: $button-primary-text;
+      color: $eds-button-primary-text;
       text-decoration: none;
     }
   }
 
-  &.everli-button-icon {
+  &.eds-button-icon {
     align-items: center;
     display: flex;
     justify-content: center;
 
-    &.everli-icon-left {
+    &.eds-icon-left {
       flex-direction: row;
     }
 
-    &.everli-icon-right {
+    &.eds-icon-right {
       flex-direction: row-reverse;
 
       .icon-wrapper {
@@ -368,11 +368,11 @@ export default {
       }
     }
 
-    .everli-icon {
+    .eds-icon {
       fill: currentColor;
     }
 
-    .everli-icon-wrapper {
+    .eds-icon-wrapper {
       height: 24px;
       width: 24px;
     }
@@ -384,22 +384,22 @@ export default {
       width: 24px;
     }
 
-    &.everli-button-icon-content {
+    &.eds-button-icon-content {
       min-width: auto;
       padding: 0;
-      width: $button-size-medium;
-      height: $button-size-medium;
+      width: $eds-button-size-medium;
+      height: $eds-button-size-medium;
 
-      &.everli-button-large {
-        width: $button-size-large;
-        height: $button-size-large;
+      &.eds-button-large {
+        width: $eds-button-size-large;
+        height: $eds-button-size-large;
       }
 
-      &.everli-button-small {
-        height: $button-size-small;
-        width: $button-size-small;
+      &.eds-button-small {
+        height: $eds-button-size-small;
+        width: $eds-button-size-small;
 
-        .everli-icon-wrapper {
+        .eds-icon-wrapper {
           width: 18px;
           height: 18px;
         }
@@ -416,20 +416,20 @@ export default {
     }
   }
 
-  &.everli-button-small {
+  &.eds-button-small {
     @include button-text-small;
 
     padding: 6px 12px;
   }
 
-  &.everli-button-large {
+  &.eds-button-large {
     @include button-text-large;
 
     padding-top: 12px;
     padding-bottom: 12px;
   }
 
-  &.everli-button-full {
+  &.eds-button-full {
     max-width: 100%;
     width: 100%;
   }
@@ -438,9 +438,9 @@ export default {
 
 <style lang="scss">
 // Dark MODE handling
-.everli-dark-mode {
-  .everli-button {
-    &.everli-button-secondary {
+.eds-dark-mode {
+  .eds-button {
+    &.eds-button-secondary {
       background: $dark-button-secondary-background-default;
       border-color: $dark-button-secondary-border;
       color: $dark-button-secondary-text;

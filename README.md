@@ -99,8 +99,8 @@ use: ['style-loader', 'css-loader', 'sass-loader', {
 
 This way, you will be able to overwrite variables values
 ```css
-$button-primary-background-default: blue; // all primary buttons will now how blue background color
-$button-primary-background-hover: red;
+$eds-button-primary-background-default: blue; // all primary buttons will now how blue background color
+$eds-button-primary-background-hover: red;
 ```
 
 ### Custom imports
