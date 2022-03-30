@@ -123,7 +123,7 @@ export default {
      * @returns {boolean}
      */
     designSystemIcon() {
-      return this.icon.indexOf("ico-") > -1
+      return this.icon.indexOf("ico-") > -1 || this.icon.indexOf("logo-") > -1
     },
   },
   methods: {

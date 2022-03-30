@@ -73,12 +73,22 @@ export default {
 <style lang="scss">
 .eds-app .eds-button {
   &.eds-brand-button {
-    &.eds-button-outline {
-      border-color: $eds-button-color-outline-border-dark;
-    }
-
+    &:active,
     &:hover {
-      background: $eds-button-color-overlay-hover;
+      position: relative;
+      overflow: hidden;
+
+      ::after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        bottom: 0;
+        right: 0;
+        background: $eds-button-color-overlay-hover;
+      }
     }
 
     &.eds-button-facebook {
@@ -86,6 +96,14 @@ export default {
 
       &.eds-button-fill {
         background: $eds-button-color-facebook-fill-background-default;
+      }
+
+      &.eds-button-outline {
+        &.eds-button-icon {
+          .icon-wrapper {
+            color: $eds-button-icon-color-facebook-outline;
+          }
+        }
       }
     }
 
@@ -110,6 +128,35 @@ export default {
 
       &.eds-button-fill {
         background: $eds-button-color-blik-fill-background-default;
+      }
+    }
+
+    &.eds-button-outline {
+      background: $eds-button-primary-outline-background-default;
+      border: 1px solid $eds-button-color-outline-border-dark;
+      color: $eds-text-color-primary;
+    }
+
+    &.eds-button-disabled,
+    &[disabled] {
+      background: $eds-button-color-fill-background-disabled;
+      color: $eds-button-text-color-disabled;
+      cursor: default;
+
+      &:hover,
+      &:active {
+        ::after {
+          display: none;
+        }
+      }
+
+      &.eds-button-icon {
+        &.eds-button-blik,
+        &.eds-button-google {
+          .icon-wrapper {
+            opacity: 0.4;
+          }
+        }
       }
     }
 
