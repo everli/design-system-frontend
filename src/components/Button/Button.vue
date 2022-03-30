@@ -10,7 +10,7 @@
     <template v-if="icon">
       <span class="icon-wrapper">
         <template v-if="designSystemIcon">
-          <SvgSprite />
+          <EverliSvgSprite />
           <svg class="eds-icon-wrapper" :aria-label="contentDescription">
             <use :xlink:href="`#${icon}`"></use>
           </svg>
@@ -32,12 +32,12 @@
 </template>
 
 <script>
-import SvgSprite from "@/components/SvgSprite/symbol/svg/sprite.symbol.vue"
+import EverliSvgSprite from "@/components/SvgSprite/symbol/svg/sprite.symbol.vue"
 
 export default {
   name: "EverliButton",
   components: {
-    SvgSprite,
+    EverliSvgSprite,
   },
   props: {
     enabled: {
