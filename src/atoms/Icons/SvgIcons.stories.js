@@ -1,13 +1,13 @@
-import SvgSprite from "../../components/SvgSprite/symbol/svg/sprite.symbol.vue"
+import EverliSvgSprite from "../../components/Icons/symbol/svg/sprite.symbol.vue"
 
 export default {
-  title: "Icons/SvgIcons",
+  title: "Icons/Icons",
 }
 
-export const _SvgSprite = () => ({
-  components: { SvgSprite },
+export const Icons = () => ({
+  components: { EverliSvgSprite },
   template: `<div style="display: flex; flex-wrap: wrap">
-        <SvgSprite />
+        <EverliSvgSprite />
         <svg style="width: 50px; margin: 5px"><use xlink:href="#ico-action-more"></use></svg>
         <svg style="width: 50px; margin: 5px"><use xlink:href="#ico-add"></use></svg>
         <svg style="width: 50px; margin: 5px"><use xlink:href="#ico-add-circle"></use></svg>
@@ -77,6 +77,6 @@ export const _SvgSprite = () => ({
     </div> `,
 })
 
-_SvgSprite.story = {
-  name: "Svg sprite",
+Icons.story = {
+  name: "Sprite",
 }
