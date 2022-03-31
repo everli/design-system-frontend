@@ -144,6 +144,7 @@ export default {
   border-radius: $eds-radius-medium;
   box-sizing: border-box;
   color: $eds-button-primary-text;
+  cursor: pointer;
   display: block;
   outline: none;
   padding: $eds-button-padding;
