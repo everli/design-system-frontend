@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import EverliSvgSprite from "@/components/Icons/symbol/svg/sprite.symbol.vue"
+import EverliSvgSprite from "../Icons/symbol/svg/sprite.symbol.vue"
 
 export default {
   name: "EverliButton",
