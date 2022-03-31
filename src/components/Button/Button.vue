@@ -10,7 +10,7 @@
     <template v-if="icon">
       <span class="icon-wrapper">
         <template v-if="designSystemIcon">
-          <EverliSvgSprite />
+          <EverliSvgSprite class="everli-svg-sprite" />
           <svg class="eds-icon-wrapper" :aria-label="contentDescription">
             <use :xlink:href="`#${icon}`"></use>
           </svg>
