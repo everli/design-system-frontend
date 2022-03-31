@@ -141,6 +141,7 @@ export default {
 .eds-app .eds-button {
   @include button-text-medium;
 
+  border: none;
   border-radius: $eds-radius-medium;
   box-sizing: border-box;
   color: $eds-button-primary-text;
