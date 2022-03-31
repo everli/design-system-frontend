@@ -1873,12 +1873,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5277b388-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button/Button.vue?vue&type=template&id=6e1f610e&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c(_vm.tag,{tag:"component",staticClass:"eds-button",class:_vm.buttonClass,attrs:{"href":_vm.link,"disabled":!_vm.enabled},on:{"click":function($event){$event.stopPropagation();return _vm.handleClick.apply(null, arguments)}}},[(_vm.icon)?[_c('span',{staticClass:"icon-wrapper"},[(_vm.designSystemIcon)?[_c('SvgSprite'),_c('svg',{staticClass:"eds-icon-wrapper",attrs:{"aria-label":_vm.contentDescription}},[_c('use',{attrs:{"xlink:href":("#" + _vm.icon)}})])]:[_c('span',{staticClass:"icon",class:_vm.icon,attrs:{"aria-label":_vm.contentDescription}})]],2)]:_vm._e(),(_vm.text)?[_vm._v(" "+_vm._s(_vm.text)+" ")]:(_vm.$slots.default)?_vm._t("default"):_vm._e()],2)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5277b388-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button/Button.vue?vue&type=template&id=7374147e&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c(_vm.tag,{tag:"component",staticClass:"eds-button",class:_vm.buttonClass,attrs:{"href":_vm.link,"disabled":!_vm.enabled},on:{"click":function($event){$event.stopPropagation();return _vm.handleClick.apply(null, arguments)}}},[(_vm.icon)?[_c('span',{staticClass:"icon-wrapper"},[(_vm.designSystemIcon)?[_c('EverliSvgSprite'),_c('svg',{staticClass:"eds-icon-wrapper",attrs:{"aria-label":_vm.contentDescription}},[_c('use',{attrs:{"xlink:href":("#" + _vm.icon)}})])]:[_c('span',{staticClass:"icon",class:_vm.icon,attrs:{"aria-label":_vm.contentDescription}})]],2)]:_vm._e(),(_vm.text)?[_vm._v(" "+_vm._s(_vm.text)+" ")]:(_vm.$slots.default)?_vm._t("default"):_vm._e()],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Button/Button.vue?vue&type=template&id=6e1f610e&
+// CONCATENATED MODULE: ./src/components/Button/Button.vue?vue&type=template&id=7374147e&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.map.js
 var es_array_map = __webpack_require__("d81d");
@@ -2052,7 +2052,7 @@ var component = normalizeComponent(
 /* harmony default export */ var Buttonvue_type_script_lang_js_ = ({
   name: "EverliButton",
   components: {
-    SvgSprite: sprite_symbol
+    EverliSvgSprite: sprite_symbol
   },
   props: {
     enabled: {
