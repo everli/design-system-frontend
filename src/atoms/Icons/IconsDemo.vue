@@ -24,11 +24,7 @@ export default {
   components: { EverliSvgSprite },
   computed: {
     icons() {
-      const iconTransformed = IconsList.map((icon) =>
-        icon.split("icons/")[1].replace(".svg", "")
-      )
-
-      return iconTransformed
+      return IconsList
     },
   },
 }
