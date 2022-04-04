@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import EverliButton from "@/components/Button/Button.vue"
+import EverliButton from "../Button/Button.vue"
 
 export default {
   name: "EverliBrandButton",

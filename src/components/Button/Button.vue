@@ -10,7 +10,7 @@
     <template v-if="icon">
       <span class="icon-wrapper">
         <template v-if="designSystemIcon">
-          <EverliSvgSprite />
+          <EverliSvgSprite class="everli-svg-sprite" />
           <svg class="eds-icon-wrapper" :aria-label="contentDescription">
             <use :xlink:href="`#${icon}`"></use>
           </svg>
@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import EverliSvgSprite from "@/components/SvgSprite/symbol/svg/sprite.symbol.vue"
+import EverliSvgSprite from "../Icons/symbol/svg/sprite.symbol.vue"
 
 export default {
   name: "EverliButton",
@@ -141,9 +141,11 @@ export default {
 .eds-app .eds-button {
   @include button-text-medium;
 
+  border: none;
   border-radius: $eds-radius-medium;
   box-sizing: border-box;
   color: $eds-button-primary-text;
+  cursor: pointer;
   display: block;
   outline: none;
   padding: $eds-button-padding;
