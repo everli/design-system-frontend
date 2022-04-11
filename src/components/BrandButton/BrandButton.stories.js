@@ -1,4 +1,5 @@
-import EverliBrandButton from "./BrandButton.vue"
+import EdsBrandButton from "./EdsBrandButton.vue"
+import EverliSvgSprite from "../Icons/symbol/svg/sprite.symbol.vue"
 
 export default {
   title: "Components/BrandButton",
@@ -8,7 +9,7 @@ export default {
 }
 
 export const BrandButton = () => ({
-  components: { EverliBrandButton },
+  components: { EdsBrandButton, EverliSvgSprite },
   data() {
     return {
       variant: "facebook",
@@ -34,23 +35,23 @@ export const BrandButton = () => ({
   </div>
   <p>Style</p>
   <div style="display: flex;align-items: center">
-    <EverliBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-fill">Fill</EverliBrandButton>
-    <EverliBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-outline">Outline</EverliBrandButton>
+    <EdsBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-fill">Fill</EdsBrandButton>
+    <EdsBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-outline">Outline</EdsBrandButton>
   </div>
   <p>Size</p>
   <div style="display: flex;align-items: center">
-    <EverliBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-large">Large</EverliBrandButton>
-    <EverliBrandButton :variant="variant" :icon="icon" style="margin: 16px 16px 16px 0">Default</EverliBrandButton>
+    <EdsBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-large">Large</EdsBrandButton>
+    <EdsBrandButton :variant="variant" :icon="icon" style="margin: 16px 16px 16px 0">Default</EdsBrandButton>
   </div>
   <p>Content variant</p>
   <div style="display: flex;align-items: center">
-  <EverliBrandButton :variant="variant" :icon="icon" style="margin: 16px 16px 16px 0" class="eds-button-small"></EverliBrandButton>
-    <EverliBrandButton :variant="variant" :icon="icon" style="margin: 16px 16px 16px 0" class="eds-button-large"></EverliBrandButton>
-    <EverliBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-outline"></EverliBrandButton>
+  <EdsBrandButton :variant="variant" :icon="icon" style="margin: 16px 16px 16px 0" class="eds-button-small"></EdsBrandButton>
+    <EdsBrandButton :variant="variant" :icon="icon" style="margin: 16px 16px 16px 0" class="eds-button-large"></EdsBrandButton>
+    <EdsBrandButton :variant="variant" :icon="icon"  style="margin: 16px 16px 16px 0" class="eds-button-outline"></EdsBrandButton>
   </div>
   <p>Disabled</p>
   <div style="display: flex;align-items: center">
-  <EverliBrandButton :variant="variant" :icon="icon" disabled style="margin: 16px 16px 16px 0">Disabled</EverliBrandButton>
+  <EdsBrandButton :variant="variant" :icon="icon" disabled style="margin: 16px 16px 16px 0">Disabled</EdsBrandButton>
   </div>
   
   `,
