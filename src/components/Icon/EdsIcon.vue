@@ -1,5 +1,5 @@
 <template>
-  <component :is="iconName" :aria-label="label" />
+  <component :is="iconName" :class="customClass" :aria-label="label" />
 </template>
 
 <script>
@@ -14,6 +14,14 @@ export default {
       type: String,
       default: "",
     },
+    color: {
+      type: String,
+      default: "",
+    },
+    size: {
+      type: String,
+      default: "medium",
+    },
   },
   computed: {
     iconName() {
@@ -22,11 +30,18 @@ export default {
       }
       return null
     },
+    customClass() {
+      return [`eds-icon--${this.size}`, `eds-c-${this.color}`]
+    },
   },
 }
 </script>
 
 <style lang="scss">
 .eds-app .eds-icon {
+  &.eds-icon--small {
+    width: 18px;
+    height: 18px;
+  }
 }
 </style>
