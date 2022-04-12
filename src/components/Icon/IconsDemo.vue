@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import IconsList from "../../components/Icons/icons.json"
+import IconsList from "../../components/Icon/icons.json"
 import EdsIcon from "../../components/Icon/EdsIcon.vue"
 
 export default {

@@ -1,7 +1,7 @@
 import IconsDemo from "./IconsDemo.vue"
 
 export default {
-  title: "Icons/Icons",
+  title: "Atoms/Icons",
 }
 
 export const Icons = () => ({
