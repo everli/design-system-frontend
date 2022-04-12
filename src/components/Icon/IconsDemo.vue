@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="eds-app">
     <table>
       <tr v-for="(icon, index) in icons" :key="index">
         <td>
-          <EdsIcon :icon="icon" :label="icon" />
+          <EdsIcon :icon="icon" :label="icon" color="green-110" />
         </td>
         <td>
           {{ icon }}

@@ -1,5 +1,4 @@
 import EdsBrandButton from "./EdsBrandButton.vue"
-import EverliSvgSprite from "../Icons/symbol/svg/sprite.symbol.vue"
 
 export default {
   title: "Components/BrandButton",
@@ -9,7 +8,7 @@ export default {
 }
 
 export const BrandButton = () => ({
-  components: { EdsBrandButton, EverliSvgSprite },
+  components: { EdsBrandButton },
   data() {
     return {
       variant: "facebook",

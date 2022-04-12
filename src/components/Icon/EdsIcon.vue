@@ -39,6 +39,8 @@ export default {
 
 <style lang="scss">
 .eds-app .eds-icon {
+  fill: currentColor;
+
   &.eds-icon--small {
     width: 18px;
     height: 18px;
