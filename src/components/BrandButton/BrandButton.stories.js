@@ -18,7 +18,7 @@ export const BrandButton = () => ({
     icon() {
       return this.variant === "blik"
         ? "logo-payment-blik"
-        : `logo-ext-${this.variant}`
+        : `logo-${this.variant}`
     },
   },
   template: `<div style="padding: 16px; font-family: 'Fira Sans'; max-width: 600px" class="eds-app">
