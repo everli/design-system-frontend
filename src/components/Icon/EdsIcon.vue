@@ -26,7 +26,7 @@ export default {
   computed: {
     iconName() {
       if (this.icon) {
-        return () => import(`./${this.icon}.vue`)
+        return () => import(/* webpackIgnore: true */ `./${this.icon}.vue`)
       }
       return null
     },
