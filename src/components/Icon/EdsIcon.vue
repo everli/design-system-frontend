@@ -26,7 +26,7 @@ export default {
   computed: {
     iconName() {
       if (this.icon) {
-        return () => import(/* webpackMode: eager */ `./${this.icon}.vue`)
+        return () => import(/* webpackMode: "eager" */ `./${this.icon}.vue`)
       }
       return null
     },
