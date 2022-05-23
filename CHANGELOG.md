@@ -1,6 +1,6 @@
-v0.1.0-hello-icons / 2022-05-23
+v0.1.0-show-me-the-icons / 2022-05-23
 ==================
- * milestone [v0.1.0-hello-icons](https://github.com/everli/design-system-frontend/milestone/3?closed=1)
+ * milestone [v0.1.0-show-me-the-icons](https://github.com/everli/design-system-frontend/milestone/3?closed=1)
  * [SUP-13227] Add Typography atom structure
  * [SUP-15192] Brand button implementation
  * [SUP-14798] Icon component revamp, Handle webpack build
