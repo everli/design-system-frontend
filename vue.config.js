@@ -4,10 +4,16 @@ module.exports = {
   pluginOptions: {
     "style-resources-loader": {
       preProcessor: "scss",
-      patterns: [path.resolve(__dirname, "./src/styles/main.scss")],
+      patterns: [
+        !process.env.LIBRARY
+          ? path.resolve(__dirname, "./src/styles/setup.scss")
+          : "",
+        path.resolve(__dirname, "./src/styles/main.scss"),
+      ],
+      resolveUrl: false,
     },
   },
   css: {
-    extract: process.env.MODE ? true : false,
+    extract: process.env.LIBRARY ? true : false,
   },
 }

@@ -1,11 +1,11 @@
 @each $uiColor, $i in $uiColors {
-  .bg-#{$uiColor} {
+  .eds-bg-#{$uiColor} {
     background-color: $i;
   }
 };
 
 @each $uiColor, $i in $uiColors {
-  .c-#{$uiColor} {
+  .eds-c-#{$uiColor} {
     color: $i;
   }
 };
