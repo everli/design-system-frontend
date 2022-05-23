@@ -1,5 +1,15 @@
-v0.1.0- / 2022-05-
+v0.1.0-hello-icons / 2022-05-23
 ==================
+ * milestone [v0.1.0-hello-icons](https://github.com/everli/design-system-frontend/milestone/3?closed=1)
+ * [SUP-13227] Add Typography atom structure
+ * [SUP-15192] Brand button implementation
+ * [SUP-14798] Icon component revamp, Handle webpack build
+ * [SUP-14404] Implement Button component
+ * [SUP-14792] Implement new button styles and variant
+ * [SUP-14208] Implement SVG setup with inline and external source 
+ * [SUP-14787] Optimize CSS import for the Pages project usage (css-only)
+ * [SUP-14780] Optimize imports and update doc about Theming
+ * [SUP-14644] Update icons pack and improve Everli implementation, Improve sprite component name
 
 v0.0.2-santa-claus-is-coming / 2021-12-06
 ==================
