@@ -1,3 +1,6 @@
+v0.1.1- / 2022-05-
+==================
+
 v0.1.0-show-me-the-icons / 2022-05-23
 ==================
  * milestone [v0.1.0-show-me-the-icons](https://github.com/everli/design-system-frontend/milestone/3?closed=1)
