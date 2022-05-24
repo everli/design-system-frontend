@@ -1,5 +1,7 @@
-v0.1.1- / 2022-05-
+v0.1.1-deep-purple / 2022-05-24
 ==================
+ * milestone [v0.1.1-deep-purple](https://github.com/everli/design-system-frontend/milestone/1?closed=1)
+ * [SUP-15921] Change violet color name
 
 v0.1.0-show-me-the-icons / 2022-05-23
 ==================
