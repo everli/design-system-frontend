@@ -31,7 +31,13 @@ export default {
       return null
     },
     customClass() {
-      return [`eds-icon--${this.size}`, `eds-c-${this.color}`]
+      const classes = [`eds-icon--${this.size}`]
+
+      if (this.color) {
+        classes.push(`eds-c-${this.color}`)
+      }
+
+      return classes
     },
   },
 }

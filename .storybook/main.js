@@ -9,7 +9,7 @@ module.exports = {
       name: '@storybook/preset-scss',
       options: {
         sassLoaderOptions: {
-          additionalData: "@import './src/styles/setup.scss'; @import './src/styles/main.scss';",
+          additionalData: "@import './src/styles/setup.scss'; @import './src/styles/variables.scss';",
         }
       }
     }

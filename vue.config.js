@@ -5,10 +5,10 @@ module.exports = {
     "style-resources-loader": {
       preProcessor: "scss",
       patterns: [
+        path.resolve(__dirname, "./src/styles/variables.scss"),
         !process.env.LIBRARY
           ? path.resolve(__dirname, "./src/styles/setup.scss")
           : "",
-        path.resolve(__dirname, "./src/styles/main.scss"),
       ],
       resolveUrl: false,
     },
