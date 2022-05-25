@@ -1,3 +1,6 @@
+v0.1.2- / 2022-05-
+==================
+
 v0.1.1-deep-purple / 2022-05-24
 ==================
  * milestone [v0.1.1-deep-purple](https://github.com/everli/design-system-frontend/milestone/1?closed=1)
