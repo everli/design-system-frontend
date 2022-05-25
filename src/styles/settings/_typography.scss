@@ -1,217 +1,217 @@
-$f-family-primary: 'Fira Sans', sans-serif;
-$f-family-brand: 'Isidora';
-$f-weight-regular: 400;
-$f-weight-semi: 600;
-$f-weight-bold: 700;
+$eds-font-family-primary: 'Fira Sans', sans-serif;
+$eds-font-family-brand: 'Isidora';
+$eds-font-weight-regular: 400;
+$eds-font-weight-semi: 600;
+$eds-font-weight-bold: 700;
 
 @mixin t-title-1-bold {
-  font-family: $f-family-brand;
+  font-family: $eds-font-family-brand;
   font-size: 48px;
-  font-weight: $f-weight-bold;
+  font-weight: $eds-font-weight-bold;
   line-height: 68px
 }
 
 @mixin t-title-2-bold {
-  font-family: $f-family-brand;
+  font-family: $eds-font-family-brand;
   font-size: 37px;
-  font-weight: $f-weight-bold;
+  font-weight: $eds-font-weight-bold;
   line-height: 52px;
 }
 
 @mixin t-title-2-semibold {
   @include t-title-2-bold();
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 36px;
-  font-weight: $f-weight-semi;
+  font-weight: $eds-font-weight-semi;
 }
 
 @mixin t-title-3-bold {
-  font-family: $f-family-brand;
+  font-family: $eds-font-family-brand;
   font-size: 29px;
-  font-weight: $f-weight-bold;
+  font-weight: $eds-font-weight-bold;
   line-height: 40px;
 }
 
 @mixin t-title-3-semibold {
   @include t-title-3-bold();
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 28px;
-  font-weight: $f-weight-semi;
+  font-weight: $eds-font-weight-semi;
 }
 
 @mixin t-title-4-bold {
-  font-family: $f-family-brand;
+  font-family: $eds-font-family-brand;
   font-size: 23px;
-  font-weight: $f-weight-bold;
+  font-weight: $eds-font-weight-bold;
   line-height: 32px;
 }
 
 @mixin t-title-4-semibold {
   @include t-title-4-bold();
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 22px;
-  font-weight: $f-weight-semibold;
+  font-weight: $eds-font-weight-semibold;
 }
 
 @mixin t-title-4-regular {
   @include t-title-4-bold();
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 22px;
-  font-weight: $f-weight-regular;
+  font-weight: $eds-font-weight-regular;
 }
 
 @mixin t-subtitle-semibold {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 18px;
-  font-weight: $f-weight-semi;
+  font-weight: $eds-font-weight-semi;
   line-height: 28px;
 }
 
 
 @mixin t-subtitle-regular {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 18px;
-  font-weight: $f-weight-regular;
+  font-weight: $eds-font-weight-regular;
   line-height: 28px;
 }
 
 @mixin t-body-semibold {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 16px;
-  font-weight: $f-weight-semi;
+  font-weight: $eds-font-weight-semi;
   line-height: 24px;
 }
 
 @mixin t-body-regular {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 16px;
-  font-weight: $f-weight-regular;
+  font-weight: $eds-font-weight-regular;
   line-height: 24px;
 }
 
 @mixin t-body-small-semibold {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 14px;
-  font-weight: $f-weight-semi;
+  font-weight: $eds-font-weight-semi;
   line-height: 22px;
 }
 
 @mixin t-body-small-regular {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 14px;
-  font-weight: $f-weight-regular;
+  font-weight: $eds-font-weight-regular;
   line-height: 22px;
 }
 
 @mixin t-caption-semibold {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 12px;
-  font-weight: $f-weight-semi;
+  font-weight: $eds-font-weight-semi;
   line-height: 18px;
 }
 
 @mixin t-caption-regular {
-  font-family: $f-family-primary;
+  font-family: $eds-font-family-primary;
   font-size: 12px;
-  font-weight: $f-weight-regular;
+  font-weight: $eds-font-weight-regular;
   line-height: 18px;
 }
 
 $typography: (
   'title-1-bold': (
-    'font-family': $f-family-brand,
+    'font-family': $eds-font-family-brand,
     'font-size': 48px,
-    'font-weight': $f-weight-bold,
+    'font-weight': $eds-font-weight-bold,
     'line-height': 68px
   ),
   'title-2-bold': (
-    'font-family': $f-family-brand,
+    'font-family': $eds-font-family-brand,
     'font-size': 37px,
-    'font-weight': $f-weight-bold,
+    'font-weight': $eds-font-weight-bold,
     'line-height': 52px
   ),
   'title-2-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 36px,
-    'font-weight': $f-weight-bold,
+    'font-weight': $eds-font-weight-bold,
     'line-height': 52px
   ),
   'title-3-bold': (
-    'font-family': $f-family-brand,
+    'font-family': $eds-font-family-brand,
     'font-size': 29px,
-    'font-weight': $f-weight-bold,
+    'font-weight': $eds-font-weight-bold,
     'line-height': 40px
   ),
   'title-3-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 28px,
-    'font-weight': $f-weight-semi,
+    'font-weight': $eds-font-weight-semi,
     'line-height': 40px
   ),
   'title-4-bold': (
-    'font-family': $f-family-brand,
+    'font-family': $eds-font-family-brand,
     'font-size': 23px,
-    'font-weight': $f-weight-bold,
+    'font-weight': $eds-font-weight-bold,
     'line-height': 32px
   ),
   'title-4-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 22px,
-    'font-weight': $f-weight-semi,
+    'font-weight': $eds-font-weight-semi,
     'line-height': 32px
   ),
   'title-4-regular': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 22px,
-    'font-weight': $f-weight-regular,
+    'font-weight': $eds-font-weight-regular,
     'line-height': 32px
   ),
   'subtitle-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 18px,
-    'font-weight': $f-weight-semi,
+    'font-weight': $eds-font-weight-semi,
     'line-height': 28px,
   ),
   'subtitle-regular': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 18px,
-    'font-weight': $f-weight-regular,
+    'font-weight': $eds-font-weight-regular,
     'line-height': 28px,
   ),
   'body-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 16px,
-    'font-weight': $f-weight-semi,
+    'font-weight': $eds-font-weight-semi,
     'line-height': 24px,
   ),
   'body-regular': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 16px,
-    'font-weight': $f-weight-regular,
+    'font-weight': $eds-font-weight-regular,
     'line-height': 24px,
   ),
   'body-small-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 14px,
-    'font-weight': $f-weight-semi,
+    'font-weight': $eds-font-weight-semi,
     'line-height': 22px,
   ),
   'body-small-regular': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 14px,
-    'font-weight': $f-weight-regular,
+    'font-weight': $eds-font-weight-regular,
     'line-height': 22px,
   ),
   'caption-semibold': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 12px,
-    'font-weight': $f-weight-semi,
+    'font-weight': $eds-font-weight-semi,
     'line-height': 18px,
   ),
   'caption-regular': (
-    'font-family': $f-family-primary,
+    'font-family': $eds-font-family-primary,
     'font-size': 12px,
-    'font-weight': $f-weight-regular,
+    'font-weight': $eds-font-weight-regular,
     'line-height': 18px,
   )
 );
