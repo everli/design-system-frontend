@@ -1,5 +1,5 @@
 <template>
-  <component :is="iconName" :class="customClass" :aria-label="label" />
+  <component :is="iconName" :class="iconClass" :aria-label="label" />
 </template>
 
 <script>
@@ -24,13 +24,23 @@ export default {
     },
   },
   computed: {
+    /**
+     * @description Returns icon component based on the passed icon name
+     *
+     * @returns {Object|Null}
+     */
     iconName() {
       if (this.icon) {
         return () => import(/* webpackMode: "eager" */ `./${this.icon}.vue`)
       }
       return null
     },
-    customClass() {
+    /**
+     * @description Returns classes for the icon component
+     *
+     * @returns {Array}
+     */
+    iconClass() {
       const classes = [`eds-icon--${this.size}`]
 
       if (this.color) {

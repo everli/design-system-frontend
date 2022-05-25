@@ -117,7 +117,7 @@ export default {
     },
     /**
      * @description Is the icon design-system icon?
-     * Design System icons contains ico- prefix.
+     * Design System icons contains ico- or -logo prefix.
      *
      * @returns {boolean}
      */

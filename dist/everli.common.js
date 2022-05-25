@@ -3054,12 +3054,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/EdsIcon.vue?vue&type=template&id=b77e23de&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c(_vm.iconName,{tag:"component",class:_vm.customClass,attrs:{"aria-label":_vm.label}})}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/EdsIcon.vue?vue&type=template&id=1c645162&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c(_vm.iconName,{tag:"component",class:_vm.iconClass,attrs:{"aria-label":_vm.label}})}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Icon/EdsIcon.vue?vue&type=template&id=b77e23de&
+// CONCATENATED MODULE: ./src/components/Icon/EdsIcon.vue?vue&type=template&id=1c645162&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.iterator.js
 var es_array_iterator = __webpack_require__("e260");
@@ -3107,6 +3107,11 @@ var web_dom_collections_iterator = __webpack_require__("ddb0");
     }
   },
   computed: {
+    /**
+     * @description Returns icon component based on the passed icon name
+     *
+     * @returns {Object|Null}
+     */
     iconName: function iconName() {
       var _this = this;
 
@@ -3118,8 +3123,20 @@ var web_dom_collections_iterator = __webpack_require__("ddb0");
 
       return null;
     },
-    customClass: function customClass() {
-      return ["eds-icon--".concat(this.size), "eds-c-".concat(this.color)];
+
+    /**
+     * @description Returns classes for the icon component
+     *
+     * @returns {Array}
+     */
+    iconClass: function iconClass() {
+      var classes = ["eds-icon--".concat(this.size)];
+
+      if (this.color) {
+        classes.push("eds-c-".concat(this.color));
+      }
+
+      return classes;
     }
   }
 });
@@ -8540,12 +8557,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button/EdsButton.vue?vue&type=template&id=52417631&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button/EdsButton.vue?vue&type=template&id=0a5f9a74&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c(_vm.tag,{tag:"component",staticClass:"eds-button",class:_vm.buttonClass,attrs:{"href":_vm.link,"disabled":!_vm.enabled},on:{"click":function($event){$event.stopPropagation();return _vm.handleClick.apply(null, arguments)}}},[(_vm.icon)?[_c('span',{staticClass:"icon-wrapper"},[(_vm.designSystemIcon)?_c('EdsIcon',{attrs:{"icon":_vm.icon,"label":_vm.contentDescription}}):[_c('span',{staticClass:"icon",class:_vm.icon,attrs:{"aria-label":_vm.contentDescription}})]],2)]:_vm._e(),(_vm.text)?[_vm._v(" "+_vm._s(_vm.text)+" ")]:(_vm.$slots.default)?_vm._t("default"):_vm._e()],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Button/EdsButton.vue?vue&type=template&id=52417631&
+// CONCATENATED MODULE: ./src/components/Button/EdsButton.vue?vue&type=template&id=0a5f9a74&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.map.js
 var es_array_map = __webpack_require__("d81d");
@@ -8677,7 +8694,7 @@ var EdsIcon = __webpack_require__("4ee0");
 
     /**
      * @description Is the icon design-system icon?
-     * Design System icons contains ico- prefix.
+     * Design System icons contains ico- or -logo prefix.
      *
      * @returns {boolean}
      */
@@ -8727,12 +8744,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var EdsButton = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BrandButton/EdsBrandButton.vue?vue&type=template&id=abae7126&
-var EdsBrandButtonvue_type_template_id_abae7126_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('EdsButton',_vm._b({staticClass:"eds-brand-button"},'EdsButton',_vm.componentProperties,false),[(_vm.$slots.default)?_vm._t("default",function(){return [_vm._v(" "+_vm._s(_vm.$slots.default)+" ")]}):_vm._e()],2)}
-var EdsBrandButtonvue_type_template_id_abae7126_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BrandButton/EdsBrandButton.vue?vue&type=template&id=77129c61&
+var EdsBrandButtonvue_type_template_id_77129c61_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('EdsButton',_vm._b({staticClass:"eds-brand-button"},'EdsButton',_vm.componentProperties,false),[(_vm.$slots.default)?_vm._t("default",function(){return [_vm._v(" "+_vm._s(_vm.$slots.default)+" ")]}):_vm._e()],2)}
+var EdsBrandButtonvue_type_template_id_77129c61_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BrandButton/EdsBrandButton.vue?vue&type=template&id=abae7126&
+// CONCATENATED MODULE: ./src/components/BrandButton/EdsBrandButton.vue?vue&type=template&id=77129c61&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BrandButton/EdsBrandButton.vue?vue&type=script&lang=js&
 
@@ -8789,6 +8806,11 @@ var EdsBrandButtonvue_type_template_id_abae7126_staticRenderFns = []
     }
   },
   computed: {
+    /**
+     * @description Button Component properties
+     *
+     * @returns {Object}
+     */
     componentProperties: function componentProperties() {
       return {
         enabled: this.enabled,
@@ -8820,8 +8842,8 @@ var EdsBrandButtonvue_type_style_index_0_lang_scss_ = __webpack_require__("4596"
 
 var EdsBrandButton_component = Object(componentNormalizer["a" /* default */])(
   BrandButton_EdsBrandButtonvue_type_script_lang_js_,
-  EdsBrandButtonvue_type_template_id_abae7126_render,
-  EdsBrandButtonvue_type_template_id_abae7126_staticRenderFns,
+  EdsBrandButtonvue_type_template_id_77129c61_render,
+  EdsBrandButtonvue_type_template_id_77129c61_staticRenderFns,
   false,
   null,
   null,
