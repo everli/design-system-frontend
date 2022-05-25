@@ -1,3 +1,8 @@
+v0.1.2-tidy-up / 2022-05-25
+==================
+ * milestone [v0.1.2-tidy-up](https://github.com/everli/design-system-frontend/milestone/6?closed=1)
+ * Update file structure and builds
+
 v0.1.1-deep-purple / 2022-05-24
 ==================
  * milestone [v0.1.1-deep-purple](https://github.com/everli/design-system-frontend/milestone/1?closed=1)
