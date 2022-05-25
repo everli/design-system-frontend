@@ -1,1 +1,8 @@
+/*!
+ * https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+ * Generic – reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS.
+ * Fonts and Reset definitions are exluded from the global import to not pollute the "client" code. Both can be imported manually.
+ */
+
 @import './_colors';
+@import './_typography';
