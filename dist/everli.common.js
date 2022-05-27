@@ -609,45 +609,6 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ "149a":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-question-circle-outilne.vue?vue&type=template&id=a38008ce&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M8.93699 10.7988C9.35738 10.7988 9.68769 10.4684 9.68769 10.048C9.68769 8.78679 10.7087 7.76582 11.9699 7.76582C13.2312 7.76582 14.2521 8.78679 14.2521 10.048C14.2521 11.3093 13.2312 12.3303 11.9699 12.3303C11.5495 12.3303 11.2192 12.6606 11.2192 13.081V14.5526C11.2192 14.973 11.5495 15.3033 11.9699 15.3033C12.3903 15.3033 12.7207 14.973 12.7207 14.5526V13.7417C14.4624 13.3814 15.7536 11.8497 15.7536 10.0179C15.7536 7.91586 14.0418 6.20404 11.9398 6.20404C9.83773 6.20404 8.12591 7.91586 8.12591 10.0179C8.18624 10.4385 8.51658 10.7988 8.93699 10.7988Z"}}),_c('path',{attrs:{"d":"M11.2192 16.7748C11.2192 16.3544 11.5496 16.024 11.97 16.024C12.3904 16.024 12.7509 16.3843 12.7207 16.7748V16.9851C12.7207 17.4055 12.3904 17.7358 11.97 17.7358C11.5496 17.7358 11.2192 17.4055 11.2192 16.9851V16.7748Z"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2 12C2 17.4955 6.47453 22 12 22C17.5255 22 22 17.5255 22 12C21.9998 6.47447 17.4953 2 11.97 2C6.44444 2 2 6.47453 2 12ZM11.97 3.53153C16.6546 3.53153 20.4384 7.31526 20.4384 12C20.4384 16.6844 16.6545 20.4685 11.97 20.4685C7.28539 20.4685 3.5015 16.6546 3.5015 12C3.5015 7.34551 7.31515 3.53153 11.97 3.53153Z"}})])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/components/Icon/ico-question-circle-outilne.vue?vue&type=template&id=a38008ce&
-
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("2877");
-
-// CONCATENATED MODULE: ./src/components/Icon/ico-question-circle-outilne.vue
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  script,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var ico_question_circle_outilne = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
 /***/ "1626":
 /***/ (function(module, exports) {
 
@@ -6866,7 +6827,7 @@ var map = {
 	"./ico-position-marker-filled.vue": "604e",
 	"./ico-position-marker-outline.vue": "e357",
 	"./ico-question-circle-filled.vue": "df2a",
-	"./ico-question-circle-outilne.vue": "149a",
+	"./ico-question-circle-outline.vue": "ee92",
 	"./ico-remove.vue": "752a",
 	"./ico-replacements.vue": "1276",
 	"./ico-save.vue": "91ac",
@@ -8167,6 +8128,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var ico_cart = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "ee92":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"50d594b1-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-question-circle-outline.vue?vue&type=template&id=166eb87f&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M8.93699 10.7988C9.35738 10.7988 9.68769 10.4684 9.68769 10.048C9.68769 8.78679 10.7087 7.76582 11.9699 7.76582C13.2312 7.76582 14.2521 8.78679 14.2521 10.048C14.2521 11.3093 13.2312 12.3303 11.9699 12.3303C11.5495 12.3303 11.2192 12.6606 11.2192 13.081V14.5526C11.2192 14.973 11.5495 15.3033 11.9699 15.3033C12.3903 15.3033 12.7207 14.973 12.7207 14.5526V13.7417C14.4624 13.3814 15.7536 11.8497 15.7536 10.0179C15.7536 7.91586 14.0418 6.20404 11.9398 6.20404C9.83773 6.20404 8.12591 7.91586 8.12591 10.0179C8.18624 10.4385 8.51658 10.7988 8.93699 10.7988Z"}}),_c('path',{attrs:{"d":"M11.2192 16.7748C11.2192 16.3544 11.5496 16.024 11.97 16.024C12.3904 16.024 12.7509 16.3843 12.7207 16.7748V16.9851C12.7207 17.4055 12.3904 17.7358 11.97 17.7358C11.5496 17.7358 11.2192 17.4055 11.2192 16.9851V16.7748Z"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2 12C2 17.4955 6.47453 22 12 22C17.5255 22 22 17.5255 22 12C21.9998 6.47447 17.4953 2 11.97 2C6.44444 2 2 6.47453 2 12ZM11.97 3.53153C16.6546 3.53153 20.4384 7.31526 20.4384 12C20.4384 16.6844 16.6545 20.4685 11.97 20.4685C7.28539 20.4685 3.5015 16.6546 3.5015 12C3.5015 7.34551 7.31515 3.53153 11.97 3.53153Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-question-circle-outline.vue?vue&type=template&id=166eb87f&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-question-circle-outline.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_question_circle_outline = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
