@@ -1,3 +1,27 @@
+:root {
+  --white: #ffffff;
+  --gray-10: #f8f7f8;
+  --gray-15: #EBE7EB;
+  --gray-40: #e3dfe3;
+  --gray-80: #9e8f9e;
+  --gray-100: #756075;
+  --black-100: #302030;
+  --red-20: #ffcedc;
+  --red-100: #dc325f;
+  --red-110: #B71E49;
+  --purple-100: #8a3264;
+  --teal-20: #daf4f4;
+  --teal-100: #46c6c6;
+  --blue-100: #007e91;
+  --green-10: #d6ffc2;
+  --green-100: #64c828;
+  --green-110: #3ca000;
+  --yellow-20: #fff6dc;
+  --yellow-100: #ffd050;
+  --navy-100: #1a73e8;
+  --navy-110: #0D4A9A;
+};
+
 @each $uiColor, $i in $uiColors {
   .eds-bg-#{$uiColor} {
     background-color: $i;
