@@ -53,6 +53,11 @@ export default {
     },
   },
   computed: {
+    /**
+     * @description Button Component properties
+     *
+     * @returns {Object}
+     */
     componentProperties() {
       return {
         enabled: this.enabled,
