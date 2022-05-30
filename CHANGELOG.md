@@ -1,3 +1,9 @@
+v0.1.3-oh-jimmy / 2022-05-30
+==================
+ * milestone [v0.1.3-oh-jimmy](https://github.com/everli/design-system-frontend/milestone/7?closed=1)
+ * [SUP-16337] Setup CSS imports
+ * [SUP-16363] Remove old icons
+
 v0.1.2-tidy-up / 2022-05-25
 ==================
  * milestone [v0.1.2-tidy-up](https://github.com/everli/design-system-frontend/milestone/6?closed=1)
