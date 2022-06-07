@@ -1,3 +1,8 @@
+v0.1.4-clyde-the-glide / 2022-06-07
+==================
+ * milestone [v0.1.4-clyde-the-glide](https://github.com/everli/design-system-frontend/milestone/8?closed=1)
+ * [FEATURE] Add arrow-top icon
+
 v0.1.3-oh-jimmy / 2022-05-30
 ==================
  * milestone [v0.1.3-oh-jimmy](https://github.com/everli/design-system-frontend/milestone/7?closed=1)
