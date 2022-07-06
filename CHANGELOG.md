@@ -1,3 +1,8 @@
+v0.1.5-orange-booker / 2022-07-06
+==================
+ * milestone [v0.1.5-orange-booker](https://github.com/everli/design-system-frontend/milestone/9?closed=1)
+ * [FEATURE] Add new orange-100 color
+
 v0.1.4-clyde-the-glide / 2022-06-07
 ==================
  * milestone [v0.1.4-clyde-the-glide](https://github.com/everli/design-system-frontend/milestone/8?closed=1)
