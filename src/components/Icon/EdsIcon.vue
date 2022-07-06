@@ -8,7 +8,7 @@ export default {
   props: {
     icon: {
       type: String,
-      default: "ico-action-more",
+      default: "ico-more",
     },
     label: {
       type: String,
