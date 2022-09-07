@@ -1,6 +1,7 @@
 v0.1.6-mark-price / 2022-09-07
 ==================
  * milestone [v0.1.6-mark-price](https://github.com/everli/design-system-frontend/milestone/10?closed=1)
+ * [FEAT] Add image assets
  * [FIX] Update marker icons names
 
 v0.1.5-orange-booker / 2022-07-06
