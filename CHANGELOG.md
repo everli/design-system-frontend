@@ -1,3 +1,6 @@
+v0.1.6- / 2022-09-
+==================
+
 v0.1.5-orange-booker / 2022-07-06
 ==================
  * milestone [v0.1.5-orange-booker](https://github.com/everli/design-system-frontend/milestone/9?closed=1)
