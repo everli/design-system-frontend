@@ -1,5 +1,5 @@
 @each $type, $values in $typography {
-  .t-#{$type} {
+  .eds-t-#{$type} {
     @each $value, $i in $values {
       #{$value}: $i;
     }
