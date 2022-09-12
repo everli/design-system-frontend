@@ -1,5 +1,7 @@
-v0.1.7- / 2022-09-
+v0.1.7-cool-hand-luka / 2022-09-12
 ==================
+ * milestone [v0.1.7-cool-hand-luka](https://github.com/everli/design-system-frontend/milestone/11?closed=1)
+ * [FEAT] Handle new prefixes for typgraphy classes
 
 v0.1.6-mark-price / 2022-09-07
 ==================
