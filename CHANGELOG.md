@@ -1,5 +1,7 @@
-v0.1.8- / 2022-09-
+v0.1.8-reign-man / 2022-09-22
 ==================
+* milestone [v0.1.8-reign-man](https://github.com/everli/design-system-frontend/milestone/12?closed=1)
+ * [FEAT] Handle new satisfaction icon
 
 v0.1.7-cool-hand-luka / 2022-09-12
 ==================
