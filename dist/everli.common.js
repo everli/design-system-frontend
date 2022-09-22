@@ -3355,6 +3355,45 @@ var update = add("3b5bab73", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
+/***/ "5553":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1f2bda31-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-satisfaction.vue?vue&type=template&id=04a823d1&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M21.19 13.9681C21.7088 13.4448 22 12.7349 22 11.9977C22 11.2605 21.7088 10.5552 21.19 10.0273L20.1752 9.02162C19.9477 8.78498 19.8157 8.47099 19.8157 8.13879V6.96018C19.8111 6.22298 19.5199 5.51763 18.9966 4.99886C18.4778 4.48009 17.7679 4.1843 17.0353 4.17975H15.8567C15.529 4.17975 15.2105 4.05233 14.9738 3.82025L13.9681 2.81001C13.4448 2.29124 12.7349 2 11.9977 2C11.2605 2 10.5552 2.29124 10.0273 2.81001L9.02162 3.8248C8.78498 4.05233 8.47099 4.1843 8.13879 4.1843H6.96018C6.22753 4.1843 5.52218 4.48009 4.99886 4.99886C4.47554 5.51763 4.1843 6.22753 4.17975 6.96018V8.13879C4.17975 8.46644 4.05233 8.78498 3.82025 9.02162L2.80546 10.0273C2.29124 10.5552 2 11.2605 2 11.9977C2 12.7349 2.29124 13.4403 2.81001 13.9681L3.8248 14.9738C4.05233 15.2105 4.1843 15.5245 4.1843 15.8567V17.0353C4.18885 17.7725 4.48009 18.4778 5.00341 18.9966C5.52673 19.5154 6.23208 19.8111 6.96473 19.8157H8.14334C8.47099 19.8157 8.78953 19.9431 9.02617 20.1752L10.0319 21.19C10.5552 21.7088 11.2651 22 12.0023 22C12.7395 22 13.4494 21.7088 13.9727 21.19L14.9784 20.1752C15.215 19.9477 15.529 19.8157 15.8612 19.8157H17.0398C17.777 19.8111 18.4824 19.5199 19.0011 18.9966C19.5199 18.4778 19.8157 17.7679 19.8202 17.0353V15.8567C19.8202 15.529 19.9477 15.2105 20.1798 14.9738L21.19 13.9681ZM17.5495 9.67236L11.2605 15.9659C11.0375 16.1889 10.7418 16.3117 10.4278 16.3117C10.1138 16.3117 9.81342 16.1889 9.59499 15.9659L6.45051 12.8214C6.16837 12.521 6.06826 12.0933 6.17747 11.6974C6.28669 11.3015 6.60068 10.992 6.99659 10.8783C7.39249 10.7691 7.82025 10.8692 8.12059 11.1513L10.4323 13.463L15.884 8.00683C16.1843 7.72469 16.6121 7.62457 17.008 7.73379C17.4039 7.843 17.7133 8.15245 17.8271 8.5529C17.9363 8.94881 17.8316 9.37201 17.5495 9.67236Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-satisfaction.vue?vue&type=template&id=04a823d1&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-satisfaction.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_satisfaction = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "5692":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7492,6 +7531,7 @@ var map = {
 	"./ico-question-circle-outline.vue": "ee92",
 	"./ico-remove.vue": "752a",
 	"./ico-replacements.vue": "1276",
+	"./ico-satisfaction.vue": "5553",
 	"./ico-save.vue": "91ac",
 	"./ico-search.vue": "0b27",
 	"./ico-settings.vue": "3583",
