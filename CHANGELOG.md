@@ -1,3 +1,8 @@
+v0.1.9-vince-over-weis / 2022-09-26
+==================
+* milestone [v0.1.9-vince-over-weis](https://github.com/everli/design-system-frontend/milestone/13?closed=1)
+ * [FEAT] Add important rule to generic colors classes
+
 v0.1.8-reign-man / 2022-09-22
 ==================
 * milestone [v0.1.8-reign-man](https://github.com/everli/design-system-frontend/milestone/12?closed=1)
