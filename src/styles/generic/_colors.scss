@@ -25,12 +25,12 @@
 
 @each $uiColor, $i in $uiColors {
   .eds-bg-#{$uiColor} {
-    background-color: $i;
+    background-color: $i !important;
   }
 };
 
 @each $uiColor, $i in $uiColors {
   .eds-c-#{$uiColor} {
-    color: $i;
+    color: $i !important;
   }
 };
