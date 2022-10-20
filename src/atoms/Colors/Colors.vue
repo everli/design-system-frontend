@@ -85,6 +85,13 @@
         </p>
       </div>
       <div class="color-box">
+        <div class="eds-bg-blue-20" />
+        <p>
+          Blue 20 <br />
+          (#c4dade)
+        </p>
+      </div>
+      <div class="color-box">
         <div class="eds-bg-purple-rain" />
         <p>
           Purple rain <br />
