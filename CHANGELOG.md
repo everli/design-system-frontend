@@ -1,3 +1,8 @@
+v0.1.10-sochan / 2022-10-21
+==================
+* milestone [v0.1.10-sochan](https://github.com/everli/design-system-frontend/milestone/14?closed=1)
+ * [FEAT] Add new blue-20 color
+
 v0.1.9-vince-over-weis / 2022-09-26
 ==================
 * milestone [v0.1.9-vince-over-weis](https://github.com/everli/design-system-frontend/milestone/13?closed=1)
