@@ -1,3 +1,8 @@
+v0.1.11-trae-young / 2022-11-17
+==================
+* milestone [v0.1.11-trae-young](https://github.com/everli/design-system-frontend/milestone/15?closed=1)
+ * [FEAT] Remove img/vector icons
+
 v0.1.10-sochan / 2022-10-21
 ==================
 * milestone [v0.1.10-sochan](https://github.com/everli/design-system-frontend/milestone/14?closed=1)
