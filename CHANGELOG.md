@@ -1,3 +1,6 @@
+v0.1.11- / 2022-11-
+==================
+
 v0.1.10-sochan / 2022-10-21
 ==================
 * milestone [v0.1.10-sochan](https://github.com/everli/design-system-frontend/milestone/14?closed=1)
