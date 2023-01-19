@@ -1,3 +1,8 @@
+v0.1.12-tobias-harris / 2023-01-19
+==================
+* milestone [v0.1.13-tobias-harris](https://github.com/everli/design-system-frontend/milestone/16?closed=1)
+* [SUP-17685] Add eco icon
+
 v0.1.11-trae-young / 2022-11-17
 ==================
 * milestone [v0.1.11-trae-young](https://github.com/everli/design-system-frontend/milestone/15?closed=1)
