@@ -1,9 +1,11 @@
-v0.1.13- / 2023-02-
+v0.1.13-harden / 2023-02-08
 ==================
+* milestone [v0.1.13-harden](https://github.com/everli/design-system-frontend/milestone/17?closed=1)
+* [FEAT] Add rocket and circle-plus icons
 
 v0.1.12-tobias-harris / 2023-01-19
 ==================
-* milestone [v0.1.13-tobias-harris](https://github.com/everli/design-system-frontend/milestone/16?closed=1)
+* milestone [v0.1.12-tobias-harris](https://github.com/everli/design-system-frontend/milestone/16?closed=1)
 * [SUP-17685] Add eco icon
 
 v0.1.11-trae-young / 2022-11-17
