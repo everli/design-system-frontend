@@ -1,6 +1,6 @@
 {
   "name": "everli-design-system-frontend",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "private": true,
   "scripts": {
     "build:common": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist ./src/components/index.js",
