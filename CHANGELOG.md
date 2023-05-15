@@ -1,5 +1,7 @@
-v0.1.14- / 2023-05-
+v0.1.14-tyler-herro / 2023-05-15
 ==================
+* milestone [v0.1.14-tyler-herro](https://github.com/everli/design-system-frontend/milestone/18?closed=1)
+* [FEAT] Add Edenred logo icon
 
 v0.1.13-harden / 2023-02-08
 ==================
