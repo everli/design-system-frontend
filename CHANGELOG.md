@@ -1,3 +1,8 @@
+v0.1.15-jokic / 2023-07-10
+==================
+* milestone [v0.1.15-jokic](https://github.com/everli/design-system-frontend/milestone/19?closed=1)
+* [FEAT] Add eye show and hide icons
+
 v0.1.14-tyler-herro / 2023-05-15
 ==================
 * milestone [v0.1.14-tyler-herro](https://github.com/everli/design-system-frontend/milestone/18?closed=1)
