@@ -134,7 +134,3 @@ Reset.css
 ```css
 @import './node_modules/everli-design-system-frontend/src/styles/reset.scss'
 ```
-
-
-
-

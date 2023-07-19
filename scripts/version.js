@@ -1,27 +1,27 @@
-const fs = require('fs')
-const inquirer = require('inquirer')
-const semVer = require('semver')
-const simpleGit = require('simple-git')
+const fs = require("fs")
+const inquirer = require("inquirer")
+const semVer = require("semver")
+const simpleGit = require("simple-git")
 
 const data = {}
 
 /**
  * Prepare variables for version bumping.
  */
-const packageJson = JSON.parse(fs.readFileSync('package.json').toString())
+const packageJson = JSON.parse(fs.readFileSync("package.json").toString())
 const version = {
   current: packageJson.version,
-  nextMajor: semVer.inc(packageJson.version, 'major'),
-  nextMinor: semVer.inc(packageJson.version, 'minor'),
-  nextPatch: semVer.inc(packageJson.version, 'patch')
+  nextMajor: semVer.inc(packageJson.version, "major"),
+  nextMinor: semVer.inc(packageJson.version, "minor"),
+  nextPatch: semVer.inc(packageJson.version, "patch"),
 }
 
 askForVersion()
-  .then(bump => {
+  .then((bump) => {
     data.version = semVer.inc(packageJson.version, bump)
     return updateVersion()
   })
-  .catch(err => {
+  .catch((err) => {
     console.log(err, err.stack)
   })
 
@@ -34,19 +34,19 @@ function askForVersion() {
   return new Promise((resolve, reject) => {
     inquirer
       .prompt({
-        type: 'list',
-        name: 'bump',
-        message: 'How would you like to bump it?',
+        type: "list",
+        name: "bump",
+        message: "How would you like to bump it?",
         choices: [
-          { value: 'major', name: 'major (' + version.nextMajor + ')' },
-          { value: 'minor', name: 'minor (' + version.nextMinor + ')' },
-          { value: 'patch', name: 'patch (' + version.nextPatch + ')' }
-        ]
+          { value: "major", name: "major (" + version.nextMajor + ")" },
+          { value: "minor", name: "minor (" + version.nextMinor + ")" },
+          { value: "patch", name: "patch (" + version.nextPatch + ")" },
+        ],
       })
-      .then(data => {
+      .then((data) => {
         resolve(data.bump)
       })
-      .catch(err => {
+      .catch((err) => {
         reject(err)
       })
   })
@@ -56,15 +56,15 @@ function askForVersion() {
  * @description Updates the version of the app with the provided one.
  */
 function updateVersion() {
-  const changelogPath = 'CHANGELOG.md'
-  const packagePath = 'package.json'
-  const packageLockPath = 'package-lock.json'
+  const changelogPath = "CHANGELOG.md"
+  const packagePath = "package.json"
+  const packageLockPath = "package-lock.json"
 
   updateChangelog(changelogPath)
   updatePackage(packagePath)
   updatePackage(packageLockPath)
 
-  console.log('==================')
+  console.log("==================")
 
   performCommit()
 }
@@ -128,7 +128,7 @@ function getReleaseDate() {
  * @returns {string}
  */
 function dateLeadingZero(dateElement) {
-  return ('0' + dateElement).slice(-2)
+  return ("0" + dateElement).slice(-2)
 }
 
 /**
@@ -139,7 +139,7 @@ function performCommit() {
 
   simpleGit()
     .init()
-    .add(['CHANGELOG.md', 'package.json', 'package-lock.json'])
+    .add(["CHANGELOG.md", "package.json", "package-lock.json"])
     .commit(commitMessage)
 
   console.log(`Now working on v${data.version}`)
