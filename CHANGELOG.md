@@ -1,3 +1,9 @@
+v0.1.16-schroder / 2023-09-12
+==================
+* milestone [v0.1.16-schroder](https://github.com/everli/design-system-frontend/milestone/20?closed=1)
+* [FEAT] Add new ico-stores and update ico-categories
+* [FEAT] Cleanup repository
+
 v0.1.15-jokic / 2023-07-10
 ==================
 * milestone [v0.1.15-jokic](https://github.com/everli/design-system-frontend/milestone/19?closed=1)
