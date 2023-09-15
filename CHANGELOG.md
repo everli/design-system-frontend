@@ -1,3 +1,8 @@
+v0.1.17-bogdan / 2023-09-15
+==================
+* milestone [v0.1.17-bogdan](https://github.com/everli/design-system-frontend/milestone/21?closed=1)
+* [FEAT] Update stores and search icon
+
 v0.1.16-schroder / 2023-09-12
 ==================
 * milestone [v0.1.16-schroder](https://github.com/everli/design-system-frontend/milestone/20?closed=1)
