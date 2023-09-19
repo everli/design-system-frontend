@@ -2,6 +2,9 @@
 Everli Design System for the frontend
 
 ## Installation
+Add this script to package.json for the node_modules installation 
+`"preinstall": "npx npm-force-resolutions"`
+
 
 ``` bash
 npm install everli/design-system-frontend#v0.0.1
