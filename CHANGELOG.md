@@ -1,5 +1,8 @@
-v0.1.18- / 2023-09-
+v0.1.18-watanabe / 2023-09-19
 ==================
+* milestone [v0.1.18-watanabe](https://github.com/everli/design-system-frontend/milestone/22?closed=1)
+* [FEAT] Add new padlock icons
+* [FIX] Fix dependencies security issues
 
 v0.1.17-bogdan / 2023-09-15
 ==================
