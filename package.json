@@ -1,6 +1,6 @@
 {
   "name": "everli-design-system-frontend",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "private": true,
   "scripts": {
     "build:common": "node ./node_modules/.bin/vue-cli-service build --target lib --name everli --dest dist ./src/components/index.js",
@@ -11,8 +11,7 @@
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
     "version": "node ./scripts/version.js",
-    "icons": "node ./node_modules/gulp/bin/gulp.js inline --gulpfile ./scripts/icons.js && npm run lint",
-    "preinstall": "npx npm-force-resolutions"
+    "icons": "node ./node_modules/gulp/bin/gulp.js inline --gulpfile ./scripts/icons.js && npm run lint"
   },
   "main": "./dist/everli.common.js",
   "devDependencies": {
