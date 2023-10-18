@@ -1,5 +1,7 @@
-v0.1.20- / 2023-10-
+v0.1.20-ginobili / 2023-10-18
 ==================
+* milestone [v0.1.20-ginobili](https://github.com/everli/design-system-frontend/milestone/24?closed=1)
+* [FIX] Add missing yellow-10 color class name
 
 v0.1.19-cassell / 2023-09-19
 ==================
