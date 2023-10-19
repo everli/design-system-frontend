@@ -1,3 +1,8 @@
+v0.1.21-duncan / 2023-10-18
+==================
+* milestone [v0.1.21-duncan](https://github.com/everli/design-system-frontend/milestone/25?closed=1)
+* [FIX] Add missing violet-10, violet-100 color class names
+
 v0.1.20-ginobili / 2023-10-18
 ==================
 * milestone [v0.1.20-ginobili](https://github.com/everli/design-system-frontend/milestone/24?closed=1)
