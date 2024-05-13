@@ -66,5 +66,8 @@
     "trim": "^0.0.3",
     "trim-newlines": "^3.0.1",
     "yargs-parser": "13.1.2"
+  },
+  "volta": {
+    "node": "14.21.3"
   }
 }
