@@ -1,3 +1,6 @@
+v0.2.0- / 2024-05-
+==================
+
 v0.1.21-duncan / 2023-10-18
 ==================
 * milestone [v0.1.21-duncan](https://github.com/everli/design-system-frontend/milestone/25?closed=1)
