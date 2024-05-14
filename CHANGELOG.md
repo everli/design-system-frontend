@@ -1,5 +1,7 @@
-v0.2.0- / 2024-05-
+v0.2.0-divincenzo / 2024-05-14
 ==================
+* milestone [v0.2.0-divincenzo](https://github.com/everli/design-system-frontend/milestone/26?closed=1)
+* [DC-370] Add new icons (hub) 
 
 v0.1.21-duncan / 2023-10-18
 ==================
