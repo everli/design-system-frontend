@@ -1,5 +1,7 @@
-v0.2.1- / 2024-05-
+v0.2.1-tmac / 2024-05-27
 ==================
+* milestone [v0.2.1-tmac](https://github.com/everli/design-system-frontend/milestone/27?closed=1)
+* [FEAT] Adjust icon names, hub icons and new colors
 
 v0.2.0-divincenzo / 2024-05-14
 ==================
