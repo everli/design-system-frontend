@@ -17,7 +17,10 @@ $c-blue-100: #007e91;
 $c-green-10: #d6ffc2;
 $c-green-100: #64c828;
 $c-green-110: #3ca000;
-$c-yellow-10: #fff6dc;
+$c-green-120: #266600;
+$c-green-130: #2A4640;
+$c-green-140: #12312A;
+$c-yellow-10: #F8F1E9;
 $c-yellow-20: #fff6dc;
 $c-yellow-100: #ffd050;
 $c-orange-100: #FF6200;
@@ -29,6 +32,9 @@ $c-violet-100: #8a3264;
 $c-violet-10: #ffcedc;
 
 $uiColors: (
+  "green-140": $c-green-140,
+  "green-130": $c-green-130,
+  "green-120": $c-green-120,
   "green-110": $c-green-110,
   "green-100": $c-green-100,
   "green-10": $c-green-10,
@@ -51,7 +57,7 @@ $uiColors: (
   "red-20": $c-red-20,
   "teal-20": $c-teal-20,
   "teal-100": $c-teal-100,
-  "yellow-10": $c-yellow-20,
+  "yellow-10": $c-yellow-10,
   "yellow-20": $c-yellow-20,
   "facebook": $c-facebook,
   "violet-100": $c-violet-100,
