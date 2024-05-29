@@ -1163,6 +1163,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "1f91":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/logo-android.vue?vue&type=template&id=710300a3&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"24","viewBox":"0 0 24 24","width":"24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M22 14.563C21.9995 14.9298 21.853 15.2815 21.5926 15.5407C21.3323 15.8 20.9794 15.9456 20.6115 15.9456C20.2433 15.9456 19.8901 15.7997 19.6298 15.54C19.3694 15.2804 19.2231 14.9282 19.2231 14.561V8.3384C19.2231 7.9712 19.3694 7.61903 19.6298 7.35938C19.8901 7.09973 20.2433 6.95386 20.6115 6.95386C20.7939 6.95386 20.9744 6.98968 21.1429 7.05925C21.3113 7.12883 21.4644 7.23082 21.5933 7.35938C21.7223 7.48795 21.8245 7.64058 21.8943 7.80856C21.9641 7.97654 22 8.15658 22 8.3384V14.563Z"}}),_c('path',{attrs:{"d":"M4.77691 14.563C4.77639 14.9298 4.62988 15.2815 4.36955 15.5407C4.10922 15.8 3.75636 15.9456 3.38846 15.9456C3.02055 15.9456 2.66769 15.8 2.40736 15.5407C2.14703 15.2815 2.00052 14.9298 2 14.563V8.34034C2 7.97314 2.14628 7.62098 2.40667 7.36132C2.66706 7.10167 3.02021 6.9558 3.38846 6.9558C3.7567 6.9558 4.10986 7.10167 4.37024 7.36132C4.63063 7.62098 4.77691 7.97314 4.77691 8.34034V14.563Z"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.96724 0.019509L9.10595 1.62203C9.88768 1.32208 10.84 1.13991 12 1.14347C13.1563 1.14778 14.1062 1.33728 14.8866 1.64353L16.0406 0.019509C16.064 -0.0135488 16.1342 -0.00382591 16.1985 0.0428439C16.2629 0.0875691 16.296 0.149795 16.2726 0.182853L15.156 1.7568C18.3445 3.18947 18.4723 6.63495 18.4723 6.63495H5.52574C5.52574 6.63495 5.61698 3.15068 8.83659 1.73288L7.73518 0.182853C7.71178 0.149795 7.74493 0.0875691 7.80928 0.0428439C7.87364 -0.00382591 7.94384 -0.0135488 7.96724 0.019509ZM9.15873 4.59898C9.58953 4.59898 9.93877 4.25073 9.93877 3.82115C9.93877 3.39157 9.58953 3.04332 9.15873 3.04332C8.72793 3.04332 8.3787 3.39157 8.3787 3.82115C8.3787 4.25073 8.72793 4.59898 9.15873 4.59898ZM15.6213 3.82115C15.6213 4.25073 15.2721 4.59898 14.8413 4.59898C14.4105 4.59898 14.0612 4.25073 14.0612 3.82115C14.0612 3.39157 14.4105 3.04332 14.8413 3.04332C15.2721 3.04332 15.6213 3.39157 15.6213 3.82115Z"}}),_c('path',{attrs:{"d":"M18.5269 7.40111V12.7584H18.5152V18.3802C18.5152 18.8098 18.166 19.158 17.7352 19.158H16.0657L16.0679 22.6155C16.0679 22.7976 16.0318 22.978 15.9618 23.1462C15.8918 23.3144 15.7892 23.4672 15.6598 23.5958C15.5305 23.7245 15.3769 23.8264 15.208 23.8957C15.0391 23.9651 14.8582 24.0005 14.6755 24C14.3073 24 13.9541 23.8541 13.6937 23.5945C13.4333 23.3348 13.2871 22.9827 13.2871 22.6155V19.158H10.709V22.6155C10.709 22.9827 10.5628 23.3348 10.3024 23.5945C10.042 23.8541 9.68883 24 9.32059 24C8.95235 24 8.59919 23.8541 8.33881 23.5945C8.07842 23.3348 7.93214 22.9827 7.93214 22.6155V19.158H6.26482C5.83402 19.158 5.48479 18.8098 5.48479 18.3802V12.7584H5.47309V7.40111H18.5269Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-android.vue?vue&type=template&id=710300a3&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-android.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var logo_android = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "212d":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5713,6 +5752,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "a8dd":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/logo-everli-app.vue?vue&type=template&id=cdb891ba&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"24","viewBox":"0 0 24 24","width":"24","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"clip-path":"url(#clip0_429_276)"}},[_c('path',{attrs:{"d":"M6.14527 14.0614C5.41245 12.9938 5.14596 12.1931 5.07934 11.8595C5.21258 11.9929 5.34583 12.1097 5.47907 12.2264C5.61231 12.3432 5.74555 12.46 5.87879 12.5934C6.54499 13.3274 7.34444 14.1949 8.01064 13.7278C8.87671 13.1272 8.2105 11.9262 7.34444 10.3915C7.33283 10.3706 7.3209 10.3491 7.30868 10.3271C6.9702 9.71729 6.40943 8.70706 6.34513 8.25626C6.61812 8.42031 7.11484 9.03252 7.46858 9.46851C7.54647 9.56452 7.61743 9.65198 7.67754 9.72423C7.75279 9.81844 7.8251 9.9097 7.89484 9.99773C8.56596 10.8448 8.99977 11.3924 9.54291 11.3924C9.80939 11.3924 10.0759 11.3256 10.2091 11.1255C10.8018 10.5318 10.2878 9.41655 9.5037 7.7152C9.4946 7.69545 9.48546 7.67563 9.47629 7.65572C9.14319 6.92174 8.5436 5.58722 8.5436 5.12014C8.89116 5.26933 9.46073 6.15975 9.92139 6.8799C10.0788 7.12605 10.2236 7.3523 10.3424 7.52227C10.3998 7.61969 10.4558 7.71506 10.5105 7.80819C11.28 9.11839 11.79 9.9867 12.4742 9.9244C12.6741 9.9244 12.8739 9.79095 13.0072 9.6575C13.3265 9.2737 13.2173 8.5833 13.0316 7.40995C13.0236 7.35932 13.0154 7.3078 13.0072 7.25537C12.9916 7.13075 12.9688 6.97704 12.9438 6.80867C12.8618 6.25582 12.7562 5.54491 12.8073 5.18687C13.207 5.7874 13.8732 7.52227 14.273 8.65661C15.139 11.1255 15.672 12.5267 16.4714 12.7936C16.7379 12.8603 17.0044 12.8603 17.2709 12.7269C17.8705 12.3933 18.0703 11.4591 18.2036 10.5917C18.2036 10.258 18.2702 9.99113 18.4034 9.6575C18.5367 9.85768 18.8698 10.4582 18.9364 11.4591C19.0696 12.9938 18.6699 14.9956 17.2709 15.9965C16.8712 16.2634 16.205 16.4635 15.5387 16.3968C15.6054 15.129 15.3389 13.8612 14.8059 12.9271C14.2063 11.8595 12.8073 11.4591 11.7414 12.1264C10.6755 12.7936 10.2757 14.1949 10.8753 15.2625C11.4749 16.2634 12.6741 16.9973 14.3396 17.331C14.1397 18.2651 13.8732 18.9324 13.0738 18.9324C10.6088 18.9324 7.74416 16.3301 6.14527 14.0614Z"}}),_c('path',{attrs:{"d":"M11.808 13.5276C12.0745 13.1272 12.4742 12.9271 12.8739 12.9271H13.1404C13.4735 13.0605 13.74 13.2607 13.8732 13.5276C14.3396 14.395 14.5394 15.3292 14.4728 16.2634C13.207 15.9965 12.2077 15.4626 11.808 14.7287C11.6081 14.395 11.6081 13.928 11.808 13.5276Z"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6 0C2.68629 0 0 2.68629 0 6V18C0 21.3137 2.68629 24 6 24H18C21.3137 24 24 21.3137 24 18V6C24 2.68629 21.3137 0 18 0H6ZM4.21328 12.7269C5.21258 15.2625 9.27643 20 13.0738 20C14.7393 20 15.2056 18.4653 15.4721 17.4644C16.2716 17.5311 17.2709 17.331 17.9371 16.8639C20.402 15.0623 20.3354 10.8586 19.4027 9.25714C18.9364 8.45643 18.2702 8.38971 17.8705 8.58989C17.3375 8.85679 17.2043 9.59077 17.071 10.3915C17.0044 10.7918 16.8712 11.2589 16.6713 11.6593C16.2716 11.1922 15.6054 9.3906 15.2056 8.25626C14.273 5.58722 13.5401 3.65217 12.4076 4.05253C11.4083 4.38616 11.6081 5.92085 11.8746 7.45555C11.9096 7.59565 11.9262 7.75415 11.9437 7.92138C11.9596 8.07272 11.9762 8.23121 12.0079 8.38971C11.7414 7.98935 11.4083 7.45555 11.2084 7.05519C10.2757 5.38705 9.54291 4.25271 8.74347 4.05253C8.47698 3.9858 8.2105 3.9858 7.94402 4.11926C7.01134 4.71979 7.67754 6.25448 8.5436 8.1228C8.81009 8.65661 9.14319 9.3906 9.34305 9.9244C9.07657 9.6575 8.81009 9.32387 8.61023 8.99024C8.57568 8.94823 8.54114 8.90612 8.50659 8.86402C7.60845 7.76931 6.71031 6.67461 5.81217 7.18864C4.74624 7.78918 5.61231 9.32387 6.47837 10.7918C6.81147 11.3256 7.07796 11.8595 7.34444 12.46C7.14086 12.358 6.93729 12.1393 6.76342 11.9524C6.70969 11.8947 6.65879 11.84 6.61161 11.7927C6.57987 11.7609 6.54799 11.7289 6.51601 11.6967C5.80965 10.9865 5.0476 10.2202 4.34652 10.8586C3.9468 11.2589 3.88018 11.8595 4.21328 12.7269Z"}})]),_c('defs',[_c('clipPath',{attrs:{"id":"clip0_429_276"}},[_c('rect',{attrs:{"width":"24","height":"24","fill":"white"}})])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-everli-app.vue?vue&type=template&id=cdb891ba&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-everli-app.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var logo_everli_app = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "aa22":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7459,6 +7537,7 @@ var map = {
 	"./ico-foryou-filled.vue": "330c",
 	"./ico-foryou-outline.vue": "db4c",
 	"./ico-gift-card.vue": "18cf",
+	"./ico-gift-filled.vue": "ef7c",
 	"./ico-gift.vue": "42a6",
 	"./ico-gps.vue": "bd5d",
 	"./ico-help.vue": "3087",
@@ -7514,9 +7593,11 @@ var map = {
 	"./ico-x-circle-outline.vue": "80ee",
 	"./ico-x.vue": "6f21",
 	"./ico-zoom.vue": "0e18",
+	"./logo-android.vue": "1f91",
 	"./logo-apple-maps-app.vue": "c260",
 	"./logo-apple.vue": "35e6",
 	"./logo-edenred.vue": "b803",
+	"./logo-everli-app.vue": "a8dd",
 	"./logo-everli-hand.vue": "19a1",
 	"./logo-everli-horizontal.vue": "29d4",
 	"./logo-everli-plus-horizontal.vue": "a78a",
@@ -9033,6 +9114,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "ef7c":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-gift-filled.vue?vue&type=template&id=1ea039c3&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"24","viewBox":"0 0 24 24","width":"24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M14.3438 12.7038V21.3333H19.0312C20.0005 21.3333 20.8281 20.6105 20.8281 19.722V12.7038H14.3438Z"}}),_c('path',{attrs:{"d":"M3.17188 12.7038V19.722C3.17188 20.6105 3.96039 21.3333 4.92969 21.3333H9.65625V12.7038H3.17188Z"}}),_c('path',{attrs:{"d":"M20.2422 7.29687H17.8444C18.2162 6.84663 18.4453 6.29241 18.4453 5.68555C18.4453 4.20481 17.131 3 15.5156 3C13.471 3 12.879 4.35011 12 6.39464C11.121 4.35011 10.529 3 8.48438 3C6.86902 3 5.55469 4.20481 5.55469 5.68555C5.55469 6.29241 5.78379 6.84663 6.15559 7.29687H3.75781C2.78852 7.29687 2 8.01968 2 8.9082V10.0182C2 10.9068 2.78852 11.6296 3.75781 11.6296H9.65625V7.29687H8.48438C7.51508 7.29687 6.72656 6.57407 6.72656 5.68555C6.72656 4.79702 7.51508 4.07422 8.48438 4.07422C9.68543 4.07422 10.027 4.73458 10.9248 6.82271C10.9874 6.96852 11.0655 7.14151 11.1329 7.29687H10.8281C10.8281 15.3063 10.8281 13.3203 10.8281 21.3333H13.1719C13.1719 8.76082 13.1719 10.7888 13.1719 7.29687H12.8671C12.9346 7.14147 13.0126 6.96852 13.0752 6.82271C13.973 4.73458 14.3146 4.07422 15.5156 4.07422C16.4849 4.07422 17.2734 4.79702 17.2734 5.68555C17.2734 6.57407 16.4849 7.29687 15.5156 7.29687H14.3438V11.6296H20.2422C21.2115 11.6296 22 10.9068 22 10.0182V8.9082C22 8.01968 21.2115 7.29687 20.2422 7.29687Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-gift-filled.vue?vue&type=template&id=1ea039c3&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-gift-filled.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_gift_filled = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "f001":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9320,7 +9440,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ "fab2":
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
+module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
 
 /***/ }),
 
