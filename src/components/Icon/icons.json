@@ -1,4 +1,6 @@
 [
+    "ico-account",
+    "ico-account-filled",
     "ico-add-circle",
     "ico-add",
     "ico-alert",
@@ -78,9 +80,11 @@
     "ico-notifications",
     "ico-offers-filled",
     "ico-offers-outline",
+    "ico-orders",
     "ico-padlock-close",
     "ico-padlock-open",
     "ico-padlock",
+    "ico-payments",
     "ico-pos",
     "ico-position-mark-filled",
     "ico-position-mark-outline",
