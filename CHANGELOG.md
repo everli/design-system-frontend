@@ -1,3 +1,6 @@
+v0.2.2- / 2024-05-
+==================
+
 v0.2.1-tmac / 2024-05-27
 ==================
 * milestone [v0.2.1-tmac](https://github.com/everli/design-system-frontend/milestone/27?closed=1)
