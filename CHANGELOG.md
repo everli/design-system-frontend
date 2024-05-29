@@ -1,3 +1,8 @@
+v0.2.2-kawhi / 2024-05-29
+==================
+* milestone [v0.2.2-kawhi](https://github.com/everli/design-system-frontend/milestone/28?closed=1)
+* [DC-368] Add ico-account/filled, ico-orders, ico-payments 
+
 v0.2.1-tmac / 2024-05-27
 ==================
 * milestone [v0.2.1-tmac](https://github.com/everli/design-system-frontend/milestone/27?closed=1)
