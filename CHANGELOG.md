@@ -1,3 +1,6 @@
+v0.2.3- / 2024-05-
+==================
+
 v0.2.2-kawhi / 2024-05-29
 ==================
 * milestone [v0.2.2-kawhi](https://github.com/everli/design-system-frontend/milestone/28?closed=1)
