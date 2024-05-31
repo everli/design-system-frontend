@@ -141,6 +141,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "02d1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/logo-everli-plus-horizontal-long.vue?vue&type=template&id=6b37afb0&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"102","height":"24","viewBox":"0 0 102 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M72.5437 12.1243C72.4756 12.1924 72.4435 12.2884 72.457 12.3837L72.4483 23.6509C72.4349 23.7462 72.467 23.8422 72.535 23.9103C72.6031 23.9783 72.6991 24.0104 72.7944 23.997H73.8552C73.9505 24.0104 74.0465 23.9783 74.1146 23.9103C74.1826 23.8422 74.2147 23.7462 74.2013 23.6509V19.5497C74.8508 20.0214 75.6382 20.2648 76.4405 20.2418C78.7127 20.2418 80.3549 18.8402 80.3549 16.0541C80.3549 13.268 78.8165 11.868 76.7313 11.868C75.5857 11.868 74.7308 12.3283 74.2013 12.9271L74.0144 12.2782C73.979 12.1203 73.8286 12.0157 73.6683 12.0376H72.8031C72.7078 12.0242 72.6117 12.0563 72.5437 12.1243ZM74.7291 18.1947C74.2688 17.8347 74.1996 17.5613 74.1996 17.0318L74.1944 15.6474C74.1769 15.129 74.354 14.6228 74.691 14.2284C75.0992 13.6848 75.7418 13.368 76.4215 13.3753C77.7713 13.3753 78.5413 14.4828 78.5413 16.0402C78.5413 17.7032 77.6346 18.7415 76.3869 18.7415C75.5666 18.7415 75.0752 18.4837 74.7291 18.1947Z","fill":"#007E91"}}),_c('path',{attrs:{"d":"M81.8518 8.11117C81.8391 8.01604 81.8714 7.92043 81.9393 7.85257C82.0071 7.78472 82.1027 7.75236 82.1979 7.76507H83.2569C83.352 7.75236 83.4476 7.78472 83.5155 7.85257C83.5834 7.92043 83.6157 8.01604 83.603 8.11117V17.8867C83.603 18.501 83.8764 18.7415 84.2692 18.7415C84.6621 18.7415 84.7988 18.5685 84.9874 18.5685C85.1068 18.5685 85.1604 18.636 85.1604 18.79V19.8161C85.1772 19.9333 85.1023 20.0441 84.9874 20.0723C84.607 20.1981 84.2077 20.2566 83.8072 20.2453C82.8675 20.2453 81.8587 19.6985 81.8587 18.2968L81.8518 8.11117Z","fill":"#007E91"}}),_c('path',{attrs:{"d":"M86.3008 12.3837C86.2874 12.2884 86.3195 12.1924 86.3875 12.1243C86.4556 12.0563 86.5516 12.0242 86.6469 12.0376H87.706C87.8013 12.0242 87.8973 12.0563 87.9654 12.1243C88.0334 12.1924 88.0655 12.2884 88.0521 12.3837V17.1858C88.0521 18.2103 88.6335 18.7432 89.5905 18.7432C90.3242 18.7432 90.9056 18.5373 91.4023 18.0078C91.7951 17.5804 91.8626 17.2395 91.8626 16.7082V12.382C91.8491 12.2867 91.8813 12.1906 91.9493 12.1226C92.0173 12.0546 92.1134 12.0224 92.2087 12.0359H93.2677C93.3629 12.0232 93.4585 12.0555 93.5263 12.1234C93.5942 12.1913 93.6265 12.2869 93.6138 12.382V19.7383C93.6265 19.8334 93.5942 19.929 93.5263 19.9969C93.4585 20.0647 93.3629 20.0971 93.2677 20.0844H92.2087C92.1134 20.0978 92.0173 20.0657 91.9493 19.9977C91.8813 19.9296 91.8491 19.8336 91.8626 19.7383V19.3922C91.1116 20.0584 90.3588 20.247 89.215 20.247C87.4377 20.247 86.3095 19.1534 86.3095 17.5129L86.3008 12.3837Z","fill":"#007E91"}}),_c('path',{attrs:{"d":"M95.8877 17.4246C95.9712 17.3759 96.0647 17.3469 96.1611 17.3398C96.2961 17.3503 96.4172 17.4267 96.4847 17.544C97.1181 18.4093 97.8691 18.7415 98.5353 18.7415C99.2708 18.7415 99.6636 18.3816 99.6636 17.8174C99.6636 17.1512 99.2189 16.9297 97.7843 16.5196C96.4674 16.1596 95.4083 15.4934 95.4083 14.1263C95.4083 12.6398 96.7927 11.8767 98.1598 11.8767C99.4075 11.8767 100.262 12.2349 100.998 12.9011C101.102 12.9594 101.161 13.0734 101.15 13.1919C101.144 13.2807 101.108 13.3648 101.048 13.4307L100.529 14.064C100.46 14.1564 100.353 14.2129 100.238 14.218C100.138 14.2147 100.042 14.1782 99.9647 14.1142C99.2725 13.5674 98.7534 13.3805 98.1183 13.3805C97.4832 13.3805 97.144 13.6868 97.144 14.0813C97.144 14.6109 97.5386 14.8843 98.8364 15.2079C100.631 15.6699 101.469 16.3361 101.469 17.7898C101.469 19.0876 100.409 20.2505 98.4436 20.2505C97.0592 20.2505 95.8115 19.6691 95.0086 18.4387C94.9628 18.3676 94.9393 18.2844 94.9411 18.1999C94.9373 18.0467 95.0241 17.9056 95.1626 17.8399L95.8877 17.4246Z","fill":"#007E91"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M13.7158 23.9901C7.95152 23.9901 1.79619 16.8691 0.337396 13.1001C-0.159252 11.8144 -0.107338 10.8851 0.491409 10.34C1.56627 9.36825 2.73027 10.5735 3.81574 11.6975L3.89354 11.7781L3.89898 11.7836C4.20158 12.0931 4.63455 12.536 4.98374 12.825C4.72244 12.1328 4.1185 11.0513 3.71184 10.3296C2.38629 7.9658 1.13515 5.73175 2.70296 4.82671C4.15075 3.98879 5.54679 5.78473 6.89797 7.52295L6.90458 7.53145C7.22818 7.9485 7.65041 8.49187 8.00862 8.88815C7.75251 8.11462 7.22991 6.98462 6.84401 6.15226L6.83979 6.14313C5.58699 3.4319 4.50948 1.10002 5.95281 0.242663C6.32456 0.0173477 6.77258 -0.045226 7.19183 0.0696147C8.43605 0.405328 9.4605 2.08736 10.8812 4.60348L10.8989 4.63476C11.2426 5.24312 11.6856 6.02722 12.0666 6.60218C12.0095 6.14188 11.9247 5.61408 11.8555 5.1953L11.8538 5.18491C11.4857 2.9196 11.112 0.619089 12.6325 0.0834586C14.3872 -0.536054 15.4462 2.36423 16.912 6.43087C17.5159 8.11117 18.4936 10.8263 19.1062 11.5462C19.3502 11.1482 19.6478 10.2137 19.7551 9.61495L19.7556 9.61248C19.9786 8.37797 20.171 7.31315 21.0045 6.92059C21.6414 6.62295 22.562 6.72505 23.2697 7.90697C24.6732 10.276 24.8047 16.5698 21.0097 19.3281C19.987 20.074 18.5023 20.3007 17.2425 20.2124C16.9639 21.6833 16.2388 23.9901 13.7158 23.9901ZM1.64737 11.8248C1.7512 12.3803 2.13883 13.4999 3.27056 15.0867C5.69324 18.4941 10.0056 22.3548 13.7158 22.3548C14.8804 22.3548 15.3476 21.3961 15.6193 19.9823C13.1326 19.5254 11.2429 18.4248 10.3638 16.9072C9.66114 15.8346 9.60912 14.4613 10.2286 13.3386C10.8482 12.2159 12.0377 11.5277 13.3198 11.5503C14.6019 11.5728 15.7664 12.3024 16.3461 13.4462C17.1335 14.8099 17.5367 16.7549 17.4397 18.5875C18.4434 18.6446 19.461 18.4283 20.0355 18.0061C22.1224 16.4832 22.7523 13.4826 22.5239 11.1793C22.3751 9.67206 21.9425 8.74625 21.676 8.46245C21.5248 8.92766 21.4125 9.4046 21.3403 9.88837C21.1066 11.1914 20.8626 12.5377 19.8832 13.1036C19.5087 13.2975 19.0716 13.3312 18.6719 13.1971C17.5038 12.7696 16.6939 10.6602 15.3649 6.96732C14.7592 5.28529 13.7919 2.64111 13.1516 1.81567C13.0526 2.48712 13.2955 3.98902 13.4333 4.84134L13.4458 4.91843C13.7607 6.84791 13.9009 7.88447 13.4146 8.51264C13.2261 8.75845 12.9429 8.91358 12.6342 8.94007C11.5128 9.04216 10.6909 7.58856 9.44838 5.38739C8.82887 4.27469 7.54485 1.9991 6.88035 1.67896C6.90624 2.40553 7.8082 4.35414 8.31601 5.4512L8.32404 5.46856C9.50895 8.02838 10.2919 9.71978 9.41031 10.6256C9.16025 10.8887 8.80713 11.0285 8.4447 11.008C7.55524 10.9578 6.79036 10.0303 5.61883 8.52129C5.11872 7.87755 4.13926 6.61776 3.6132 6.31146C3.7126 6.99702 4.60133 8.58224 5.116 9.50024L5.13083 9.5267C6.41139 11.8127 7.42199 13.6176 6.18469 14.488C5.0795 15.263 3.9333 14.0861 2.86905 12.9934L2.78257 12.9046C2.42488 12.5235 2.04587 12.163 1.64737 11.8248ZM11.7802 14.2783C12.1055 13.713 12.7071 13.3637 13.3593 13.3614C14.0137 13.3631 14.618 13.7124 14.9461 14.2786C15.4635 15.1733 15.8927 16.7203 15.8321 18.3747C13.8853 18.0078 12.4006 17.1772 11.7811 16.1043C11.4553 15.5393 11.455 14.8436 11.7802 14.2783Z","fill":"#64C828"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M35.6756 18.5529C35.6726 18.4811 35.6416 18.4133 35.589 18.3643L34.9055 17.6894C34.8509 17.6212 34.771 17.5781 34.684 17.57C34.5797 17.5799 34.4856 17.6365 34.4279 17.724C33.8966 18.3227 33.2996 18.7502 32.154 18.7502C30.787 18.7502 29.8646 17.9299 29.6414 16.6303H35.6531C35.7484 16.6438 35.8444 16.6117 35.9125 16.5436C35.9805 16.4756 36.0126 16.3795 35.9992 16.2842V15.9381C35.9992 13.9723 34.7342 11.8715 32 11.8715C29.7452 11.8715 27.8988 13.5293 27.8988 16.0575C27.8988 18.7588 29.9321 20.2453 32.0692 20.2453C33.6405 20.2453 34.4608 19.8681 35.5717 18.7588C35.6328 18.707 35.6702 18.6328 35.6756 18.5529ZM32.0346 13.3753C33.0608 13.3753 33.9659 13.9394 34.2566 15.1871H29.6414C29.9165 14.0242 30.941 13.3753 32.0346 13.3753Z","fill":"#64C828"}}),_c('path',{attrs:{"d":"M36.3193 12.2816C36.3115 12.2161 36.3341 12.1505 36.3806 12.1037C36.4271 12.0568 36.4925 12.0338 36.5581 12.0411H37.8404C38.0965 12.0411 38.1865 12.1103 38.2678 12.3664L40.2665 17.544L42.2583 12.3664C42.3448 12.1103 42.4314 12.0411 42.6858 12.0411H43.968C44.0337 12.0338 44.099 12.0568 44.1456 12.1037C44.1921 12.1505 44.2147 12.2161 44.2068 12.2816L41.137 19.7383C41.0522 19.9615 40.9155 20.0844 40.7286 20.0844H39.8045C39.6176 20.0844 39.4809 19.965 39.3944 19.7383L36.3193 12.2816Z","fill":"#64C828"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M52.2657 18.5529C52.2634 18.4813 52.2329 18.4135 52.1809 18.3643L51.5026 17.6894C51.448 17.6212 51.368 17.5781 51.2811 17.57C51.1761 17.5794 51.0812 17.6361 51.0232 17.724C50.4937 18.3227 49.8967 18.7502 48.7511 18.7502C47.384 18.7502 46.4617 17.9299 46.2384 16.6303H52.2449C52.3402 16.6438 52.4363 16.6117 52.5043 16.5436C52.5724 16.4756 52.6045 16.3795 52.591 16.2842V15.9381C52.591 13.9723 51.326 11.8715 48.5919 11.8715C46.3353 11.8715 44.4906 13.5293 44.4906 16.0575C44.4906 18.7588 46.524 20.2453 48.6611 20.2453C50.2324 20.2453 51.0526 19.8681 52.1636 18.7588C52.2243 18.707 52.2612 18.6326 52.2657 18.5529ZM48.6265 13.3753C49.6509 13.3753 50.5577 13.9394 50.8484 15.1871H46.2332C46.5067 14.0242 47.5328 13.3753 48.6265 13.3753Z","fill":"#64C828"}}),_c('path',{attrs:{"d":"M54.0775 12.3837C54.0648 12.2886 54.0972 12.193 54.165 12.1251C54.2329 12.0573 54.3285 12.0249 54.4236 12.0376H55.4844C55.5795 12.0249 55.6751 12.0573 55.743 12.1251C55.8108 12.193 55.8432 12.2886 55.8305 12.3837V13.1019C56.4456 12.2958 57.4128 11.8373 58.4262 11.8715C59.9837 11.8715 60.9216 12.8112 60.9216 14.2457C60.935 14.341 60.9029 14.4371 60.8349 14.5051C60.7668 14.5732 60.6708 14.6053 60.5755 14.5918H59.4939C59.3209 14.5918 59.2378 14.5053 59.2222 14.3184C59.153 13.7197 58.7948 13.3788 58.0594 13.3788C57.3758 13.3788 56.8117 13.8391 56.4189 14.3686C56.026 14.8981 55.8201 15.5488 55.8201 16.5732V19.7383C55.8336 19.8336 55.8014 19.9296 55.7334 19.9977C55.6654 20.0657 55.5693 20.0978 55.474 20.0844H54.4132C54.3179 20.0978 54.2219 20.0657 54.1538 19.9977C54.0858 19.9296 54.0537 19.8336 54.0671 19.7383L54.0775 12.3837Z","fill":"#64C828"}}),_c('path',{attrs:{"d":"M62.0239 8.11117C62.0112 8.01604 62.0435 7.92043 62.1114 7.85257C62.1793 7.78472 62.2749 7.75236 62.37 7.76507H63.4308C63.5259 7.75236 63.6215 7.78472 63.6894 7.85257C63.7572 7.92043 63.7896 8.01604 63.7769 8.11117V17.8867C63.7769 18.501 64.0503 18.7415 64.4431 18.7415C64.8359 18.7415 64.9726 18.5685 65.1613 18.5685C65.2807 18.5685 65.3343 18.636 65.3343 18.79V19.8161C65.3502 19.9331 65.2757 20.0434 65.1613 20.0723C64.7815 20.1981 64.3827 20.2567 63.9828 20.2453C63.0414 20.2453 62.0343 19.6985 62.0343 18.2968L62.0239 8.11117Z","fill":"#64C828"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M68.4248 9.13746C68.2449 8.70271 67.8208 8.41919 67.3503 8.41919C67.0395 8.41002 66.7386 8.52935 66.5185 8.74907C66.2985 8.9688 66.1787 9.2695 66.1874 9.58034C66.1867 10.0508 66.4696 10.4754 66.9041 10.6559C67.3386 10.8365 67.839 10.7374 68.172 10.405C68.5049 10.0725 68.6047 9.57221 68.4248 9.13746ZM66.5726 12.1251C66.5047 12.193 66.4724 12.2886 66.4851 12.3837V19.7383C66.4716 19.8336 66.5037 19.9296 66.5718 19.9977C66.6398 20.0657 66.7359 20.0978 66.8312 20.0844H67.8902C67.9855 20.0978 68.0816 20.0657 68.1496 19.9977C68.2177 19.9296 68.2498 19.8336 68.2363 19.7383V12.3837C68.249 12.2886 68.2167 12.193 68.1488 12.1251C68.081 12.0573 67.9853 12.0249 67.8902 12.0376H66.8312C66.736 12.0249 66.6404 12.0573 66.5726 12.1251Z","fill":"#64C828"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-everli-plus-horizontal-long.vue?vue&type=template&id=6b37afb0&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-everli-plus-horizontal-long.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var logo_everli_plus_horizontal_long = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "0366":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1188,6 +1227,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var ico_credit_card = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "1f91":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/logo-android.vue?vue&type=template&id=710300a3&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"24","viewBox":"0 0 24 24","width":"24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M22 14.563C21.9995 14.9298 21.853 15.2815 21.5926 15.5407C21.3323 15.8 20.9794 15.9456 20.6115 15.9456C20.2433 15.9456 19.8901 15.7997 19.6298 15.54C19.3694 15.2804 19.2231 14.9282 19.2231 14.561V8.3384C19.2231 7.9712 19.3694 7.61903 19.6298 7.35938C19.8901 7.09973 20.2433 6.95386 20.6115 6.95386C20.7939 6.95386 20.9744 6.98968 21.1429 7.05925C21.3113 7.12883 21.4644 7.23082 21.5933 7.35938C21.7223 7.48795 21.8245 7.64058 21.8943 7.80856C21.9641 7.97654 22 8.15658 22 8.3384V14.563Z"}}),_c('path',{attrs:{"d":"M4.77691 14.563C4.77639 14.9298 4.62988 15.2815 4.36955 15.5407C4.10922 15.8 3.75636 15.9456 3.38846 15.9456C3.02055 15.9456 2.66769 15.8 2.40736 15.5407C2.14703 15.2815 2.00052 14.9298 2 14.563V8.34034C2 7.97314 2.14628 7.62098 2.40667 7.36132C2.66706 7.10167 3.02021 6.9558 3.38846 6.9558C3.7567 6.9558 4.10986 7.10167 4.37024 7.36132C4.63063 7.62098 4.77691 7.97314 4.77691 8.34034V14.563Z"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.96724 0.019509L9.10595 1.62203C9.88768 1.32208 10.84 1.13991 12 1.14347C13.1563 1.14778 14.1062 1.33728 14.8866 1.64353L16.0406 0.019509C16.064 -0.0135488 16.1342 -0.00382591 16.1985 0.0428439C16.2629 0.0875691 16.296 0.149795 16.2726 0.182853L15.156 1.7568C18.3445 3.18947 18.4723 6.63495 18.4723 6.63495H5.52574C5.52574 6.63495 5.61698 3.15068 8.83659 1.73288L7.73518 0.182853C7.71178 0.149795 7.74493 0.0875691 7.80928 0.0428439C7.87364 -0.00382591 7.94384 -0.0135488 7.96724 0.019509ZM9.15873 4.59898C9.58953 4.59898 9.93877 4.25073 9.93877 3.82115C9.93877 3.39157 9.58953 3.04332 9.15873 3.04332C8.72793 3.04332 8.3787 3.39157 8.3787 3.82115C8.3787 4.25073 8.72793 4.59898 9.15873 4.59898ZM15.6213 3.82115C15.6213 4.25073 15.2721 4.59898 14.8413 4.59898C14.4105 4.59898 14.0612 4.25073 14.0612 3.82115C14.0612 3.39157 14.4105 3.04332 14.8413 3.04332C15.2721 3.04332 15.6213 3.39157 15.6213 3.82115Z"}}),_c('path',{attrs:{"d":"M18.5269 7.40111V12.7584H18.5152V18.3802C18.5152 18.8098 18.166 19.158 17.7352 19.158H16.0657L16.0679 22.6155C16.0679 22.7976 16.0318 22.978 15.9618 23.1462C15.8918 23.3144 15.7892 23.4672 15.6598 23.5958C15.5305 23.7245 15.3769 23.8264 15.208 23.8957C15.0391 23.9651 14.8582 24.0005 14.6755 24C14.3073 24 13.9541 23.8541 13.6937 23.5945C13.4333 23.3348 13.2871 22.9827 13.2871 22.6155V19.158H10.709V22.6155C10.709 22.9827 10.5628 23.3348 10.3024 23.5945C10.042 23.8541 9.68883 24 9.32059 24C8.95235 24 8.59919 23.8541 8.33881 23.5945C8.07842 23.3348 7.93214 22.9827 7.93214 22.6155V19.158H6.26482C5.83402 19.158 5.48479 18.8098 5.48479 18.3802V12.7584H5.47309V7.40111H18.5269Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-android.vue?vue&type=template&id=710300a3&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-android.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var logo_android = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -6172,6 +6250,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "a8dd":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/logo-everli-app.vue?vue&type=template&id=cdb891ba&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"24","viewBox":"0 0 24 24","width":"24","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"clip-path":"url(#clip0_429_276)"}},[_c('path',{attrs:{"d":"M6.14527 14.0614C5.41245 12.9938 5.14596 12.1931 5.07934 11.8595C5.21258 11.9929 5.34583 12.1097 5.47907 12.2264C5.61231 12.3432 5.74555 12.46 5.87879 12.5934C6.54499 13.3274 7.34444 14.1949 8.01064 13.7278C8.87671 13.1272 8.2105 11.9262 7.34444 10.3915C7.33283 10.3706 7.3209 10.3491 7.30868 10.3271C6.9702 9.71729 6.40943 8.70706 6.34513 8.25626C6.61812 8.42031 7.11484 9.03252 7.46858 9.46851C7.54647 9.56452 7.61743 9.65198 7.67754 9.72423C7.75279 9.81844 7.8251 9.9097 7.89484 9.99773C8.56596 10.8448 8.99977 11.3924 9.54291 11.3924C9.80939 11.3924 10.0759 11.3256 10.2091 11.1255C10.8018 10.5318 10.2878 9.41655 9.5037 7.7152C9.4946 7.69545 9.48546 7.67563 9.47629 7.65572C9.14319 6.92174 8.5436 5.58722 8.5436 5.12014C8.89116 5.26933 9.46073 6.15975 9.92139 6.8799C10.0788 7.12605 10.2236 7.3523 10.3424 7.52227C10.3998 7.61969 10.4558 7.71506 10.5105 7.80819C11.28 9.11839 11.79 9.9867 12.4742 9.9244C12.6741 9.9244 12.8739 9.79095 13.0072 9.6575C13.3265 9.2737 13.2173 8.5833 13.0316 7.40995C13.0236 7.35932 13.0154 7.3078 13.0072 7.25537C12.9916 7.13075 12.9688 6.97704 12.9438 6.80867C12.8618 6.25582 12.7562 5.54491 12.8073 5.18687C13.207 5.7874 13.8732 7.52227 14.273 8.65661C15.139 11.1255 15.672 12.5267 16.4714 12.7936C16.7379 12.8603 17.0044 12.8603 17.2709 12.7269C17.8705 12.3933 18.0703 11.4591 18.2036 10.5917C18.2036 10.258 18.2702 9.99113 18.4034 9.6575C18.5367 9.85768 18.8698 10.4582 18.9364 11.4591C19.0696 12.9938 18.6699 14.9956 17.2709 15.9965C16.8712 16.2634 16.205 16.4635 15.5387 16.3968C15.6054 15.129 15.3389 13.8612 14.8059 12.9271C14.2063 11.8595 12.8073 11.4591 11.7414 12.1264C10.6755 12.7936 10.2757 14.1949 10.8753 15.2625C11.4749 16.2634 12.6741 16.9973 14.3396 17.331C14.1397 18.2651 13.8732 18.9324 13.0738 18.9324C10.6088 18.9324 7.74416 16.3301 6.14527 14.0614Z"}}),_c('path',{attrs:{"d":"M11.808 13.5276C12.0745 13.1272 12.4742 12.9271 12.8739 12.9271H13.1404C13.4735 13.0605 13.74 13.2607 13.8732 13.5276C14.3396 14.395 14.5394 15.3292 14.4728 16.2634C13.207 15.9965 12.2077 15.4626 11.808 14.7287C11.6081 14.395 11.6081 13.928 11.808 13.5276Z"}}),_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6 0C2.68629 0 0 2.68629 0 6V18C0 21.3137 2.68629 24 6 24H18C21.3137 24 24 21.3137 24 18V6C24 2.68629 21.3137 0 18 0H6ZM4.21328 12.7269C5.21258 15.2625 9.27643 20 13.0738 20C14.7393 20 15.2056 18.4653 15.4721 17.4644C16.2716 17.5311 17.2709 17.331 17.9371 16.8639C20.402 15.0623 20.3354 10.8586 19.4027 9.25714C18.9364 8.45643 18.2702 8.38971 17.8705 8.58989C17.3375 8.85679 17.2043 9.59077 17.071 10.3915C17.0044 10.7918 16.8712 11.2589 16.6713 11.6593C16.2716 11.1922 15.6054 9.3906 15.2056 8.25626C14.273 5.58722 13.5401 3.65217 12.4076 4.05253C11.4083 4.38616 11.6081 5.92085 11.8746 7.45555C11.9096 7.59565 11.9262 7.75415 11.9437 7.92138C11.9596 8.07272 11.9762 8.23121 12.0079 8.38971C11.7414 7.98935 11.4083 7.45555 11.2084 7.05519C10.2757 5.38705 9.54291 4.25271 8.74347 4.05253C8.47698 3.9858 8.2105 3.9858 7.94402 4.11926C7.01134 4.71979 7.67754 6.25448 8.5436 8.1228C8.81009 8.65661 9.14319 9.3906 9.34305 9.9244C9.07657 9.6575 8.81009 9.32387 8.61023 8.99024C8.57568 8.94823 8.54114 8.90612 8.50659 8.86402C7.60845 7.76931 6.71031 6.67461 5.81217 7.18864C4.74624 7.78918 5.61231 9.32387 6.47837 10.7918C6.81147 11.3256 7.07796 11.8595 7.34444 12.46C7.14086 12.358 6.93729 12.1393 6.76342 11.9524C6.70969 11.8947 6.65879 11.84 6.61161 11.7927C6.57987 11.7609 6.54799 11.7289 6.51601 11.6967C5.80965 10.9865 5.0476 10.2202 4.34652 10.8586C3.9468 11.2589 3.88018 11.8595 4.21328 12.7269Z"}})]),_c('defs',[_c('clipPath',{attrs:{"id":"clip0_429_276"}},[_c('rect',{attrs:{"width":"24","height":"24","fill":"white"}})])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-everli-app.vue?vue&type=template&id=cdb891ba&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/logo-everli-app.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var logo_everli_app = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "aa22":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7918,6 +8035,7 @@ var map = {
 	"./ico-foryou-filled.vue": "330c",
 	"./ico-foryou-outline.vue": "db4c",
 	"./ico-gift-card.vue": "18cf",
+	"./ico-gift-filled.vue": "ef7c",
 	"./ico-gift.vue": "42a6",
 	"./ico-gps.vue": "bd5d",
 	"./ico-help.vue": "3087",
@@ -7973,11 +8091,14 @@ var map = {
 	"./ico-x-circle-outline.vue": "80ee",
 	"./ico-x.vue": "6f21",
 	"./ico-zoom.vue": "0e18",
+	"./logo-android.vue": "1f91",
 	"./logo-apple-maps-app.vue": "c260",
 	"./logo-apple.vue": "35e6",
 	"./logo-edenred.vue": "b803",
+	"./logo-everli-app.vue": "a8dd",
 	"./logo-everli-hand.vue": "19a1",
 	"./logo-everli-horizontal.vue": "29d4",
+	"./logo-everli-plus-horizontal-long.vue": "02d1",
 	"./logo-everli-plus-horizontal.vue": "a78a",
 	"./logo-everli-vertical.vue": "34ee",
 	"./logo-facebook.vue": "f001",
@@ -9492,6 +9613,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "ef7c":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ae4d4780-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-gift-filled.vue?vue&type=template&id=1ea039c3&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"24","viewBox":"0 0 24 24","width":"24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M14.3438 12.7038V21.3333H19.0312C20.0005 21.3333 20.8281 20.6105 20.8281 19.722V12.7038H14.3438Z"}}),_c('path',{attrs:{"d":"M3.17188 12.7038V19.722C3.17188 20.6105 3.96039 21.3333 4.92969 21.3333H9.65625V12.7038H3.17188Z"}}),_c('path',{attrs:{"d":"M20.2422 7.29687H17.8444C18.2162 6.84663 18.4453 6.29241 18.4453 5.68555C18.4453 4.20481 17.131 3 15.5156 3C13.471 3 12.879 4.35011 12 6.39464C11.121 4.35011 10.529 3 8.48438 3C6.86902 3 5.55469 4.20481 5.55469 5.68555C5.55469 6.29241 5.78379 6.84663 6.15559 7.29687H3.75781C2.78852 7.29687 2 8.01968 2 8.9082V10.0182C2 10.9068 2.78852 11.6296 3.75781 11.6296H9.65625V7.29687H8.48438C7.51508 7.29687 6.72656 6.57407 6.72656 5.68555C6.72656 4.79702 7.51508 4.07422 8.48438 4.07422C9.68543 4.07422 10.027 4.73458 10.9248 6.82271C10.9874 6.96852 11.0655 7.14151 11.1329 7.29687H10.8281C10.8281 15.3063 10.8281 13.3203 10.8281 21.3333H13.1719C13.1719 8.76082 13.1719 10.7888 13.1719 7.29687H12.8671C12.9346 7.14147 13.0126 6.96852 13.0752 6.82271C13.973 4.73458 14.3146 4.07422 15.5156 4.07422C16.4849 4.07422 17.2734 4.79702 17.2734 5.68555C17.2734 6.57407 16.4849 7.29687 15.5156 7.29687H14.3438V11.6296H20.2422C21.2115 11.6296 22 10.9068 22 10.0182V8.9082C22 8.01968 21.2115 7.29687 20.2422 7.29687Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-gift-filled.vue?vue&type=template&id=1ea039c3&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-gift-filled.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_gift_filled = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "f001":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9779,7 +9939,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ "fab2":
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
+module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
 
 /***/ }),
 

@@ -1,3 +1,9 @@
+v0.2.3-wade / 2024-05-31
+==================
+* milestone [v0.2.3-wade](https://github.com/everli/design-system-frontend/milestone/29?closed=1)
+* [DC-368] Add icons for new navigation menu
+* [FEAT] Add new color (coral-100) and icon ogo-everli-plus-horizontal-long
+
 v0.2.2-kawhi / 2024-05-29
 ==================
 * milestone [v0.2.2-kawhi](https://github.com/everli/design-system-frontend/milestone/28?closed=1)
