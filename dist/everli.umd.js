@@ -8107,6 +8107,7 @@ var map = {
 	"./ico-padlock.vue": "0624",
 	"./ico-payments.vue": "2ea3",
 	"./ico-pos.vue": "fd59",
+	"./ico-position-mark-filled-hub.vue": "dc55",
 	"./ico-position-mark-filled.vue": "c685",
 	"./ico-position-mark-outline.vue": "da93",
 	"./ico-profile.vue": "1809",
@@ -8317,6 +8318,45 @@ module.exports = function (V, P) {
   return func == null ? undefined : aCallable(func);
 };
 
+
+/***/ }),
+
+/***/ "dc55":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-position-mark-filled-hub.vue?vue&type=template&id=c368eba4&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"height":"22","viewBox":"0 0 22 22","width":"22","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M10.65 1C6.98317 1 4 4.08684 4 7.88105C4 12.5898 9.9511 19.5025 10.2045 19.7945C10.4425 20.0688 10.858 20.0683 11.0955 19.7945C11.3489 19.5025 17.3 12.5898 17.3 7.88105C17.2999 4.08684 14.3168 1 10.65 1ZM10.65 11.3431C8.80513 11.3431 7.30425 9.79003 7.30425 7.88105C7.30425 5.97207 8.80516 4.41904 10.65 4.41904C12.4948 4.41904 13.9957 5.97211 13.9957 7.88109C13.9957 9.79007 12.4948 11.3431 10.65 11.3431Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-position-mark-filled-hub.vue?vue&type=template&id=c368eba4&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-position-mark-filled-hub.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_position_mark_filled_hub = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -9988,7 +10028,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ "fab2":
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-stores-outline\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
+module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-filled-hub\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-stores-outline\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
 
 /***/ }),
 
