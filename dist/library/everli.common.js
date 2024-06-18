@@ -2733,6 +2733,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "444b":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-arrow-left-bold.vue?vue&type=template&id=7cef65ee&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M13.1684 19L6 11.8L13.1684 4.6L15 6.43966L9.66318 11.8L15 17.1603L13.1684 19Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-left-bold.vue?vue&type=template&id=7cef65ee&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-left-bold.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_arrow_left_bold = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "44ad":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5303,6 +5342,45 @@ module.exports = store.inspectSource;
 
 /***/ }),
 
+/***/ "89d8":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-arrow-right-bold.vue?vue&type=template&id=4a7cd07c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M9.83159 19L17 11.8L9.83159 4.6L8 6.43966L13.3368 11.8L8 17.1603L9.83159 19Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-right-bold.vue?vue&type=template&id=4a7cd07c&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-right-bold.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_arrow_right_bold = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "8c0d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5708,6 +5786,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var ico_chevron_right = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "9ac2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-arrow-up-bold.vue?vue&type=template&id=2d9043ce&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M19 14.1684L11.8 7L4.6 14.1684L6.43966 16L11.8 10.6632L17.1603 16L19 14.1684Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-up-bold.vue?vue&type=template&id=2d9043ce&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-up-bold.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_arrow_up_bold = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -6313,6 +6430,45 @@ module.exports = function (name) {
   } return WellKnownSymbolsStore[name];
 };
 
+
+/***/ }),
+
+/***/ "b6c6":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-arrow-down-bold.vue?vue&type=template&id=0072790b&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M19 8.83159L11.8 16L4.6 8.83159L6.43966 7L11.8 12.3368L17.1603 7L19 8.83159Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-down-bold.vue?vue&type=template&id=0072790b&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-arrow-down-bold.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_arrow_down_bold = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -7553,21 +7709,26 @@ var map = {
 	"./IconsDemo.vue": "e726",
 	"./ico-account-filled.vue": "b2ec",
 	"./ico-account.vue": "64f1",
+	"./ico-add-bold.vue": "e6ab",
 	"./ico-add-circle.vue": "25f3",
 	"./ico-add.vue": "e7b8",
 	"./ico-alert.vue": "67c1",
+	"./ico-arrow-down-bold.vue": "b6c6",
 	"./ico-arrow-down-circle.vue": "e27c",
 	"./ico-arrow-down.vue": "037a",
 	"./ico-arrow-external.vue": "9197",
+	"./ico-arrow-left-bold.vue": "444b",
 	"./ico-arrow-left-circle.vue": "869b",
 	"./ico-arrow-left-new.vue": "07a8",
 	"./ico-arrow-left.vue": "1959",
+	"./ico-arrow-right-bold.vue": "89d8",
 	"./ico-arrow-right-circle.vue": "6d9e",
 	"./ico-arrow-right-new.vue": "dbd3",
 	"./ico-arrow-right.vue": "e94e",
 	"./ico-arrow-top-circle.vue": "c79c",
 	"./ico-arrow-top-new.vue": "ca0e",
 	"./ico-arrow-top.vue": "dcf1",
+	"./ico-arrow-up-bold.vue": "9ac2",
 	"./ico-ask-question.vue": "aa22",
 	"./ico-basket.vue": "fe20",
 	"./ico-cart.vue": "eccd",
@@ -7668,6 +7829,7 @@ var map = {
 	"./ico-user.vue": "593a",
 	"./ico-wallet.vue": "11e6",
 	"./ico-write.vue": "c064",
+	"./ico-x-bold.vue": "eb55",
 	"./ico-x-circle-filled.vue": "0a40",
 	"./ico-x-circle-outline.vue": "80ee",
 	"./ico-x.vue": "6f21",
@@ -8386,6 +8548,45 @@ module.exports = function (exec) {
 
 /***/ }),
 
+/***/ "e6ab":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-add-bold.vue?vue&type=template&id=5be01c88&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.25521 13.2552L5.2393 10.8421L11.271 10.8016L11.2312 4.76881L13.6439 4.75259L13.6837 10.7853L19.7153 10.7448L19.7313 13.1579L13.6996 13.1984L13.7394 19.2312L11.3267 19.2474L11.2869 13.2147L5.25521 13.2552Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-add-bold.vue?vue&type=template&id=5be01c88&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-add-bold.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_add_bold = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "e6cf":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9038,6 +9239,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ "eb55":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14aaab6f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-x-bold.vue?vue&type=template&id=4b4cd27d&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5 7.071L6.97758 5.06716L11.9869 10.0096L16.9309 5L18.9346 6.97697L13.9907 11.9866L19 16.929L17.0224 18.9328L12.0131 13.9904L7.06914 19L5.0654 17.023L10.0093 12.0134L5 7.071Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-x-bold.vue?vue&type=template&id=4b4cd27d&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-x-bold.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_x_bold = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "ebbd":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9520,7 +9760,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ "fab2":
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-stores-outline\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
+module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-bold\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-bold\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-bold\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-bold\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-arrow-up-bold\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-stores-outline\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-bold\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
 
 /***/ }),
 
