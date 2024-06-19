@@ -1,3 +1,6 @@
+v0.2.4- / 2024-06-
+==================
+
 v0.2.3-wade / 2024-05-31
 ==================
 * milestone [v0.2.3-wade](https://github.com/everli/design-system-frontend/milestone/29?closed=1)
