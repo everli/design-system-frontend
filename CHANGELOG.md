@@ -1,5 +1,10 @@
-v0.2.4- / 2024-06-
+v0.2.4-jrue-holiday / 2024-06-19
 ==================
+* milestone [v0.2.4-jrue-holiday](https://github.com/everli/design-system-frontend/milestone/30?closed=1)
+[DC-368] Add ico-stores-outline icon
+[DC-404] Add ico-position-mark-filled-hub 
+[FEAT] Add new arrow/x bold icons
+[FIX] Hub - update profile icon build
 
 v0.2.3-wade / 2024-05-31
 ==================
