@@ -1,3 +1,8 @@
+v0.2.5-edwards / 2024-07-10
+==================
+* milestone [v0.2.5-edwards](https://github.com/everli/design-system-frontend/milestone/31?closed=1)
+* [DC-546] Update colors and add new typography
+
 v0.2.4-jrue-holiday / 2024-06-19
 ==================
 * milestone [v0.2.4-jrue-holiday](https://github.com/everli/design-system-frontend/milestone/30?closed=1)
