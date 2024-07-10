@@ -1,5 +1,7 @@
-v0.2.6- / 2024-07-
+v0.2.6-russell / 2024-07-10
 ==================
+* milestone [v0.2.6-russell](https://github.com/everli/design-system-frontend/milestone/32?closed=1)
+* [FIX] update ico profile bg color
 
 v0.2.5-edwards / 2024-07-10
 ==================
