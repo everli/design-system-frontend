@@ -1,6 +1,7 @@
 $eds-font-family-primary: 'Fira Sans', sans-serif;
 $eds-font-family-brand: 'Isidora';
 $eds-font-weight-regular: 400;
+$eds-font-weight-medium: 500;
 $eds-font-weight-semi: 600;
 $eds-font-weight-bold: 700;
 
@@ -103,6 +104,13 @@ $eds-font-weight-bold: 700;
   line-height: 22px;
 }
 
+@mixin t-body-small-medium {
+  font-family: $eds-font-family-primary;
+  font-size: 14px;
+  font-weight: $eds-font-weight-medium;
+  line-height: 18px;
+}
+
 @mixin t-caption-semibold {
   font-family: $eds-font-family-primary;
   font-size: 12px;
@@ -201,6 +209,12 @@ $typography: (
     'font-size': 14px,
     'font-weight': $eds-font-weight-regular,
     'line-height': 22px,
+  ),
+  'body-small-medium': (
+    'font-family': $eds-font-family-primary,
+    'font-size': 14px,
+    'font-weight': $eds-font-weight-medium,
+    'line-height': 18px,
   ),
   'caption-semibold': (
     'font-family': $eds-font-family-primary,
