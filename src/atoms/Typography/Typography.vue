@@ -20,6 +20,7 @@
       <p class="eds-t-body-regular">Body Regular</p>
       <hr />
       <p class="eds-t-body-small-semibold">Body small Semibold</p>
+      <p class="eds-t-body-small-medium">Body small Medium</p>
       <p class="eds-t-body-small-regular">Body small Regular</p>
       <hr />
       <p class="eds-t-caption-semibold">Caption Semibold</p>
