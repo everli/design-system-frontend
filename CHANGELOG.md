@@ -1,3 +1,6 @@
+v0.2.5- / 2024-07-
+==================
+
 v0.2.4-jrue-holiday / 2024-06-19
 ==================
 * milestone [v0.2.4-jrue-holiday](https://github.com/everli/design-system-frontend/milestone/30?closed=1)
