@@ -3,125 +3,87 @@
     <div class="everli-colors">
       <div class="color-box">
         <div class="eds-bg-green-100" />
-        <p>
-          Green 100<br />
-        </p>
+        <p>Green 100<br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-green-110" />
-        <p>
-          Green 110 <br />
-        </p>
+        <p>Green 110 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-green-10" />
-        <p>
-          Green 10 <br />
-        </p>
+        <p>Green 10 <br /></p>
       </div>
     </div>
     <div class="everli-colors">
       <div class="color-box">
         <div class="eds-bg-violet-black" />
-        <p>
-          Violet black <br />
-        </p>
+        <p>Violet black <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-gray-100" />
-        <p>
-          Gray 100 <br />
-        </p>
+        <p>Gray 100 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-link" />
-        <p>
-          Link <br />
-        </p>
+        <p>Link <br /></p>
       </div>
     </div>
     <div class="everli-colors">
       <div class="color-box">
         <div class="eds-bg-gray-80" />
-        <p>
-          Gray 80 <br />
-        </p>
+        <p>Gray 80 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-gray-40" />
-        <p>
-          Gray 40 <br />
-        </p>
+        <p>Gray 40 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-gray-10" />
-        <p>
-          Gray 10 <br />
-        </p>
+        <p>Gray 10 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-walter-white" />
-        <p>
-          Walter white <br />
-        </p>
+        <p>Walter white <br /></p>
       </div>
     </div>
     <div class="everli-colors">
       <div class="color-box">
         <div class="eds-bg-blue-plus" />
-        <p>
-          Blue Plus <br />
-        </p>
+        <p>Blue Plus <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-blue-20" />
-        <p>
-          Blue 20 <br />
-        </p>
+        <p>Blue 20 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-purple-rain" />
-        <p>
-          Purple rain <br />
-        </p>
+        <p>Purple rain <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-red-hot" />
-        <p>
-          Red hot <br />
-        </p>
+        <p>Red hot <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-teal-waves" />
-        <p>
-          Teal waves <br />
-        </p>
+        <p>Teal waves <br /></p>
       </div>
     </div>
     <div class="everli-colors">
       <div class="color-box">
         <div class="eds-bg-yellow-sun" />
-        <p>
-          Yellow sun <br />
-        </p>
+        <p>Yellow sun <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-red-20" />
-        <p>
-          Red 20 <br />
-        </p>
+        <p>Red 20 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-teal-20" />
-        <p>
-          Teal 20 <br />
-        </p>
+        <p>Teal 20 <br /></p>
       </div>
       <div class="color-box">
         <div class="eds-bg-yellow-20" />
-        <p>
-          Yellow 20 <br />
-        </p>
+        <p>Yellow 20 <br /></p>
       </div>
     </div>
   </div>
