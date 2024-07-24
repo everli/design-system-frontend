@@ -733,12 +733,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0635e39c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-categories.vue?vue&type=template&id=d8fadbf4&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M2.75 4.80702C2.75 3.67096 3.67096 2.75 4.80702 2.75H8.31579C9.45185 2.75 10.3728 3.67096 10.3728 4.80702V8.31579C10.3728 9.45185 9.45185 10.3728 8.31579 10.3728H4.80702C3.67096 10.3728 2.75 9.45185 2.75 8.31579V4.80702ZM13.6272 4.80702C13.6272 3.67096 14.5482 2.75 15.6842 2.75H19.193C20.329 2.75 21.25 3.67096 21.25 4.80702V8.31579C21.25 9.45185 20.329 10.3728 19.193 10.3728H15.6842C14.5482 10.3728 13.6272 9.45185 13.6272 8.31579V4.80702ZM2.75 15.6842C2.75 14.5482 3.67096 13.6272 4.80702 13.6272H8.31579C9.45185 13.6272 10.3728 14.5482 10.3728 15.6842V19.193C10.3728 20.329 9.45185 21.25 8.31579 21.25H4.80702C3.67096 21.25 2.75 20.329 2.75 19.193V15.6842ZM13.6272 15.6842C13.6272 14.5482 14.5482 13.6272 15.6842 13.6272H19.193C20.329 13.6272 21.25 14.5482 21.25 15.6842V19.193C21.25 20.329 20.329 21.25 19.193 21.25H15.6842C14.5482 21.25 13.6272 20.329 13.6272 19.193V15.6842Z","stroke":"black","stroke-width":"1.5"}})])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0635e39c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-categories.vue?vue&type=template&id=ffcba9e2&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"22","height":"22","viewBox":"0 0 22 22","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M3.6665 3.66663H10.185V10.1851H3.6665V3.66663Z"}}),_c('path',{attrs:{"d":"M11.8147 3.66663H18.3332V10.1851H11.8147V3.66663Z"}}),_c('path',{attrs:{"d":"M11.8147 11.8148H18.3332V18.3333H11.8147V11.8148Z"}}),_c('path',{attrs:{"d":"M3.6665 11.8148H10.185V18.3333H3.6665V11.8148Z"}})])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Icon/ico-categories.vue?vue&type=template&id=d8fadbf4&
+// CONCATENATED MODULE: ./src/components/Icon/ico-categories.vue?vue&type=template&id=ffcba9e2&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__("2877");
