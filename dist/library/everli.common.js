@@ -9805,12 +9805,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-menu.vue?vue&type=template&id=2d7b2d75&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M20.6486 17.193C21.395 17.193 22 17.8214 22 18.5965C22 19.3232 21.4682 19.9209 20.7868 19.9928L20.6486 20H3.35135C2.60502 20 2 19.3716 2 18.5965C2 17.8698 2.53176 17.2721 3.21318 17.2002L3.35135 17.193H20.6486ZM20.6486 10.4561C21.395 10.4561 22 11.0845 22 11.8596C22 12.5863 21.4682 13.184 20.7868 13.2559L20.6486 13.2632H3.35135C2.60502 13.2632 2 12.6348 2 11.8596C2 11.133 2.53176 10.5353 3.21318 10.4634L3.35135 10.4561H20.6486ZM20.6486 4C21.395 4 22 4.62837 22 5.40351C22 6.1302 21.4682 6.7279 20.7868 6.79977L20.6486 6.80702H3.35135C2.60502 6.80702 2 6.17865 2 5.40351C2 4.67682 2.53176 4.07912 3.21318 4.00725L3.35135 4H20.6486Z"}})])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-menu.vue?vue&type=template&id=7cc88b8c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3 6C3 5.44772 3.44772 5 4 5L21 5C21.5523 5 22 5.44772 22 6C22 6.55229 21.5523 7 21 7L4 7C3.44772 7 3 6.55228 3 6ZM3 12C3 11.4477 3.44772 11 4 11L21 11C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13L4 13C3.44772 13 3 12.5523 3 12ZM3 18C3 17.4477 3.44772 17 4 17L21 17C21.5523 17 22 17.4477 22 18C22 18.5523 21.5523 19 21 19L4 19C3.44772 19 3 18.5523 3 18Z"}})])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Icon/ico-menu.vue?vue&type=template&id=2d7b2d75&
+// CONCATENATED MODULE: ./src/components/Icon/ico-menu.vue?vue&type=template&id=7cc88b8c&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__("2877");
