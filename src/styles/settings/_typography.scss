@@ -83,6 +83,13 @@ $eds-font-weight-bold: 700;
   line-height: 24px;
 }
 
+@mixin t-body-medium {
+  font-family: $eds-font-family-primary;
+  font-size: 16px;
+  font-weight: $eds-font-weight-medium;
+  line-height: 24px;
+}
+
 @mixin t-body-regular {
   font-family: $eds-font-family-primary;
   font-size: 16px;
@@ -190,6 +197,12 @@ $typography: (
     'font-family': $eds-font-family-primary,
     'font-size': 16px,
     'font-weight': $eds-font-weight-semi,
+    'line-height': 24px,
+  ),
+  'body-medium': (
+    'font-family': $eds-font-family-primary,
+    'font-size': 16px,
+    'font-weight': $eds-font-weight-medium,
     'line-height': 24px,
   ),
   'body-regular': (
