@@ -3326,12 +3326,12 @@ module.exports = function (argument) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-favorite-filled.vue?vue&type=template&id=d28c0ff4&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M12.9196 3.74889C15.2252 1.41704 18.9645 1.41704 21.2708 3.74889C23.5727 6.07704 23.5764 9.84889 21.2818 12.1807L12.539 21.7615C12.4004 21.9133 12.2046 22 12 22C11.7954 22 11.5996 21.9133 11.461 21.7615L2.7182 12.1807C0.423605 9.84889 0.427271 6.07704 2.7292 3.74889C5.03554 1.41704 8.7748 1.41704 11.0804 3.74889L12 4.67852L12.9196 3.74889Z"}})])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-favorite-filled.vue?vue&type=template&id=74a5b0e0&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M12.6688 6.77192C14.3456 5.07603 17.0651 5.07603 18.7424 6.77192C20.4165 8.46512 20.4192 11.2083 18.7504 12.9042L12.392 19.872C12.2912 19.9824 12.1488 20.0455 12 20.0455C11.8512 20.0455 11.7088 19.9824 11.608 19.872L5.2496 12.9042C3.5808 11.2083 3.58347 8.46512 5.2576 6.77192C6.93494 5.07603 9.6544 5.07603 11.3312 6.77192L12 7.44801L12.6688 6.77192Z"}})])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Icon/ico-favorite-filled.vue?vue&type=template&id=d28c0ff4&
+// CONCATENATED MODULE: ./src/components/Icon/ico-favorite-filled.vue?vue&type=template&id=74a5b0e0&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__("2877");
@@ -5645,6 +5645,45 @@ module.exports = isForced;
 
 /***/ }),
 
+/***/ "9747":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-deals-filled.vue?vue&type=template&id=3d2e9c89&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"25","viewBox":"0 0 24 25","xmlns":"http://www.w3.org/2000/svg"}},[_c('g',{attrs:{"clip-path":"url(#clip0_3060_20031)"}},[_c('path',{attrs:{"d":"M9.44708 4.93745C9.32208 5.01245 9.33458 4.99057 8.83458 5.93745C8.40958 6.74057 8.27833 6.93432 8.05333 7.09682C7.84708 7.24682 7.6377 7.30307 6.68458 7.4687C5.74708 7.63433 5.69395 7.64682 5.57208 7.75933C5.4252 7.89058 5.4252 7.9562 5.5627 8.92807C5.63458 9.42183 5.69395 9.92807 5.69083 10.0531C5.69083 10.2968 5.6127 10.5625 5.4877 10.7468C5.44708 10.8093 5.12208 11.1624 4.76583 11.5312C4.40958 11.9 4.09083 12.2437 4.05958 12.2968C3.98458 12.4156 3.98458 12.5843 4.05645 12.7031C4.09083 12.7531 4.40645 13.1 4.76583 13.4687C5.12208 13.8375 5.44708 14.1906 5.4877 14.2531C5.6127 14.4375 5.69083 14.7031 5.69083 14.9468C5.69395 15.0718 5.63458 15.5781 5.5627 16.0718C5.4252 17.0437 5.4252 17.1093 5.57208 17.2406C5.69395 17.3531 5.74708 17.3656 6.68458 17.5312C7.6627 17.7 7.75958 17.725 7.97833 17.8531C8.2377 18.0062 8.39083 18.2187 8.83458 19.0625C9.33458 20.0093 9.32208 19.9875 9.44708 20.0625C9.63458 20.1781 9.70958 20.1531 10.6408 19.7031C11.5908 19.2437 11.7346 19.1875 12.0002 19.1875C12.2658 19.1875 12.4221 19.2468 13.3658 19.7031C14.2908 20.1531 14.369 20.1781 14.5533 20.0625C14.6783 19.9875 14.6658 20.0093 15.1658 19.0625C15.5908 18.2593 15.7221 18.0656 15.9471 17.9031C16.1502 17.7562 16.3596 17.7 17.3127 17.5312C18.2408 17.3718 18.3065 17.3531 18.4283 17.2406C18.5752 17.1093 18.5752 17.0406 18.4408 16.0718C18.369 15.5781 18.3065 15.1281 18.3002 15.0781C18.2783 14.9062 18.344 14.5812 18.4377 14.3906C18.5096 14.2437 18.6815 14.0437 19.2346 13.4687C19.7658 12.9156 19.9471 12.7062 19.9752 12.6187C20.044 12.3906 19.9971 12.325 19.2627 11.5625C18.8908 11.175 18.5533 10.8093 18.5127 10.7468C18.3877 10.5625 18.3096 10.2968 18.3096 10.0531C18.3065 9.92807 18.3658 9.42183 18.4377 8.92807C18.5752 7.9562 18.5752 7.89058 18.4283 7.75933C18.3065 7.64682 18.2471 7.6312 17.3127 7.4687C16.3565 7.29995 16.1502 7.2437 15.9471 7.09682C15.7221 6.93432 15.5908 6.74057 15.1658 5.93745C14.6658 4.99057 14.6783 5.01245 14.5533 4.93745C14.369 4.82182 14.2908 4.84682 13.3658 5.29682C12.4221 5.75307 12.2658 5.81245 12.0002 5.81245C11.7346 5.81245 11.5908 5.7562 10.6408 5.29682C9.70958 4.84682 9.63458 4.82182 9.44708 4.93745ZM10.2502 8.60933C11.0565 8.82183 11.6221 9.6187 11.5533 10.4375C11.4783 11.3031 10.8033 11.9781 9.93458 12.0531C9.11895 12.1218 8.32208 11.5531 8.10958 10.75C8.0502 10.5281 8.0502 10.0937 8.10958 9.86557C8.25958 9.28433 8.77208 8.76558 9.34708 8.61245C9.56583 8.55307 10.0346 8.54995 10.2502 8.60933ZM14.8658 9.49995C15.0096 9.58745 15.0721 9.72495 15.0533 9.91558L15.0408 10.0687L12.3033 12.8062L9.56895 15.5406L9.4002 15.5531C9.1002 15.575 8.91583 15.3843 8.94708 15.0843L8.95958 14.9312L11.6752 12.2125C13.169 10.7187 14.419 9.48433 14.4533 9.4687C14.5658 9.42183 14.7627 9.43433 14.8658 9.49995ZM14.5721 12.9843C15.1877 13.1125 15.7252 13.6312 15.8908 14.25C15.9502 14.4718 15.9502 14.9062 15.8908 15.1343C15.7377 15.7281 15.2283 16.2375 14.6346 16.3906C14.4065 16.45 13.9721 16.45 13.7502 16.3906C12.7783 16.1312 12.2127 15.0812 12.5346 14.1343C12.7033 13.6343 13.144 13.1937 13.6346 13.0343C13.9658 12.9281 14.2377 12.9125 14.5721 12.9843Z"}}),_c('path',{attrs:{"d":"M9.51576 9.47803C9.25013 9.58428 9.05951 9.78115 8.97513 10.028C8.91263 10.2093 8.92826 10.4968 9.01263 10.6718C9.16576 10.9999 9.54076 11.2155 9.88763 11.1749C10.597 11.0937 10.9283 10.2624 10.4658 9.73428C10.2939 9.54053 10.1189 9.45928 9.84701 9.44678C9.70638 9.44365 9.56888 9.45303 9.51576 9.47803Z"}}),_c('path',{attrs:{"d":"M13.9782 13.8438C13.6376 13.925 13.3689 14.2375 13.3251 14.6031C13.2657 15.1125 13.672 15.5656 14.1876 15.5594C14.5564 15.5563 14.8095 15.4031 14.9657 15.0938C15.3032 14.4156 14.7157 13.6688 13.9782 13.8438Z"}})]),_c('defs',[_c('clipPath',{attrs:{"id":"clip0_3060_20031"}},[_c('rect',{attrs:{"width":"16","height":"16","fill":"white","transform":"translate(4 4.5)"}})])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-deals-filled.vue?vue&type=template&id=3d2e9c89&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-deals-filled.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_deals_filled = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "9818":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7117,6 +7156,45 @@ module.exports = function (object, names) {
 
 /***/ }),
 
+/***/ "cb83":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-dollar.vue?vue&type=template&id=83e46846&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"25","viewBox":"0 0 24 25","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M11.3703 5.94663L11.2376 5.96736C11.163 5.97979 10.9516 6.00881 10.7651 6.03368C9.18165 6.24508 7.78891 7.1487 7.28321 8.30104C6.86041 9.25026 6.91844 10.701 7.40756 11.5135C7.81792 12.1974 8.45212 12.699 9.33502 13.043C9.72051 13.1922 10.6905 13.4907 11.1962 13.6192L11.3703 13.6648V15.0907C11.3703 16.2057 11.3578 16.5207 11.3205 16.5207C11.2915 16.5207 11.1713 16.4668 11.0552 16.3964C10.6988 16.1933 10.4583 15.8368 10.3671 15.3767L10.3215 15.1529H7.00549L7.0345 15.4472C7.10497 16.1352 7.39927 16.8813 7.79305 17.3705C8.4687 18.2036 9.62932 18.7798 11.0096 18.9705L11.3703 19.0202V20.5H12.5723L12.5806 19.7622L12.5931 19.0285L12.9329 18.9995C14.9972 18.8295 16.5475 17.6316 16.9288 15.9197C17.0158 15.5301 16.9951 14.6264 16.8874 14.2202C16.7133 13.5611 16.3651 13.0472 15.7765 12.5788C15.2625 12.1725 14.7817 11.9653 13.2563 11.5093L12.5931 11.3062L12.5806 9.8886L12.5723 8.47513L12.7879 8.59119C13.1361 8.78187 13.364 9.13005 13.4635 9.62746L13.4925 9.76425H16.8003V9.64819C16.8003 9.20881 16.5516 8.38808 16.2739 7.91969C15.9506 7.36425 15.3495 6.82124 14.6905 6.48964C14.3713 6.33212 13.6832 6.12487 13.2148 6.0544C12.962 6.01295 12.7174 5.97565 12.6677 5.96736C12.5723 5.95078 12.5723 5.94249 12.5723 5.22539V4.5H11.3703V5.94663ZM11.3703 9.66477V10.9332L11.1754 10.8212C10.5744 10.4772 10.3423 10.1746 10.305 9.70622C10.2718 9.30829 10.3754 9.00155 10.6241 8.76529C10.7982 8.59534 11.1589 8.40466 11.3205 8.40052C11.3578 8.39637 11.3703 8.67824 11.3703 9.66477ZM12.9495 14.2078C13.4594 14.4731 13.6874 14.7715 13.7205 15.2109C13.7744 15.8741 13.3392 16.4378 12.6677 16.5829L12.5309 16.6119V14.0295L12.6262 14.0544C12.676 14.071 12.821 14.1373 12.9495 14.2078Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-dollar.vue?vue&type=template&id=83e46846&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-dollar.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_dollar = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "cb87":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7754,9 +7832,11 @@ var map = {
 	"./ico-contract.vue": "dcdc",
 	"./ico-cookie.vue": "cf9b",
 	"./ico-credit-card.vue": "1e4a",
+	"./ico-deals-filled.vue": "9747",
 	"./ico-delete.vue": "8dbe",
 	"./ico-delivery.vue": "f6ac",
 	"./ico-docs.vue": "cfaf",
+	"./ico-dollar.vue": "cb83",
 	"./ico-download.vue": "9063",
 	"./ico-eco.vue": "0215",
 	"./ico-edit.vue": "e244",
@@ -7807,6 +7887,7 @@ var map = {
 	"./ico-question-circle-filled.vue": "df2a",
 	"./ico-question-circle-outline.vue": "ee92",
 	"./ico-quick-shopping.vue": "eb07",
+	"./ico-reload.vue": "e71f",
 	"./ico-remove.vue": "752a",
 	"./ico-replacements.vue": "1276",
 	"./ico-rocket.vue": "c7c2",
@@ -9034,6 +9115,45 @@ $({ target: PROMISE, stat: true, forced: INCORRECT_ITERATION }, {
 
 /***/ }),
 
+/***/ "e71f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"317f70ea-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Icon/ico-reload.vue?vue&type=template&id=41a21d33&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticClass:"eds-icon",attrs:{"width":"24","height":"25","viewBox":"0 0 24 25","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"d":"M5.20188 6.45491C5.30178 6.41663 5.31894 6.42236 5.90533 6.74005L6.50706 7.0666L6.77011 6.80958C8.5563 5.07041 11.0618 4.25556 13.5022 4.61728C14.4563 4.75919 15.3255 5.06915 16.2131 5.58156C16.8457 5.94681 17.2314 6.23624 17.7139 6.69839C20.007 8.91102 20.7202 12.3352 19.5229 15.3949C19.3111 15.9319 18.7276 16.9426 18.3666 17.3976C16.6778 19.5143 14.1267 20.6491 11.4836 20.4541C10.3088 20.3683 9.27748 20.0482 8.22846 19.4468C7.42512 18.9871 6.83982 18.5115 6.25906 17.8508C5.57587 17.0766 4.96405 16.0016 4.72779 15.1768C4.64525 14.8871 4.64633 14.871 4.73305 14.7208L4.82158 14.5675L5.7142 14.3193L6.60681 14.0711L6.74808 14.1527C6.87092 14.2236 6.90307 14.2672 7.00061 14.5238C7.16987 14.947 7.39548 15.386 7.59978 15.6917C8.53514 17.0787 10.0504 17.9577 11.7108 18.0819C14.2554 18.2701 16.6374 16.6621 17.4561 14.2016C17.8243 13.0958 17.8323 11.7486 17.4723 10.677C16.8389 8.78841 15.3299 7.43741 13.3939 7.02476C11.9612 6.71911 10.3524 7.0587 9.11186 7.92377C8.92415 8.05739 8.73771 8.19592 8.69959 8.24067L8.62931 8.31275L9.18824 8.63544C9.49534 8.81274 9.76143 8.98306 9.7813 9.01957C9.80298 9.05295 9.81345 9.1341 9.80604 9.19658C9.78978 9.29567 9.77352 9.32383 9.67199 9.38621C9.60388 9.42616 8.7239 9.7943 7.7153 10.2008C6.43445 10.7172 5.85201 10.9317 5.79077 10.9172C5.74236 10.9017 5.6766 10.8596 5.64264 10.8191C5.60128 10.7702 5.48533 10.0774 5.30582 8.81388C5.15738 7.75185 5.0315 6.82802 5.02844 6.75532C5.02339 6.59386 5.07578 6.50311 5.20188 6.45491Z"}})])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-reload.vue?vue&type=template&id=41a21d33&
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Icon/ico-reload.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var ico_reload = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "e726":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9840,7 +9960,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ "fab2":
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-bold\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-bold\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-bold\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-bold\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-arrow-up-bold\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-filled-hub\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-quick-shopping\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-stores-outline\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-bold\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
+module.exports = JSON.parse("[\"ico-account\",\"ico-account-filled\",\"ico-add-bold\",\"ico-add-circle\",\"ico-add\",\"ico-alert\",\"ico-arrow-down-bold\",\"ico-arrow-down-circle\",\"ico-arrow-down\",\"ico-arrow-external\",\"ico-arrow-left-bold\",\"ico-arrow-left-circle\",\"ico-arrow-left-new\",\"ico-arrow-left\",\"ico-arrow-right-bold\",\"ico-arrow-right-circle\",\"ico-arrow-right-new\",\"ico-arrow-right\",\"ico-arrow-top-circle\",\"ico-arrow-top-new\",\"ico-arrow-top\",\"ico-arrow-up-bold\",\"ico-ask-question\",\"ico-basket\",\"ico-cart\",\"ico-cash\",\"ico-categories\",\"ico-chat\",\"ico-check-circle-filled\",\"ico-check-circle-outline\",\"ico-check\",\"ico-checkmark-circle-filled\",\"ico-checkmark-circle-outline\",\"ico-chevron-down-new\",\"ico-chevron-down\",\"ico-chevron-left-new\",\"ico-chevron-left\",\"ico-chevron-right-new\",\"ico-chevron-right\",\"ico-chevron-top-new\",\"ico-chevron-top\",\"ico-clock-filled-new\",\"ico-clock-filled\",\"ico-clock\",\"ico-contract\",\"ico-cookie\",\"ico-credit-card\",\"ico-deals-filled\",\"ico-delete\",\"ico-delivery\",\"ico-docs\",\"ico-dollar\",\"ico-download\",\"ico-eco\",\"ico-edit\",\"ico-email\",\"ico-empty\",\"ico-eye-hyde\",\"ico-eye-show\",\"ico-favorite-filled\",\"ico-favorite-outline\",\"ico-filters-multiple\",\"ico-filters\",\"ico-flash-circle-plus\",\"ico-flash-circle\",\"ico-flash-new\",\"ico-flash\",\"ico-foryou-filled\",\"ico-foryou-outline\",\"ico-forward\",\"ico-gift-card\",\"ico-gift\",\"ico-gift-filled\",\"ico-gps\",\"ico-help\",\"ico-home\",\"ico-info-circle-filled\",\"ico-info-circle-outline\",\"ico-invoice\",\"ico-label\",\"ico-link\",\"ico-local\",\"ico-menu-hub\",\"ico-menu\",\"ico-more\",\"ico-note\",\"ico-notifications\",\"ico-offers-filled\",\"ico-offers-outline\",\"ico-orders\",\"ico-padlock-close\",\"ico-padlock-open\",\"ico-padlock\",\"ico-payments\",\"ico-pos\",\"ico-position-mark-filled\",\"ico-position-mark-filled-hub\",\"ico-position-mark-outline\",\"ico-profile\",\"ico-question-circle-filled\",\"ico-question-circle-outline\",\"ico-quick-shopping\",\"ico-reload\",\"ico-remove\",\"ico-replacements\",\"ico-rocket\",\"ico-satisfaction\",\"ico-save\",\"ico-search-new\",\"ico-search\",\"ico-selected-filled\",\"ico-selected-outline\",\"ico-settings\",\"ico-shield-consents\",\"ico-shield-privacy\",\"ico-shopping-list\",\"ico-speciality-filled\",\"ico-speciality-outline\",\"ico-star\",\"ico-stores\",\"ico-stores-outline\",\"ico-supermarkets-filled\",\"ico-supermarkets-outline\",\"ico-user-verified\",\"ico-user\",\"ico-wallet\",\"ico-write\",\"ico-x-bold\",\"ico-x-circle-filled\",\"ico-x-circle-outline\",\"ico-x\",\"ico-zoom\",\"logo-android\",\"logo-apple-maps-app\",\"logo-apple\",\"logo-edenred\",\"logo-everli-app\",\"logo-everli-hand\",\"logo-everli-horizontal\",\"logo-everli-plus-horizontal\",\"logo-everli-plus-horizontal-long\",\"logo-everli-vertical\",\"logo-facebook\",\"logo-google-maps-app\",\"logo-google\",\"logo-payment-amex\",\"logo-payment-apple-pay\",\"logo-payment-blik\",\"logo-payment-google-pay\",\"logo-payment-mastercard\",\"logo-payment-paypal\",\"logo-payment-visa\",\"logo-pwrd-by-google\"]");
 
 /***/ }),
 
