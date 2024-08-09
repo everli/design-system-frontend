@@ -139,6 +139,13 @@ $eds-font-weight-bold: 700;
   line-height: 18px;
 }
 
+@mixin t-caption-small-regular {
+  font-family: $eds-font-family-primary;
+  font-size: 10px;
+  font-weight: $eds-font-weight-regular;
+  line-height: 16px;
+}
+
 $typography: (
   'title-1-bold': (
     'font-family': $eds-font-family-brand,
@@ -253,5 +260,11 @@ $typography: (
     'font-size': 12px,
     'font-weight': $eds-font-weight-medium,
     'line-height': 18px,
-  )
+  ),
+  'caption-small-regular': (
+    'font-family': $eds-font-family-primary,
+    'font-size': 10px,
+    'font-weight': $eds-font-weight-regular,
+    'line-height': 16px,
+  ),
 );
