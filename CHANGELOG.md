@@ -1,3 +1,8 @@
+v0.2.8-kobe / 2024-08-20
+==================
+* milestone [v0.2.8-kobe](https://github.com/everli/design-system-frontend/milestone/34?closed=1)
+* [Fix] Bump version
+
 v0.2.7-melo / 2024-08-20
 ==================
 * milestone [v0.2.7-melo](https://github.com/everli/design-system-frontend/milestone/33?closed=1)
