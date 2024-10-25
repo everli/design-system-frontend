@@ -1,3 +1,6 @@
+v0.2.9- / 2024-10-
+==================
+
 v0.2.8-kobe / 2024-08-20
 ==================
 * milestone [v0.2.8-kobe](https://github.com/everli/design-system-frontend/milestone/34?closed=1)
