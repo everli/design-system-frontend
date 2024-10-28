@@ -1,3 +1,8 @@
+v0.2.9-brooks / 2024-10-25
+==================
+* milestone [v0.2.9-brooks](https://github.com/everli/design-system-frontend/milestone/35?closed=1)
+* [DC-996] Add edit/delete filled icons 
+
 v0.2.8-kobe / 2024-08-20
 ==================
 * milestone [v0.2.8-kobe](https://github.com/everli/design-system-frontend/milestone/34?closed=1)
